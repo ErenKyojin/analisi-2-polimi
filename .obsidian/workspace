@@ -1,0 +1,138 @@
+{
+  "main": {
+    "id": "b11fcadded4b2221",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd4567be6d380f59",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "soluzioni.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84a40a9689400cf1",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f21b5c7c26a1419",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "020a0e30c9bc5d4e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2b4ece0eb0685adb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0310a75560b69fab",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4ad139117e652f9e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f90e4b54ae7179c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "130d68b1cd636f6a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "soluzioni.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "eb1509783193e99c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "soluzioni.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8d7e54eba7b20c19",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d4b5394a8ad6863e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "soluzioni.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "dd4567be6d380f59",
+  "lastOpenFiles": [
+    "teorema fondamentale del calcolo integrale.md",
+    "Equazioni differenziali di primo odrine.md",
+    "soluzioni.md",
+    "dominio.md"
+  ]
+}
