@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "d.md",
+            "file": "GSkjfhdkjsng.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "d.md",
+                "file": "GSkjfhdkjsng.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "d.md",
+                "file": "GSkjfhdkjsng.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "d.md"
+                "file": "GSkjfhdkjsng.md"
               }
             }
           }
@@ -130,9 +130,9 @@
   },
   "active": "dd4567be6d380f59",
   "lastOpenFiles": [
+    "d.md",
     "EDO.md",
     "Equazioni differenziali di primo odrine.md",
-    "d.md",
     "dominio.md",
     "EDO a variabili separabili.md",
     "soluzioni.md",
