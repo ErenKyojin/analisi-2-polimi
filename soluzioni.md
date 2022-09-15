@@ -72,3 +72,18 @@ C'&=0 &&f(t,C) \\
  \end{align}
 $$
 $\Rightarrow \text{le soluzioni costanti sono } y(t')=C \forall t$ con $C : f(t,c = 0) \forall t$ 
+
+>[!esempio] equazione logistica
+> $$\begin{align}
+>&y'(t) = ky(t) - hy^2(t)  \\
+>&f(t,y) = ky - hy^2  \\
+>&f(t,c) = 0 \forall \\
+>&ky-hy^2 = 0 \\
+>&\Longrightarrow y = 0 \cap y = \frac{k}{h}
+>\end{align}$$
+
+>[!esempio]
+>$$\begin{align}
+>y'(t) &= te^{y(t)}\quad \Longrightarrow \quad te^y = 0 \quad \forall t \\
+>&\Longrightarrow\quad e^y \quad\text{non si annulla, quindi non ha soluzioni costanti}
+>\end{align}$$
