@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "EDO a variabili separabili.md",
+            "file": "dominio.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "EDO a variabili separabili.md",
+            "file": "dominio.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "EDO a variabili separabili.md",
+            "file": "dominio.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -106,7 +106,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "EDO a variabili separabili.md"
+            "file": "dominio.md"
           }
         }
       }
@@ -114,5 +114,7 @@
     "currentTab": 0
   },
   "active": "d4d5a53b2109b8a0",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "EDO a variabili separabili.md"
+  ]
 }
