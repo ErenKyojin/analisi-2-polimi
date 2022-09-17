@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "dominio.md",
+            "file": "Equazioni differenziali di primo odrine.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "dominio.md",
+            "file": "Equazioni differenziali di primo odrine.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "dominio.md",
+            "file": "Equazioni differenziali di primo odrine.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -106,7 +106,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "dominio.md"
+            "file": "Equazioni differenziali di primo odrine.md"
           }
         }
       }
@@ -115,6 +115,9 @@
   },
   "active": "d4d5a53b2109b8a0",
   "lastOpenFiles": [
+    "soluzioni.md",
+    "teorema fondamentale del calcolo integrale.md",
+    "dominio.md",
     "EDO a variabili separabili.md"
   ]
 }
