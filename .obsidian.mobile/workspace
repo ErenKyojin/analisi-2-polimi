@@ -1,25 +1,29 @@
 {
   "main": {
-    "id": "e503099e7cb8ac8f",
+    "id": "7334dbc99b62f5ac",
     "type": "split",
     "children": [
       {
-        "id": "f8e2cd773dfb20f4",
+        "id": "d4d5a53b2109b8a0",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "EDO a variabili separabili.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "065704ec2383353a",
+    "id": "312093bf9624b8dd",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "55dcd7ae09c2a146",
+        "id": "22a8db42e61935bf",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -27,7 +31,7 @@
         }
       },
       {
-        "id": "21063a76f148896a",
+        "id": "1136a293b5fbeb8a",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -42,7 +46,7 @@
         }
       },
       {
-        "id": "fd48262830b1f76e",
+        "id": "aad8f9ef4b93ca87",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -53,7 +57,7 @@
         }
       },
       {
-        "id": "5da8de05f9bf4bb9",
+        "id": "5dc70475a850dbbf",
         "type": "leaf",
         "state": {
           "type": "starred",
@@ -64,15 +68,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "292991099a721378",
+    "id": "07a4c80b286294ef",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "b5ac72c39b182f17",
+        "id": "fd3a8430b2a7afcc",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
+            "file": "EDO a variabili separabili.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -84,27 +89,30 @@
         }
       },
       {
-        "id": "1989eccb40993f23",
+        "id": "9ed73d8c87d7fc48",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "EDO a variabili separabili.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "7e39ba9b2be5c14a",
+        "id": "6573a682217b18c6",
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "EDO a variabili separabili.md"
+          }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "f8e2cd773dfb20f4",
+  "active": "d4d5a53b2109b8a0",
   "lastOpenFiles": []
 }
