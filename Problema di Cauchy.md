@@ -110,5 +110,8 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >```
 >
 >>[!oss]
->>
+>> Per determinare quale delle soluzioni usare dobbiamo guardare il segno della $y(t_0)$ così da determinare quale tra le soluzioni possa ammetere quel segno.
+
+>[!oss]
+>Se il dominio di $f$ è disconnesso è utile determinare solo le soluzioni che giaccono nella stessa regione di $t_0$
 

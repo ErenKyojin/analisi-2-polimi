@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f8e2cd773dfb20f4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Problema di Cauchy.md",
-            "mode": "source",
-            "source": false
-          }
-        },
-        "group": "9d8c305a7017c258"
-      },
-      {
         "id": "0560173f6dae1655",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Problema di Cauchy.md",
-            "mode": "preview",
+            "file": "EDO.md",
+            "mode": "source",
             "source": false
           }
-        },
-        "group": "9d8c305a7017c258"
+        }
       }
     ],
     "direction": "vertical"
@@ -91,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problema di Cauchy.md",
+                "file": "EDO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problema di Cauchy.md",
+                "file": "EDO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problema di Cauchy.md"
+                "file": "EDO.md"
               }
             }
           }
@@ -142,13 +128,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f8e2cd773dfb20f4",
+  "active": "0560173f6dae1655",
   "lastOpenFiles": [
+    "Equazioni differenziali di primo odrine.md",
+    "EDO.md",
+    "Senza nome.md",
+    "EDO a variabili separabili.md",
+    "Problema di Cauchy.md",
     "teorema fondamentale del calcolo integrale.md",
     "README.md.md",
-    "soluzioni.md",
-    "EDO a variabili separabili.md",
-    "Equazioni differenziali di primo odrine.md",
-    "Problema di Cauchy.md"
+    "soluzioni.md"
   ]
 }

@@ -1,4 +1,4 @@
-# EDO
+# Equazione di
 
 
 
