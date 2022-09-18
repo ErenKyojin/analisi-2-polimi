@@ -28,7 +28,8 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >
 >
 >Prendiamo in considerazione 3 casi:
->1. $$\begin{align}
+>1. 
+>$$\begin{align}
 >&\begin{cases}
 >y'=ty^3  \\
 >y(0) = 1
@@ -50,7 +51,7 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >xmax=3.5,
 >ymax=3.5,
 >]
->\addplot[domain=-2:2, samples=200,color=red] {sqrt(1/(-x^2+1))};
+>\addplot[domain=-1:1, samples=200,color=red] {sqrt(1/(-x^2+1))};
 >\end{axis}
 >\end{tikzpicture}
 >\end{document}
@@ -65,7 +66,7 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >
 >```tikz
 >\usepackage{pgfplots}
->\begin{documents}
+>\begin{document}
 >\begin{tikzpicture}
 >\begin{axis}[
 >axis x line = center,
@@ -73,13 +74,37 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >xmin = -3.5,
 >ymin = -3.5,
 >xmax = 3.5,
->ymx = 3.5,]
->\addplot[domain -3.5, 3,5] {0*\x};
+>ymax = 3.5,]
+>
+>\addplot[domain = -3.5:3.5, color = red] {0};
 >\end{axis}
 >\end{tikzpicture}
->\end{documents}
+>\end{document}
 >```
-
+>
+>3. $$\begin{align}
+>&\begin{cases}
+>y' = ty^3  \\
+>y(0) = -1
+>\end{cases}\qquad-1 = -\sqrt{ \frac{1}{0+C} } \Rightarrow C = 1 \\
+>&\Rightarrow y(t) = -\sqrt{ \frac{1}{C} }
+>\end{align} $$
+>
+>
+>```tikz
+>\usepackage{pgfplots}
+>\begin{document}
+>\begin{tikzpicture}
+>\begin{axis}[
+>axis x line = center,
+>axis y line = center,
+>xmin = -3.5,
+>xmax = 3.5,
+>ymin = -3.5,
+>ymax = 3.5,
+>]
+>\addplot[domain=1:1, color = red] {sqrt(1/(-t^2+1))}
+>```
 
 
 
