@@ -66,9 +66,12 @@ Le [[soluzioni]] di un equazione differenziale di primo ordine si possono trovar
 >\usepackage{pgfplots}
 >\begin{document}
 >\begin{tikzpicture}
->\begin{axis}[axis x li]
->\addplot[] {x^2};
+>\begin{axis}[
+>axis x line = center,
+>axis y line = center]
+>\addplot[] {x=-1};
 >\end{axis}
 >\end{tikzpicture}
 >\end{document}
 >```
+
