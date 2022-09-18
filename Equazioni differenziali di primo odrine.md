@@ -64,12 +64,18 @@ Le [[soluzioni]] di un equazione differenziale di primo ordine si possono trovar
 >
 >```tikz
 >\usepackage{pgfplots}
+>\pgfplotsset{compat=1.16}
 >\begin{document}
 >\begin{tikzpicture}
 >\begin{axis}[
->axis x line = center,
->axis y line = center]
->\addplot[] {x=-1};
+>axis x line = middle,
+>axis y line = middle,
+>xmin = -3,
+>xmax = 3,
+>ymin = -3,
+>ymax = 3,
+>]
+>\draw[dashed] (-1,-3) -- (-1,3);
 >\end{axis}
 >\end{tikzpicture}
 >\end{document}
