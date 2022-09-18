@@ -42,7 +42,7 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >\usepackage{pgfplots}
 >\begin{document}
 >\begin{tikzpicture}
->\begin{axis}[]
+>\begin{axis}[axis lines = center]
 >\addplot[domain=-3:3, samples=200] {sqrt(1/(-x^2+1))};
 >\end{axis}
 >\end{tikzpicture}
