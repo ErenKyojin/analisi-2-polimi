@@ -103,7 +103,10 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >ymin = -3.5,
 >ymax = 3.5,
 >]
->\addplot[domain=1:1, color = red] {sqrt(1/(-t^2+1))}
+>\addplot[domain=-1:1, color = red, samples=200] {-sqrt(1/(-x^2+1))};
+>\end{axis}
+>\end{tikzpicture}
+>\end{document}
 >```
 
 
