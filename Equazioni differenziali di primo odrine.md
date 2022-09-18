@@ -80,4 +80,7 @@ Le [[soluzioni]] di un equazione differenziale di primo ordine si possono trovar
 >\end{tikzpicture}
 >\end{document}
 >```
+>L'EDO è lineare rispetto alla $y$, avremo sempre $y^n$
 
+
+## P
