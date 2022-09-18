@@ -19,4 +19,6 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 3. Sostituisco $C$ nell' integrale generale
 
 >[!esempio]
+>data $$y'(t) = ty(t)^3$$
+>quindi $f(t,y) = ty^3$ definita in tutto $\mathbb{R}^2$ (il che significa che posso impostare il problema di Cauchy $\forall (t_{0},y_{0}) \in \mathbb{R}$)
 >
