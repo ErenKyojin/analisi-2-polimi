@@ -1,4 +1,4 @@
-# Equazione di
+# Equazione differenziale ordinaria
 
 
 

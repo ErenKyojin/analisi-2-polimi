@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "EDO.md",
+            "file": "Equazioni differenziali di primo odrine.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EDO.md",
+                "file": "Equazioni differenziali di primo odrine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EDO.md",
+                "file": "Equazioni differenziali di primo odrine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EDO.md"
+                "file": "Equazioni differenziali di primo odrine.md"
               }
             }
           }
@@ -130,10 +130,12 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
+    "EDO omogenea associata.md",
     "Equazioni differenziali di primo odrine.md",
     "EDO.md",
-    "Senza nome.md",
+    "dominio.md",
     "EDO a variabili separabili.md",
+    "Senza nome.md",
     "Problema di Cauchy.md",
     "teorema fondamentale del calcolo integrale.md",
     "README.md.md",
