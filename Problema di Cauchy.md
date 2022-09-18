@@ -39,11 +39,12 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >$$
 >
 >```tikz
+>\usepackage{pgfplots}
 >\begin{document}
 >\begin{tikzpicture}
 >\draw[->] (0,-2) -- (0,2);
 >\draw[->] (-4,0) -- (4,0);
->\draw plot 
+>\draw plot (\x,\x);
 >\end{tikzpicture}
 >\end{document}
 >```
