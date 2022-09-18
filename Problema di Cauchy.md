@@ -46,12 +46,12 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >\begin{axis}[
 >axis x line = center,
 >axis y line = center,
->xmin=-3.5,
->ymin=-3.5,
->xmax=3.5,
->ymax=3.5,
+>xmin=-2,
+>ymin=-2,
+>xmax=2,
+>ymax=2,
 >]
->\addplot[domain=-1:1, samples=200,color=red] {sqrt(1/(-x^2+1))};
+>\addplot[domain=-0.9:0.9, samples=200,color=red] {sqrt(1/(-x^2+1))};
 >\end{axis}
 >\end{tikzpicture}
 >\end{document}
@@ -71,12 +71,12 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >\begin{axis}[
 >axis x line = center,
 >axis y line = center,
->xmin = -3.5,
->ymin = -3.5,
->xmax = 3.5,
->ymax = 3.5,]
+>xmin = -2,
+>ymin = -2,
+>xmax = 2,
+>ymax = 2,]
 >
->\addplot[domain = -3.5:3.5, color = red] {0};
+>\addplot[domain = -2:2, color = red] {0};
 >\end{axis}
 >\end{tikzpicture}
 >\end{document}
@@ -98,16 +98,17 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >\begin{axis}[
 >axis x line = center,
 >axis y line = center,
->xmin = -3.5,
->xmax = 3.5,
->ymin = -3.5,
->ymax = 3.5,
+>xmin = -2,
+>xmax = 2,
+>ymin = -2,
+>ymax = 2,
 >]
->\addplot[domain=-1:1, color = red, samples=200] {-sqrt(1/(-x^2+1))};
+>\addplot[domain=-0.9:0.9, color = red, samples=200] {-sqrt(1/(-x^2+1))};
 >\end{axis}
 >\end{tikzpicture}
 >\end{document}
 >```
-
-
+>
+>>[!oss]
+>>
 
