@@ -45,17 +45,39 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >\begin{axis}[
 >axis x line = center,
 >axis y line = center,
->xtick={-5,-4,...,5},
->ytick={-5,-4,...,5},
->xmin=-5.5,
->ymin=-5.5,
->xmax=5.5,
->xmin=5.5,
+>xmin=-3.5,
+>ymin=-3.5,
+>xmax=3.5,
+>ymax=3.5,
 >]
->\addplot[domain=-3:3, samples=200] {sqrt(1/(-x^2+1))};
+>\addplot[domain=-2:2, samples=200,color=red] {sqrt(1/(-x^2+1))};
 >\end{axis}
 >\end{tikzpicture}
 >\end{document}
+>```
+>
+>2. $$ \begin{cases}
+> y'=ty^3 \\
+> y(t_{0}) =0
+>\end{cases} 
+>\Longrightarrow \text{la soluzione costante è 0, $\forall t_{0}\quad y(t_{0})=0$}
+>$$
+>
+>```tikz
+>\usepackage{pgfplots}
+>\begin{documents}
+>\begin{tikzpicture}
+>\begin{axis}[
+>axis x line = center,
+>axis y line = center,
+>xmin = -3.5,
+>ymin = -3.5,
+>xmax = 3.5,
+>ymx = 3.5,]
+>\addplot[domain -3.5, 3,5] {0*\x};
+>\end{axis}
+>\end{tikzpicture}
+>\end{documents}
 >```
 
 
