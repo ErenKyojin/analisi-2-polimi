@@ -83,4 +83,4 @@ Le [[soluzioni]] di un equazione differenziale di primo ordine si possono trovar
 >L'EDO è lineare rispetto alla $y$, avremo sempre $y^n$
 
 
-## P
+Da qui deriva il [[principio di sovrapposizione]]
