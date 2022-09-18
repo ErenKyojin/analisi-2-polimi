@@ -41,10 +41,10 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >```tikz
 >\usepackage{pgfplots}
 >\begin{document}
->\begin{tikzpicture}
->\draw[->] (0,-2) -- (0,2);
+>\begin{tikzpicture}[domain=-3:3]
+>\draw[->] (0,-3) -- (0,3);
 >\draw[->] (-4,0) -- (4,0);
->\draw plot (\x,\x);
+/>\draw plot ({\x},{\sqrt{\x}});
 >\end{tikzpicture}
 >\end{document}
 >```
