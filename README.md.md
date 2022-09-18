@@ -1,1 +1,1 @@
-Repository di appunti di analisi 2 per o
+Repository di appunti di analisi 2 per obsidain
