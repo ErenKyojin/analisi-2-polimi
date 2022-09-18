@@ -22,3 +22,23 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >data $$y'(t) = ty(t)^3$$
 >quindi $f(t,y) = ty^3$ definita in tutto $\mathbb{R}^2$ (il che significa che posso impostare il problema di Cauchy $\forall (t_{0},y_{0}) \in \mathbb{R}$)
 >
+>L'integrale generale di questa equazione è:
+>$$y(t) = \pm \sqrt{ \frac{1}{-t^2+C} }$$
+>Mentre la soluzione costante è $y(t) = 0$
+>
+>
+>Prendiamo in considerazione 3 casi:
+>1. $$\begin{align}
+>&\begin{cases}
+>y'=ty^3  \\
+>y(0) = 1
+>\end{cases} \\
+>\Longrightarrow &1 = +\sqrt{ \frac{1}{0+C} } \Rightarrow 1 = \sqrt{ \frac{1}{C} } \Rightarrow C=1
+>\end{align}
+>$$
+>
+>```tikz
+>\begin{document}
+>\end{document}
+>```
+>
