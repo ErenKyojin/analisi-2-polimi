@@ -43,29 +43,12 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >\begin{document}
 >\begin{tikzpicture}
 >\begin{axis}[]
->\addplot[] {sqrt{x}};
+>\addplot[domain=-3:3, samples=200] {sqrt(1/(-x^2+1))};
 >\end{axis}
 >\end{tikzpicture}
 >\end{document}
 >```
 
 
-```
-\usepackage{pgfplots}
-\pgfplotsset``{compat = newest}`
 
-\begin{document}
-
-\begin{tikzpicture}
-
-    \begin{axis}[]
-
-        \addplot[] {exp(-x/10)*( cos(deg(x)) + sin(deg(x))/10 )};
-
-    \end{axis}
-
-\end{tikzpicture}
-
-\end{document}
-```
 
