@@ -54,4 +54,21 @@ Le [[soluzioni]] di un equazione differenziale di primo ordine si possono trovar
 >Quindi con $b(t) = 0$
 
 >[!esempio]
->$$ y'(t) + \frac{y(t)}{1+t} = \frac{2}{1+t} $$
+>$$ \begin{align}
+>&y'(t) + \frac{y(t)}{1+t} = \frac{2}{1+t}  \\
+>&y'(t) = -\frac{y(t)}{1+t} + \frac{2}{1+t}  \\
+>&a(t) = -\frac{1}{1+t},\qquad b(t) = \frac{2}{1+t}\quad J = \mathbb{R} \setminus {-1} \\
+&f(t,y) = -\frac{y}{1+t} + \frac{2}{1+t}
+>\end{align}$$
+>Il dominio di $f : (\mathbb{R} \setminus {-1}) \times \mathbb{R} = J \times \mathbb{R}$
+>
+>```tikz
+>\usepackage{pgfplots}
+>\begin{document}
+>\begin{tikzpicture}
+>\begin{axis}[axis x li]
+>\addplot[] {x^2};
+>\end{axis}
+>\end{tikzpicture}
+>\end{document}
+>```
