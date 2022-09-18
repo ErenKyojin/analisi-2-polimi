@@ -33,12 +33,19 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >y'=ty^3  \\
 >y(0) = 1
 >\end{cases} \\
->\Longrightarrow &1 = +\sqrt{ \frac{1}{0+C} } \Rightarrow 1 = \sqrt{ \frac{1}{C} } \Rightarrow C=1
+>\Longrightarrow &1 = +\sqrt{ \frac{1}{0+C} } \Rightarrow 1 = \sqrt{ \frac{1}{C} } \Rightarrow C=1 \\
+>\Longrightarrow&\text{soluzione } = y(t) +\sqrt{ \frac{1}{-t^2+1} }
 >\end{align}
 >$$
 >
 >```tikz
 >\begin{document}
+>\begin{tikzpicture}
+>\draw[->] (0,-2) -- (0,2);
+>\draw[->] (-4,0) -- (4,0);
+>\draw plot 
+>\end{tikzpicture}
 >\end{document}
 >```
->
+
+
