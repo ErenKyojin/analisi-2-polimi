@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Equazioni differenziali di primo odrine.md",
+            "file": "principio di sovrapposizione.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Equazioni differenziali di primo odrine.md",
+            "file": "principio di sovrapposizione.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Equazioni differenziali di primo odrine.md",
+            "file": "principio di sovrapposizione.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -106,7 +106,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Equazioni differenziali di primo odrine.md"
+            "file": "principio di sovrapposizione.md"
           }
         }
       }
@@ -115,8 +115,8 @@
   },
   "active": "d4d5a53b2109b8a0",
   "lastOpenFiles": [
-    "principio di sovrapposizione.md",
     "Equazioni differenziali di primo odrine.md",
+    "principio di sovrapposizione.md",
     "EDO.md",
     "EDO a variabili separabili.md",
     "Problema di Cauchy.md",
