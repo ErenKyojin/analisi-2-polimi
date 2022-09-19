@@ -40,3 +40,47 @@ alias
 >$$
 
 Le [[soluzioni]] di un equazione differenziale di primo ordine si possono trovare in modi diversi in base all'equazione.
+
+
+# EDO del 1° ordine lineari
+
+>[!def]
+>Una EDO del 1° ordine lineare in forma normale è
+>$$ y'(t) = a(t)y(t) + b(t) $$
+>Con $a,b : J \subset \mathbb{R} \to \mathbb{R}$ continue
+>
+>$J$ è il più grande insieme su cui $a,b$ sono definite, si chiama [[EDO omogenea associata]] la forma
+>$$ y'(t) = a(b)y(t) $$
+>Quindi con $b(t) = 0$
+
+>[!esempio]
+>$$ \begin{align}
+>&y'(t) + \frac{y(t)}{1+t} = \frac{2}{1+t}  \\
+>&y'(t) = -\frac{y(t)}{1+t} + \frac{2}{1+t}  \\
+>&a(t) = -\frac{1}{1+t},\qquad b(t) = \frac{2}{1+t}\quad J = \mathbb{R} \setminus {-1} \\
+&f(t,y) = -\frac{y}{1+t} + \frac{2}{1+t}
+>\end{align}$$
+>Il dominio di $f : (\mathbb{R} \setminus {-1}) \times \mathbb{R} = J \times \mathbb{R}$
+>
+>```tikz
+>\usepackage{pgfplots}
+>\pgfplotsset{compat=1.16}
+>\begin{document}
+>\begin{tikzpicture}
+>\begin{axis}[
+>axis x line = middle,
+>axis y line = middle,
+>xmin = -3,
+>xmax = 3,
+>ymin = -3,
+>ymax = 3,
+>]
+>\draw[dashed] (-1,-3) -- (-1,3);
+>\end{axis}
+>\end{tikzpicture}
+>\end{document}
+>```
+>L'EDO è lineare rispetto alla $y$, avremo sempre $y^n$
+
+
+Da qui deriva il [[principio di sovrapposizione]]

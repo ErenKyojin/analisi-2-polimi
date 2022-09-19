@@ -4,107 +4,155 @@
     "type": "split",
     "children": [
       {
-        "id": "f8e2cd773dfb20f4",
+        "id": "0560173f6dae1655",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "principio di sovrapposizione.md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "group": "b136f897a8107d55"
+      },
+      {
+        "id": "3c43db5b9d6e867b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "principio di sovrapposizione.md",
+            "mode": "preview",
+            "source": false
+          }
+        },
+        "group": "b136f897a8107d55"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "065704ec2383353a",
-    "type": "mobile-drawer",
+    "id": "6f978669c09a679e",
+    "type": "split",
     "children": [
       {
-        "id": "55dcd7ae09c2a146",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "21063a76f148896a",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "2e9fc605d252fc0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a02b6fcb5f25c7ab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0a413daef06b87c9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "71a91373c44353b0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
-        }
-      },
-      {
-        "id": "fd48262830b1f76e",
-        "type": "leaf",
-        "state": {
-          "type": "tag",
-          "state": {
-            "sortOrder": "frequency",
-            "useHierarchy": true
-          }
-        }
-      },
-      {
-        "id": "5da8de05f9bf4bb9",
-        "type": "leaf",
-        "state": {
-          "type": "starred",
-          "state": {}
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "292991099a721378",
-    "type": "mobile-drawer",
+    "id": "ccc67d18d8172c8c",
+    "type": "split",
     "children": [
       {
-        "id": "b5ac72c39b182f17",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "c023437d1b8b7b51",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f599a001a9e13b1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "principio di sovrapposizione.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a4fee5bef9acea15",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "principio di sovrapposizione.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1a2b1a005aaa8369",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f4cc3a915e6cbd62",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "principio di sovrapposizione.md"
+              }
+            }
           }
-        }
-      },
-      {
-        "id": "1989eccb40993f23",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "7e39ba9b2be5c14a",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {}
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "f8e2cd773dfb20f4",
-  "lastOpenFiles": []
+  "active": "0560173f6dae1655",
+  "lastOpenFiles": [
+    "Equazioni differenziali di primo odrine.md",
+    "EDO omogenea associata.md",
+    "EDO.md",
+    "dominio.md",
+    "EDO a variabili separabili.md",
+    "Senza nome.md",
+    "Problema di Cauchy.md",
+    "teorema fondamentale del calcolo integrale.md",
+    "README.md.md",
+    "soluzioni.md"
+  ]
 }
