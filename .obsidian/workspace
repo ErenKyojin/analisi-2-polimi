@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "principio di sovrapposizione.md",
+            "file": "Equazione logistica.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "principio di sovrapposizione.md",
+            "file": "Equazione logistica.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "principio di sovrapposizione.md",
+                "file": "Equazione logistica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "principio di sovrapposizione.md",
+                "file": "Equazione logistica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "principio di sovrapposizione.md"
+                "file": "Equazione logistica.md"
               }
             }
           }
@@ -144,15 +144,15 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
+    "Equazioni di bernoulli.md",
+    "principio di sovrapposizione.md",
     "Equazioni differenziali di primo odrine.md",
     "EDO omogenea associata.md",
     "EDO a variabili separabili.md",
     "EDO.md",
-    "principio di sovrapposizione.md",
     "Problema di Cauchy.md",
     "README.md",
     "teorema fondamentale del calcolo integrale.md",
-    "soluzioni.md",
-    "dominio.md"
+    "soluzioni.md"
   ]
 }

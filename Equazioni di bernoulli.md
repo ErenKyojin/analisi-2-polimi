@@ -27,4 +27,8 @@ Qual è l'equazione soddisfatta da $Z$?
 $$\begin{align}
 &Z'(t) = (1-\alpha)y^{-\alpha}y'(t) \Rightarrow Z'(t) = (1-\alpha)[k(t)y(t)^{1-\alpha} + h]  \\
 &\Rightarrow Z'(t) = (1-\alpha)[k(t)z(t)+h]
-\end{align} \text}$$
+\end{align}$$
+Che è un equazione lineare, infatti:
+$$ Z'(t) = \underbrace{ (1-\alpha)k(t) }_{ a(t) }z(t) + \underbrace{ (1-\alpha)h(t) }_{ b(t) } $$
+4. risolvo l'equazione lineare in $Z$
+5. Torno alla variabile $y = Z(t)^{\frac{1}{1-\alpha}}$
