@@ -181,7 +181,7 @@ $$ \begin{align}
 &\Rightarrow C'(t) = C_{1} \\
 &\Rightarrow C(t) = C_{1}t + C_{2}
 \end{align} $$
-
+Di cui la più semplice è $C_{1}=1, c_{2}=0$ ossia $C(t) = t$ e quindi le soluzioni sono:
 # Problema di Cauchy
 per cercare una soluzione specifica dobbiamo risolvere il [[Problema di Cauchy]] del tipo:
 $$ 
