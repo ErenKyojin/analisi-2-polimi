@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "EDO del secondo ordine.md",
+            "file": "teorema di struttura.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "EDO del secondo ordine.md",
+            "file": "teorema di struttura.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EDO del secondo ordine.md",
+                "file": "teorema di struttura.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EDO del secondo ordine.md",
+                "file": "teorema di struttura.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EDO del secondo ordine.md"
+                "file": "teorema di struttura.md"
               }
             }
           }
@@ -144,15 +144,15 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "EDO del secondo ordine.md",
-    "EDO alle derivate parziali.md",
+    "spazio vettoriale.md",
     "principio di sovrapposizione.md",
+    "conflict-files-obsidian-git.md",
+    "EDO alle derivate parziali.md",
     "Problema di Cauchy.md",
     "formula risolutiva per EDO lineari del 1° ordine.md",
     "EDO omogenea associata.md",
     "Equazioni di bernoulli.md",
-    "Equazione logistica.md",
-    "EDO a variabili separabili.md"
+    "Equazione logistica.md"
   ]
 }

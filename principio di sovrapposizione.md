@@ -41,3 +41,6 @@
 >Qualunque combinazione lineare
 > $$ y(t) = c_{1}y_{1}(t) + c_{2}y_{2}(t)\qquad c_{1},c_{2} \in \mathbb{R} $$ è ancora soluzione dell omogenea
 
+>[!esempio]
+>Sommando due forze otteniamo la somma degli effetti delle singole forze.
+>Moltiplicando una forza per una costante $k$ otteniamo il risultato per $k$ volte
