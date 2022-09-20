@@ -141,8 +141,26 @@ $$ ay'' + by' + cy = 0 $$
 Le soluzioni si trovano attraverso la formula $$(a \lambda^2 + b \lambda + c) = 0$$
 Questo polinomio è detto [[polinomio caratteristico]] e si chiama $P(\lambda)$, l'equazione $P(\lambda) = 0$ è detta invece [[equazione caratteristica]], trovati $\lambda_{1}, \lambda_{2}$, attraverso il teorema di struttura
 $$ y(t) = C_{1}e^{\lambda_{1}t}+C_{2}e^{\lambda_{2}t} $$
-### Abbiamo visto il caso con 
 
+Ovviamente in questi casi abbiamo ipotizzato di avere due $\lambda$ distinti, ossia un $\Delta$ positivo.
+
+### Caso con $\Delta < 0$ 
+
+>[!esempio]
+>$$ y''+2y'+10y=0  \longrightarrow \lambda^2+2\lambda + 10 = 0 $$
+>$\Delta = -36 < 0 \Rightarrow \lambda_{1,2} = -1 \pm 3i$
+>$$\begin{align}
+>&y_{1}(t) = e^{(-1+3i)t} \qquad &&y_{2}(t) = e^{(-1-3i)t} \\
+>&y_{1}= e^{-t}(\cos 3t + i \sin 3t) &&y_{2}(t) = e^{-t}(\cos 3t - i \sin 3t)
+>\end{align}$$
+>
+>Per passare alla versione reale di queste due funzioni, utilizziamo due funzioni $u_{1}, u_{2}$ che sfruttano la linearità di queste due soluzioni per tornare nel dominio reale.
+>
+>$$ \begin{align}
+>&u_{1}(t) = \frac{y_{1}(t) + y_{2}(t)}{2} = e^{-t} \cos 3t \\
+>&u_{2}(t) = \frac{y_{1}(t) - y_{2}(t)}{2i} = e^{-t} \sin 3t
+>\end{align} $$
+>Quindi $u_{1},u_{2}$ soluzioni reali linearmente indipendenti ($\frac{u_{1}}{u_{2}} = \cot 3t$)
 
 # Problema di Cauchy
 per cercare una soluzione specifica dobbiamo risolvere il [[Problema di Cauchy]] del tipo:
