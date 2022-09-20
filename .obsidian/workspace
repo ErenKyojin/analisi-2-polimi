@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Equazioni di bernoulli.md",
+            "file": "Equazione logistica.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Equazioni di bernoulli.md",
+            "file": "Equazione logistica.md",
             "mode": "preview",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Equazioni di bernoulli.md",
+                "file": "Equazione logistica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Equazioni di bernoulli.md",
+                "file": "Equazione logistica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Equazioni di bernoulli.md"
+                "file": "Equazione logistica.md"
               }
             }
           }
@@ -144,11 +144,11 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
-    "Equazione logistica.md",
+    "EDO omogenea associata.md",
     "Equazioni di bernoulli.md",
+    "Equazione logistica.md",
     "principio di sovrapposizione.md",
     "Equazioni differenziali di primo odrine.md",
-    "EDO omogenea associata.md",
     "EDO a variabili separabili.md",
     "EDO.md",
     "Problema di Cauchy.md",
