@@ -45,7 +45,7 @@ $a \neq 0, f$ definito forzante.
 \end{align}$$
 
 
-# Soluzioni di una EDO del secondo ordine
+# Soluzioni di una EDO del secondo ordine lineare
 
 Partiamo da un esempio
 >[!esempio]
@@ -53,7 +53,16 @@ Partiamo da un esempio
 >Che ha come soluzione ogni equazione lineare $y = c_{1}t+c_{2}$ per ogni $c_{1},c_{2} \in \mathbb{R}$
 >Ed, abbiamo quindi infinite soluzioni.
 
-Per la precisione abbiamo $\infty^2$ soluzioni, per cercarne una specifica dobbiamo risolvere il [[Problema di Cauchy]] del tipo:
+Per la precisione abbiamo $\infty^2$ soluzioni.
+Per cercare l'integrale generale, ossia la struttura di ogni soluzione, dobbiamo capire il perchè queste equazione siano dette lineari.
+Vediamo il primo membro della generica EDO del secondo ordine lineare come un operatore
+$$ y \mapsto fbox $$
+
+
+
+
+# Problema di Cauchy
+per cercare una soluzione specifica dobbiamo risolvere il [[Problema di Cauchy]] del tipo:
 $$ 
 \begin{cases}
 a(t)y''+b(t)y' + c(t)y = f(t) \\
@@ -61,3 +70,36 @@ y'(t_{0}) = v_{0} \\
 y (t_{0}) = y_{0}
 \end{cases}
 $$
+
+
+1. determiniamo l'integrale generale
+2. Imponiamo le condizioni iniziali
+3. Sostituire i valori nella formula dell'integrale generale
+
+>[!esempio]
+>$$ y'' - 3y' + 2y = t $$
+>con $y(0) = 1, y'(0) = -1$ e l'integrale generale
+>$$y(t) = c_{1}e^t+c_{2}e^{2t}+\frac{t}{2}+\frac{3}{4} \qquad c_{1},c_{2} \in \mathbb{R}$$
+>
+>$$ y(0) = c_{1} e^0 +c_{2}e^0 + \frac{0}{2} + \frac{3}{4} = \fbox{$c_{1}+c_{2}+\frac{3}{4} = 1$}$$
+>Calcoliamo la derivata prima
+>$$ y'(t) = c_{1}e^t+2c_{2}e^{2t} + \frac{1}{2} $$
+>imponiamola a 0
+>$$ y'(0) = c_{1}e^0 + 2c_{2}e^{2\cdot 0} + \frac{1}{2} = \fbox{$c_{1} + 2c_{2}+\frac{1}{2} = -1$}  $$
+>
+>
+>Mettiamo le due parti evidenziate a sistema:
+>$$ \begin{cases}
+>c_{1}+c_{2}+\frac{3}{4} =1 \\
+>c_{1}+2c_{2}+\frac{1}{2} = -1
+>\end{cases} 
+>\Rightarrow \begin{cases}
+>c_{1} = 2 \\
+c_{2} = -\frac{7}{4}
+>\end{cases}$$
+>
+>E sostituisco nell'integrale generale:
+>$$ y(t) = 2e^t-\frac{7}{4}e^{2t}+\frac{t}{2}+\frac{3}{4} $$
+>L'unica e sola soluzione del problema di Cauchy
+
+
