@@ -174,7 +174,13 @@ $$ \begin{align}
 Per utilizzare il principio di sovrapposizione per determinare la soluzione generica non ci basta $y_{1}$, abbiamo anche bisogno di un altra soluzione linearmente indipendente.
 Cerchiamo una funzione $C(t) : y_{2} = C(t)e^{3t}$
 $y'_{2}(t) = e^{3t}[C'(t) + 3C(t)]$
-$y_{2}''(t) = e^{3t}[C''(t)]$
+$y_{2}''(t) = e^{3t}[C''(t)+6C'(t)+9C(t)]$
+$$ \begin{align}
+&y'' -6y' + 9y = 0 \\
+&C''(t) = 0 \\
+&\Rightarrow C'(t) = C_{1} \\
+&\Rightarrow C(t) = C_{1}t + C_{2}
+\end{align} $$
 
 # Problema di Cauchy
 per cercare una soluzione specifica dobbiamo risolvere il [[Problema di Cauchy]] del tipo:
