@@ -17,6 +17,18 @@
         "group": "b136f897a8107d55"
       },
       {
+        "id": "4af645fc684e5a54",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
         "id": "3c43db5b9d6e867b",
         "type": "leaf",
         "state": {
@@ -91,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EDO del secondo ordine.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EDO del secondo ordine.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EDO del secondo ordine.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -142,9 +154,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0560173f6dae1655",
+  "active": "4af645fc684e5a54",
   "lastOpenFiles": [
     "EDO del secondo ordine.md",
+    "conflict-files-obsidian-git.md",
     "EDO alle derivate parziali.md",
     "principio di sovrapposizione.md",
     "Problema di Cauchy.md",
@@ -152,7 +165,6 @@
     "EDO omogenea associata.md",
     "Equazioni di bernoulli.md",
     "Equazione logistica.md",
-    "EDO a variabili separabili.md",
-    "EDO.md"
+    "EDO a variabili separabili.md"
   ]
 }
