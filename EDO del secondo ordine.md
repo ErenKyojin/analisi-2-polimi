@@ -183,45 +183,14 @@ $$ \begin{align}
 \end{align} $$
 Di cui la più semplice è $C_{1}=1, c_{2}=0$ ossia $C(t) = t$ e quindi l'integrale generale è:
 $$ y(t) = C_{1}e^{\lambda t} + C_{2}te^{\lambda t}$$
-# Problema di Cauchy
-per cercare una soluzione specifica dobbiamo risolvere il [[Problema di Cauchy]] del tipo:
-$$ 
-\begin{cases}
-a(t)y''+b(t)y' + c(t)y = f(t) \\
-y'(t_{0}) = v_{0} \\
-y (t_{0}) = y_{0}
-\end{cases}
-$$
 
-
-1. determiniamo l'integrale generale
-2. Imponiamo le condizioni iniziali
-3. Sostituire i valori nella formula dell'integrale generale
-
->[!esempio]
->$$ y'' - 3y' + 2y = t $$
->con $y(0) = 1, y'(0) = -1$ e l'integrale generale
->$$y(t) = c_{1}e^t+c_{2}e^{2t}+\frac{t}{2}+\frac{3}{4} \qquad c_{1},c_{2} \in \mathbb{R}$$
+>[!TLDR] 
 >
->$$ y(0) = c_{1} e^0 +c_{2}e^0 + \frac{0}{2} + \frac{3}{4} = \fbox{$c_{1}+c_{2}+\frac{3}{4} = 1$}$$
->Calcoliamo la derivata prima
->$$ y'(t) = c_{1}e^t+2c_{2}e^{2t} + \frac{1}{2} $$
->imponiamola a 0
->$$ y'(0) = c_{1}e^0 + 2c_{2}e^{2\cdot 0} + \frac{1}{2} = \fbox{$c_{1} + 2c_{2}+\frac{1}{2} = -1$}  $$
->
->
->Mettiamo le due parti evidenziate a sistema:
->$$ \begin{cases}
->c_{1}+c_{2}+\frac{3}{4} =1 \\
->c_{1}+2c_{2}+\frac{1}{2} = -1
->\end{cases} 
->\Rightarrow \begin{cases}
->c_{1} = 2 \\
-c_{2} = -\frac{7}{4}
->\end{cases}$$
->
->E sostituisco nell'integrale generale:
->$$ y(t) = 2e^t-\frac{7}{4}e^{2t}+\frac{t}{2}+\frac{3}{4} $$
->L'unica e sola soluzione del problema di Cauchy
+>Discriminante | radici di $P(\lambda)$ | $y_{1}(t)$ | $y_{2}(t)$
+> -| -|-|-|
+> $\Delta>0$ | $\lambda_{1} \neq \lambda_{2},\quad\lambda_{1,2} \in \mathbb{R}$ | $e^{\lambda_{1}t}$| $e^{\lambda_{1}t}$
+> | $\Delta = 0$| $\lambda_{1} = \lambda_{2}\quad\lambda_{1,2} \in \mathbb{R}$ | $e^{\lambda_{1}t}$| $te^{\lambda_{2}t}$
+> | $\Delta < 0$| $\lambda_{1,2} = \alpha + i \beta,\quad \lambda_{1,2} \in \mathbb{C}$ | $e^{\alpha t} \cos \beta t$ | $e^{\alpha t} \sin \beta t$
 
 
+Per ottenere una soluzione precisa dobbiamo, come al solito, risolvere il [[Problema di Cauchy]]
