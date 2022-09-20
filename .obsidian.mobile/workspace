@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Problema di Cauchy.md",
+            "file": "Equazioni di bernoulli.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Problema di Cauchy.md",
+            "file": "Equazioni di bernoulli.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Problema di Cauchy.md",
+            "file": "Equazioni di bernoulli.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -106,7 +106,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Problema di Cauchy.md"
+            "file": "Equazioni di bernoulli.md"
           }
         }
       }
@@ -115,12 +115,13 @@
   },
   "active": "d4d5a53b2109b8a0",
   "lastOpenFiles": [
-    "principio di sovrapposizione.md",
+    "formula risolutiva per EDO lineari del 1° ordine.md",
     "Equazioni differenziali di primo odrine.md",
-    "EDO a variabili separabili.md",
     "soluzioni.md",
-    "EDO.md",
     "Problema di Cauchy.md",
+    "principio di sovrapposizione.md",
+    "EDO a variabili separabili.md",
+    "EDO.md",
     "dominio.md",
     "teorema fondamentale del calcolo integrale.md"
   ]
