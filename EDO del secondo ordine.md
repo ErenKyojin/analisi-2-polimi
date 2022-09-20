@@ -60,10 +60,24 @@ $$ y \mapsto \fbox{$a \frac{d^2}{dt^2}+b \frac{d}{dt} + c$} \mapsto ay'' + by'+c
 $$y \mapsto L \mapsto ay''+by'+cy$$
 Proprietà importante di $L$ è la linearità, ossia $L(c_{1}y_{1}+ c_{2}y_{2}) = c_{1}L(y_{1}) + c_{2}L(y_{2})$, che ci fornisce il [[principio di sovrapposizione]]
 
-### Caso omogeneo
+## Caso omogeneo
 $Ly = 0 \Leftrightarrow ay'' + by' + cy = 0$
 Quindi ogni combinazione lineare delle soluzioni è a sua volta soluzione, ossia l'insieme $S$ delle soluzioni forma uno [[spazio vettoriale]], di dimensione uguale all'ordine dell'equazione ([[teorema di struttura]]).
 
+>[!esempio]
+>$$ y'' + 4y = 0 $$
+>verifichiamo che l'integrale generale è
+>$$ \begin{align}
+>&y(t) = C_{1} \cos 2t + C_{2}\sin 2t\quad \forall C_{1}, C_{2} \in \mathbb{R} \\
+> \\
+>&y_{1}(t) = \cos 2t &&y_{2}(t)=\sin 2t\\
+>&y_{1}(t)' = -2 \sin 2t &&y_{2}(t)'=2\cos 2t\\
+>&y_{1}(t)'' = -4 \cos 2t &&y_{2}''(t) = -4 \sin 2t
+>\end{align}$$ 
+>Sostituiamo nell'equazione di partenza.
+>$$ -4\cos 2t + 4\cos 2t  = 0 \quad\forall t \in \mathbb{R}$$
+>Verificato quindi $y_{1}$ è soluzione.
+>
 
 
 # Problema di Cauchy
