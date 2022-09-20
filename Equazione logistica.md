@@ -16,6 +16,9 @@ Le soluzioni sono quindi la costante $y(t) = 0$ o $y(t) = ce^{kt}$,
 \usetikzlibrary{pgfplots}
 \begin{document}
 \begin{tikzpicture}
+\begin{axis}
+\
+\end{axis}
 \end{tikzpicture}
 \end{document}
 ```
