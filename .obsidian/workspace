@@ -23,7 +23,7 @@
           "type": "markdown",
           "state": {
             "file": "EDO del secondo ordine.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         },
@@ -144,15 +144,15 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
-    "EDO alle derivate parziali.md",
     "EDO del secondo ordine.md",
-    "Equazione logistica.md",
-    "Problema di Cauchy.md",
-    "Equazioni di bernoulli.md",
-    "Equazioni differenziali di primo odrine.md",
-    "formula risolutiva per EDO lineari del 1° ordine.md",
+    "EDO alle derivate parziali.md",
     "principio di sovrapposizione.md",
-    "README.md",
-    "EDO omogenea associata.md"
+    "Problema di Cauchy.md",
+    "formula risolutiva per EDO lineari del 1° ordine.md",
+    "EDO omogenea associata.md",
+    "Equazioni di bernoulli.md",
+    "Equazione logistica.md",
+    "EDO a variabili separabili.md",
+    "EDO.md"
   ]
 }

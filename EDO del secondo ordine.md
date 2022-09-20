@@ -23,8 +23,16 @@ $a \neq 0, f$ definito forzante.
 
 
 ```tikz
+\usepackage{circuitikz}
 \begin{document}
-\begin{tikzpicture}
-\end{tikzpicture}
+\begin{circuitikz}[american, voltage shift=0.5]
+\draw (0,0)
+to[V, v=E] (0,6)
+to[short] (2,6)
+to[R=R] (2,4)
+to[L=L] (2,2)
+to[C=C] (2,0)
+(2,0) -- (0,0);
+\end{circuitikz}
 \end{document}
 ```
