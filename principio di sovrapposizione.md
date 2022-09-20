@@ -13,3 +13,6 @@
 >$\Longrightarrow (c_{1}y_{1}+c_{2}y_{2})'=a(t)(c_{1}y_{1}+c_{2}y_{2})+c_{1}b_{1}+c_{2}b_{2}$
 
 
+>[!esempio]
+>Prendo due soluzioni distinte della EDO
+> dlm

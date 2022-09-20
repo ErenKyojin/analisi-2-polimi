@@ -1421,13 +1421,13 @@ __export(exports, {
 });
 var import_obsidian3 = __toModule(require("obsidian"));
 var import_view9 = __toModule(require("@codemirror/view"));
-var import_state7 = __toModule(require("@codemirror/state"));
+var import_state8 = __toModule(require("@codemirror/state"));
 var import_commands2 = __toModule(require("@codemirror/commands"));
 
 // src/settings.ts
 var import_obsidian2 = __toModule(require("obsidian"));
 var import_view6 = __toModule(require("@codemirror/view"));
-var import_state4 = __toModule(require("@codemirror/state"));
+var import_state5 = __toModule(require("@codemirror/state"));
 
 // src/editor/extensions.ts
 var import_view3 = __toModule(require("@codemirror/view"));
@@ -4866,6 +4866,39 @@ var cmd_symbols = {
   ":": " ",
   ";": " "
 };
+var operators = [
+  "arcsin",
+  "arccos",
+  "arctan",
+  "sinh",
+  "cosh",
+  "tanh",
+  "coth",
+  "sin",
+  "cos",
+  "tan",
+  "sec",
+  "csc",
+  "cot",
+  "exp",
+  "ker",
+  "limsup",
+  "lim",
+  "sup",
+  "deg",
+  "gcd",
+  "log",
+  "lg",
+  "ln",
+  "Pr",
+  "det",
+  "hom",
+  "arg",
+  "dim",
+  "liminf",
+  "min",
+  "max"
+];
 var fractions = {
   "{1}{2}": "\xBD",
   "{1}{3}": "\u2153",
@@ -5129,17 +5162,36 @@ var mathscrcal = {
 
 // src/conceal.ts
 var ConcealWidget = class extends import_view4.WidgetType {
-  constructor(symbol, className) {
+  constructor(symbol, className, elementType) {
     super();
     this.symbol = symbol;
     this.className = className ? className : "";
+    this.elementType = elementType ? elementType : "span";
+  }
+  eq(other) {
+    return other.symbol == this.symbol;
+  }
+  toDOM() {
+    const span = document.createElement(this.elementType);
+    span.className = "cm-math " + this.className;
+    span.textContent = this.symbol;
+    return span;
+  }
+  ignoreEvent() {
+    return false;
+  }
+};
+var TextWidget = class extends import_view4.WidgetType {
+  constructor(symbol) {
+    super();
+    this.symbol = symbol;
   }
   eq(other) {
     return other.symbol == this.symbol;
   }
   toDOM() {
     const span = document.createElement("span");
-    span.className = "cm-math " + this.className;
+    span.className = "cm-math";
     span.textContent = this.symbol;
     return span;
   }
@@ -5186,19 +5238,16 @@ function concealModifier(eqn, modifier, combiningCharacter) {
   return concealments;
 }
 function concealSupSub(eqn, superscript, symbolMap) {
-  const symbolNames = Object.keys(symbolMap);
   const prefix = superscript ? "\\^" : "_";
-  const regexStr = prefix + "{([" + escapeRegex(symbolNames.join("|")) + "]+)}";
+  const regexStr = prefix + "{([A-Za-z0-9\\()/+-=<>:;]+)}";
   const regex = new RegExp(regexStr, "g");
   const matches = [...eqn.matchAll(regex)];
   const concealments = [];
   for (const match of matches) {
     const exponent = match[1];
-    let replacement = "";
-    for (const letter of exponent.split("")) {
-      replacement = replacement + symbolMap[letter];
-    }
-    concealments.push({ start: match.index, end: match.index + match[0].length, replacement, class: "cm-number" });
+    const replacement = exponent;
+    const elementType = superscript ? "sup" : "sub";
+    concealments.push({ start: match.index, end: match.index + match[0].length, replacement, class: "cm-number", elementType });
   }
   return concealments;
 }
@@ -5221,6 +5270,19 @@ function concealBoldMathBbMathRm(eqn, symbolMap) {
     } else {
       concealments.push({ start, end, replacement: value, class: "cm-concealed-mathrm cm-variable-2" });
     }
+  }
+  return concealments;
+}
+function concealOperators(eqn, symbols) {
+  const regexStr = "\\\\(" + symbols.join("|") + ")";
+  const regex = new RegExp(regexStr, "g");
+  const matches = [...eqn.matchAll(regex)];
+  const concealments = [];
+  for (const match of matches) {
+    const value = match[1];
+    const start = match.index;
+    const end = start + match[0].length;
+    concealments.push({ start, end, replacement: value, class: "cm-concealed-mathrm cm-variable-2" });
   }
   return concealments;
 }
@@ -5259,8 +5321,42 @@ function concealBraKet(eqn, selection, eqnStartBound) {
     const type = match[1];
     const left = type === "ket" ? vert : langle;
     const right = type === "bra" ? vert : rangle;
-    concealments.push({ start, end, replacement: left, class: "cm-bracket" });
+    concealments.push({ start, end: end - 1, replacement: "" });
+    concealments.push({ start: end - 1, end, replacement: left, class: "cm-bracket" });
     concealments.push({ start: j, end: j + 1, replacement: right, class: "cm-bracket" });
+  }
+  return concealments;
+}
+function concealFraction(eqn, selection, eqnStartBound) {
+  const regexStr = "\\\\(frac){";
+  const symbolRegex = new RegExp(regexStr, "g");
+  const matches = [...eqn.matchAll(symbolRegex)];
+  const concealments = [];
+  for (const match of matches) {
+    const loc = match.index + match[0].length;
+    const j = findMatchingBracket(eqn, loc - 1, "{", "}", false);
+    if (j === -1)
+      continue;
+    const charAfterFirstBracket = eqn.charAt(j + 1);
+    if (charAfterFirstBracket != "{")
+      continue;
+    const k = findMatchingBracket(eqn, j + 1, "{", "}", false);
+    if (k === -1)
+      continue;
+    const start = match.index;
+    const end = start + match[0].length;
+    if (selectionAndRangeOverlap(selection, eqnStartBound + start, eqnStartBound + end))
+      continue;
+    if (selectionAndRangeOverlap(selection, eqnStartBound + j, eqnStartBound + j + 2))
+      continue;
+    if (selectionAndRangeOverlap(selection, eqnStartBound + k, eqnStartBound + k + 1))
+      continue;
+    concealments.push({ start, end: end - 1, replacement: "" });
+    concealments.push({ start: end - 1, end, replacement: "(", class: "cm-bracket" });
+    concealments.push({ start: j, end: j + 1, replacement: ")", class: "cm-bracket" });
+    concealments.push({ start: j + 1, end: j + 1, replacement: "/", class: "cm-bracket" });
+    concealments.push({ start: j + 1, end: j + 2, replacement: "(", class: "cm-bracket" });
+    concealments.push({ start: k, end: k + 1, replacement: ")", class: "cm-bracket" });
   }
   return concealments;
 }
@@ -5295,7 +5391,9 @@ function conceal(view) {
           ...concealSymbols(eqn, "\\\\", "", brackets, "cm-bracket"),
           ...concealAtoZ(eqn, "\\\\mathcal{", "}", mathscrcal),
           ...concealBoldMathBbMathRm(eqn, mathbb),
-          ...concealBraKet(eqn, selection, bounds.start)
+          ...concealBraKet(eqn, selection, bounds.start),
+          ...concealFraction(eqn, selection, bounds.start),
+          ...concealOperators(eqn, operators)
         ];
         for (const concealment of concealments) {
           const start = bounds.start + concealment.start;
@@ -5303,11 +5401,18 @@ function conceal(view) {
           const symbol = concealment.replacement;
           if (selectionAndRangeOverlap(selection, start, end))
             continue;
-          widgets.push(import_view4.Decoration.replace({
-            widget: new ConcealWidget(symbol, concealment.class),
-            inclusive: false,
-            block: false
-          }).range(start, end));
+          if (start === end) {
+            widgets.push(import_view4.Decoration.widget({
+              widget: new TextWidget(symbol),
+              block: false
+            }).range(start, end));
+          } else {
+            widgets.push(import_view4.Decoration.replace({
+              widget: new ConcealWidget(symbol, concealment.class, concealment.elementType),
+              inclusive: false,
+              block: false
+            }).range(start, end));
+          }
         }
       }
     });
@@ -5326,6 +5431,7 @@ var concealPlugin = import_view4.ViewPlugin.fromClass(class {
 
 // src/highlight_brackets.ts
 var import_view5 = __toModule(require("@codemirror/view"));
+var import_state4 = __toModule(require("@codemirror/state"));
 var import_language6 = __toModule(require("@codemirror/language"));
 var Ncolors = 3;
 function getHighlightBracketMark(pos, className) {
@@ -5445,6 +5551,7 @@ var colorPairedBracketsPlugin = import_view5.ViewPlugin.fromClass(class {
     }
   }
 }, { decorations: (v) => v.decorations });
+var colorPairedBracketsPluginLowestPrec = import_state4.Prec.lowest(colorPairedBracketsPlugin.extension);
 var highlightCursorBracketsPlugin = import_view5.ViewPlugin.fromClass(class {
   constructor(view) {
     this.decorations = highlightCursorBrackets(view);
@@ -5530,7 +5637,7 @@ var LatexSuiteSettingTab = class extends import_obsidian2.PluginSettingTab {
     const reset = new import_obsidian2.ButtonComponent(buttonsDiv);
     reset.setIcon("switch").setTooltip("Reset to default snippets").onClick(() => __async(this, null, function* () {
       new ConfirmationModal(this.plugin.app, "Are you sure? This will delete any custom snippets you have written.", (button) => button.setButtonText("Reset to default snippets").setWarning(), () => __async(this, null, function* () {
-        this.snippetsEditor.setState(import_state4.EditorState.create({ doc: DEFAULT_SNIPPETS, extensions }));
+        this.snippetsEditor.setState(import_state5.EditorState.create({ doc: DEFAULT_SNIPPETS, extensions }));
         updateValidityIndicator(true);
         this.plugin.setSnippets(DEFAULT_SNIPPETS);
         this.plugin.settings.snippets = DEFAULT_SNIPPETS;
@@ -5543,7 +5650,7 @@ var LatexSuiteSettingTab = class extends import_obsidian2.PluginSettingTab {
         const value = `[
 
 ]`;
-        this.snippetsEditor.setState(import_state4.EditorState.create({ doc: value, extensions }));
+        this.snippetsEditor.setState(import_state5.EditorState.create({ doc: value, extensions }));
         updateValidityIndicator(true);
         this.plugin.setSnippets(value);
         this.plugin.settings.snippets = value;
@@ -5575,9 +5682,9 @@ var LatexSuiteSettingTab = class extends import_obsidian2.PluginSettingTab {
     new import_obsidian2.Setting(containerEl).setName("Color paired brackets").setDesc("Whether to colorize matching brackets.").addToggle((toggle) => toggle.setValue(this.plugin.settings.colorPairedBracketsEnabled).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.colorPairedBracketsEnabled = value;
       if (value) {
-        this.plugin.enableExtension(colorPairedBracketsPlugin.extension);
+        this.plugin.enableExtension(colorPairedBracketsPluginLowestPrec);
       } else {
-        this.plugin.disableExtension(colorPairedBracketsPlugin.extension);
+        this.plugin.disableExtension(colorPairedBracketsPluginLowestPrec);
       }
       yield this.plugin.saveSettings();
     })));
@@ -5648,23 +5755,23 @@ var ConfirmationModal = class extends import_obsidian2.Modal {
 };
 function createSnippetsEditor(content, extensions) {
   const view = new import_view6.EditorView({
-    state: import_state4.EditorState.create({ doc: content, extensions })
+    state: import_state5.EditorState.create({ doc: content, extensions })
   });
   return view;
 }
 
 // src/marker_state_field.ts
-var import_state5 = __toModule(require("@codemirror/state"));
+var import_state6 = __toModule(require("@codemirror/state"));
 var import_view7 = __toModule(require("@codemirror/view"));
-var addMark = import_state5.StateEffect.define();
-var removeMark = import_state5.StateEffect.define();
-var clearMarks = import_state5.StateEffect.define();
-var removeMarkBySpecAttribute = import_state5.StateEffect.define();
-var startSnippet = import_state5.StateEffect.define();
-var endSnippet = import_state5.StateEffect.define();
-var undidStartSnippet = import_state5.StateEffect.define();
-var undidEndSnippet = import_state5.StateEffect.define();
-var markerStateField = import_state5.StateField.define({
+var addMark = import_state6.StateEffect.define();
+var removeMark = import_state6.StateEffect.define();
+var clearMarks = import_state6.StateEffect.define();
+var removeMarkBySpecAttribute = import_state6.StateEffect.define();
+var startSnippet = import_state6.StateEffect.define();
+var endSnippet = import_state6.StateEffect.define();
+var undidStartSnippet = import_state6.StateEffect.define();
+var undidEndSnippet = import_state6.StateEffect.define();
+var markerStateField = import_state6.StateField.define({
   create() {
     return import_view7.Decoration.none;
   },
@@ -5700,7 +5807,7 @@ var EXCLUSIONS = {
 
 // src/snippet_manager.ts
 var import_view8 = __toModule(require("@codemirror/view"));
-var import_state6 = __toModule(require("@codemirror/state"));
+var import_state7 = __toModule(require("@codemirror/state"));
 var COLORS = ["lightskyblue", "orange", "lime", "pink", "cornsilk", "magenta", "navajowhite"];
 var TabstopReference = class {
   constructor(view, colorIndex) {
@@ -5732,7 +5839,7 @@ var TabstopReference = class {
     const ranges = [];
     while (iter.value) {
       if (iter.value.spec.reference === this) {
-        ranges.push(import_state6.EditorSelection.range(iter.from, iter.to));
+        ranges.push(import_state7.EditorSelection.range(iter.from, iter.to));
       }
       iter.next();
     }
@@ -5806,7 +5913,7 @@ var SnippetManager = class {
       changes,
       effects: startSnippet.of(null)
     });
-    const changeSet = import_state6.ChangeSet.of(changes, view.state.doc.length);
+    const changeSet = import_state7.ChangeSet.of(changes, view.state.doc.length);
     const oldPositions = snippets2.map((change) => change.from);
     const newPositions = oldPositions.map((pos) => changeSet.mapPos(pos));
     let tabstopsToAdd = [];
@@ -5853,7 +5960,7 @@ var SnippetManager = class {
       changes
     });
     const firstRef = this.currentTabstopReferences[0];
-    const selection = import_state6.EditorSelection.create(firstRef.ranges);
+    const selection = import_state7.EditorSelection.create(firstRef.ranges);
     view.dispatch({
       selection,
       effects: endSnippet.of(null)
@@ -6022,7 +6129,7 @@ var LatexSuitePlugin = class extends import_obsidian3.Plugin {
     this.cursorTriggeredByChange = false;
     this.shouldAutoEnlargeBrackets = false;
     this.inVimInsertMode = false;
-    this.concealPluginExt = [];
+    this.editorExtensions = [];
     this.handleDocChange = () => {
       this.cursorTriggeredByChange = true;
     };
@@ -6471,7 +6578,7 @@ var LatexSuitePlugin = class extends import_obsidian3.Plugin {
     return __async(this, null, function* () {
       var _a;
       yield this.loadSettings();
-      this.registerEditorExtension(import_state7.Prec.highest(import_view9.keymap.of([
+      this.registerEditorExtension(import_state8.Prec.highest(import_view9.keymap.of([
         {
           key: "Tab",
           run: (view) => {
@@ -6502,7 +6609,7 @@ var LatexSuitePlugin = class extends import_obsidian3.Plugin {
       this.app.workspace.on("file-open", this.trackVimMode);
       this.registerEditorExtension(markerStateField);
       this.registerEditorExtension(this.getInvertedEffects());
-      this.registerEditorExtension(import_state7.Prec.highest(import_view9.EditorView.domEventHandlers({
+      this.registerEditorExtension(import_state8.Prec.highest(import_view9.EditorView.domEventHandlers({
         "keydown": this.onKeydown
       })));
       this.registerEditorExtension(import_view9.EditorView.updateListener.of((update) => {
@@ -6515,7 +6622,7 @@ var LatexSuitePlugin = class extends import_obsidian3.Plugin {
         }
         this.handleUndoRedo(update);
       }));
-      this.registerEditorExtension(this.concealPluginExt);
+      this.registerEditorExtension(this.editorExtensions);
       this.addEditorCommands();
     });
   }
@@ -6524,11 +6631,11 @@ var LatexSuitePlugin = class extends import_obsidian3.Plugin {
     this.app.workspace.off("file-open", this.trackVimMode);
   }
   enableExtension(extension) {
-    this.concealPluginExt.push(extension);
+    this.editorExtensions.push(extension);
     this.app.workspace.updateOptions();
   }
   disableExtension(extension) {
-    this.concealPluginExt.remove(extension);
+    this.editorExtensions.remove(extension);
     this.app.workspace.updateOptions();
   }
   loadSettings() {
@@ -6541,7 +6648,7 @@ var LatexSuitePlugin = class extends import_obsidian3.Plugin {
       if (this.settings.concealEnabled)
         this.enableExtension(concealPlugin.extension);
       if (this.settings.colorPairedBracketsEnabled)
-        this.enableExtension(colorPairedBracketsPlugin.extension);
+        this.enableExtension(colorPairedBracketsPluginLowestPrec);
       if (this.settings.highlightCursorBracketsEnabled)
         this.enableExtension(highlightCursorBracketsPlugin.extension);
     });
