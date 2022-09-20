@@ -77,8 +77,26 @@ Quindi ogni combinazione lineare delle soluzioni è a sua volta soluzione, ossia
 >Sostituiamo nell'equazione di partenza.
 >$$ -4\cos 2t + 4\cos 2t  = 0 \quad\forall t \in \mathbb{R}$$
 >Verificato quindi $y_{1}$ è soluzione.
->
+> $$ -4\sin 2t + 4\sin 2t = 0\quad \forall t \in \mathbb{R}$$
+> Quindi anche $y_{2}$ è soluzione, verifichiamo quindi che il loro rapporto non sia costante:
+> $$ \frac{\sin 2t}{\cos 2t} = \tan 2t$$
+> Non costante.
 
+## Caso completo o non omogeneo
+$$ a(t)y''+b(t)y'+c(t)y = f(t) $$
+
+In questo caso il [[principio di sovrapposizione]] si può applicare solo se una delle due soluzioni è dell'omogenea, ossia
+
+>$$ \begin{align}
+>&y_{0} \text{ soluzione di } Ly = 0  \\
+>&Ly_{0} = 0 \\
+>\\
+>&y_{p} \text{ soluzione di } Ly = f \\
+>&Ly_{p} = f
+>\end{align} 
+>$$
+>E quindi
+>$L(y_{0} + y_{P}) = Ly_{0} + Ly_{P} = 0 + f = f$
 
 # Problema di Cauchy
 per cercare una soluzione specifica dobbiamo risolvere il [[Problema di Cauchy]] del tipo:
