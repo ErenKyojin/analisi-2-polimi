@@ -165,6 +165,17 @@ $$ y(t) = e^{\alpha t} (C_{1} \cos(\beta t)+ C_{2} \sin(\beta t)) $$
 >\end{align} $$
 >Quindi $u_{1},u_{2}$ soluzioni reali linearmente indipendenti ($\frac{u_{1}}{u_{2}} = \cot 3t$)
 
+### caso $\Delta = 0$
+Possiamo trovare solo una soluzione, $\lambda_{1} = \lambda_{2} = \lambda$, e quindi
+$$ \begin{align}
+& y_{1}(t) = Ce^{\lambda t} \\
+& y_{2}(t) = ?
+\end{align} $$
+Per utilizzare il principio di sovrapposizione per determinare la soluzione generica non ci basta $y_{1}$, abbiamo anche bisogno di un altra soluzione linearmente indipendente.
+Cerchiamo una funzione $C(t) : y_{2} = C(t)e^{3t}$
+$y'_{2}(t) = e^{3t}[C'(t) + 3C(t)]$
+$y_{2}''(t) = e^{3t}[C''(t)]$
+
 # Problema di Cauchy
 per cercare una soluzione specifica dobbiamo risolvere il [[Problema di Cauchy]] del tipo:
 $$ 
