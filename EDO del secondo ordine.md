@@ -113,6 +113,30 @@ Alternativamente, avendo due soluzioni non omogenee, possiamo trovare l'omogenea
 >$L(y_{1} - y_{2}) = Ly_{1} - Ly_{2} = f - f = 0$
 
 QUINDI, data una soluzione qualsiasi $y_{P}$, tutte le altre soluzioni è della forma $y = y_{0} + y_{P}$, si arriva quindiu al [[teorema di struttura#Teorema di struttura per le equazioni complete]]
+
+
+## Caso a coefficienti costanti
+$$ ay'' + by' + cy = 0 $$
+con $a,b,c \in \mathbb{R}$. Dal [[teorema di struttura]] per trovare ogni soluzione è sufficiente trovare due soluzioni linearmente indipendenti, ossia non multiple l'una dell'altra.
+
+>[!esempio]
+>$$ y'' + 4y' +3y = 0 $$
+>Possiamo pensare di trovare funzioni la cui derivata è proporzionale alla funzione stessa, ossia $e^{\lambda t}$
+>$$ \begin{align}
+>&y = e^{\lambda t} \\
+>&y' = \lambda e^{\lambda t}  \\
+>&y'' = \lambda^2 e^{\lambda t}
+>\end{align} $$
+>
+>Sostituiamo:
+>$$ e^{\lambda t}(\lambda^2+4\lambda+3) = 0 $$
+>Che è uguale a $0$ se e solo se:
+>$$ \lambda^2 + 4\lambda + 3 = 0 $$
+>Equazione di secondo grado in lambda le cui radici sono $\lambda_{1} = -1, \lambda_{2} = -3$, che ci danno come risultato $y_{1}, y_{2}$ rispettivamente.
+>Per verificare che sono indipendenti basta dividerli tra loro:
+>$$ \frac{y_{1}(t)}{y_{2}(t)} = \frac{e^{-t}}{e^{-3t}} = e^{2t}$$
+
+
 # Problema di Cauchy
 per cercare una soluzione specifica dobbiamo risolvere il [[Problema di Cauchy]] del tipo:
 $$ 

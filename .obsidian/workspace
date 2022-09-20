@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "formula risolutiva per EDO lineari del 1° ordine.md",
+            "file": "EDO del secondo ordine.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "formula risolutiva per EDO lineari del 1° ordine.md",
+            "file": "EDO del secondo ordine.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "formula risolutiva per EDO lineari del 1° ordine.md",
+                "file": "EDO del secondo ordine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "formula risolutiva per EDO lineari del 1° ordine.md",
+                "file": "EDO del secondo ordine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "formula risolutiva per EDO lineari del 1° ordine.md"
+                "file": "EDO del secondo ordine.md"
               }
             }
           }
@@ -144,9 +144,9 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
+    "formula risolutiva per EDO lineari del 1° ordine.md",
     "Equazioni di bernoulli.md",
     "Equazioni differenziali di primo odrine.md",
-    "formula risolutiva per EDO lineari del 1° ordine.md",
     "teorema di struttura.md",
     "EDO del secondo ordine.md",
     "spazio vettoriale.md",
