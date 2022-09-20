@@ -145,7 +145,10 @@ $$ y(t) = C_{1}e^{\lambda_{1}t}+C_{2}e^{\lambda_{2}t} $$
 Ovviamente in questi casi abbiamo ipotizzato di avere due $\lambda$ distinti, ossia un $\Delta$ positivo.
 
 ### Caso con $\Delta < 0$ 
-
+Dall'[[equazione caratteristica]] otteniamo $\lambda_{1},\lambda_{2}$ complessi, che usiamo per trovare soluzioni reali tramite $u_{1}$ e $u_{2}$
+$$ \lambda_{1} = \alpha + i\beta\qquad \lambda_{2} = \alpha - i\beta$$
+E l'integrale generale è:
+$$ y(t) = e^{\alpha t} (C_{1} \cos(\beta t)+ C_{2} \sin(\beta t)) $$
 >[!esempio]
 >$$ y''+2y'+10y=0  \longrightarrow \lambda^2+2\lambda + 10 = 0 $$
 >$\Delta = -36 < 0 \Rightarrow \lambda_{1,2} = -1 \pm 3i$
