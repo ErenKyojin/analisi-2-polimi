@@ -115,3 +115,10 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >[!oss]
 >Se il dominio di $f$ è disconnesso è utile determinare solo le soluzioni che giaccono nella stessa regione di $t_0$
 
+>[!teorema] Esistenza e unicità globale di Cauchy
+>Siano $J \subseteq \mathbb{R} \in a,b : J \to \mathbb{R}$ continua. Per ogni $t_{0} \in J, y_{0} \in \mathbb{R}$ il problema di Cauchy.
+> $$ \begin{cases}
+> y'(t) = a(t)y(t) + b(t) \\
+> y(t_{0}) = y_{0}
+>\end{cases} $$
+Ha un unica soluzione $y(t)$ definita $\forall t \in J$
