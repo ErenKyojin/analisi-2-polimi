@@ -87,6 +87,7 @@ $$ a(t)y''+b(t)y'+c(t)y = f(t) $$
 
 In questo caso il [[principio di sovrapposizione]] si può applicare solo se una delle due soluzioni è dell'omogenea, ossia
 
+>[!Esempio] 1
 >$$ \begin{align}
 >&y_{0} \text{ soluzione di } Ly = 0  \\
 >&Ly_{0} = 0 \\
@@ -98,6 +99,20 @@ In questo caso il [[principio di sovrapposizione]] si può applicare solo se una
 >E quindi
 >$L(y_{0} + y_{P}) = Ly_{0} + Ly_{P} = 0 + f = f$
 
+Alternativamente, avendo due soluzioni non omogenee, possiamo trovare l'omogenea tramite la differenza
+>[!esempio] 2
+>$$ \begin{align}
+>&y_{1} \text{ soluzione di } Ly = f  \\
+>&Ly_{1} = f \\
+>\\
+>&y_{2} \text{ soluzione di } Ly = f \\
+>&Ly_{2} = f
+>\end{align} 
+>$$
+>E quindi
+>$L(y_{1} - y_{2}) = Ly_{1} - Ly_{2} = f - f = 0$
+
+QUINDI, data una soluzione qualsiasi $y_{P}$, tutte le altre soluzioni è della forma $y = y_{0} + y_{P}$, si arriva quindiu al [[teorema di struttura#Teorema di struttura per le equazioni complete]]
 # Problema di Cauchy
 per cercare una soluzione specifica dobbiamo risolvere il [[Problema di Cauchy]] del tipo:
 $$ 

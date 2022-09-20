@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "EDO del secondo ordine.md",
+            "file": "formula risolutiva per EDO lineari del 1° ordine.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "EDO del secondo ordine.md",
+            "file": "formula risolutiva per EDO lineari del 1° ordine.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EDO del secondo ordine.md",
+                "file": "formula risolutiva per EDO lineari del 1° ordine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EDO del secondo ordine.md",
+                "file": "formula risolutiva per EDO lineari del 1° ordine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EDO del secondo ordine.md"
+                "file": "formula risolutiva per EDO lineari del 1° ordine.md"
               }
             }
           }
@@ -144,15 +144,15 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
+    "Equazioni di bernoulli.md",
+    "Equazioni differenziali di primo odrine.md",
+    "formula risolutiva per EDO lineari del 1° ordine.md",
     "teorema di struttura.md",
     "EDO del secondo ordine.md",
     "spazio vettoriale.md",
     "principio di sovrapposizione.md",
     "conflict-files-obsidian-git.md",
     "EDO alle derivate parziali.md",
-    "Problema di Cauchy.md",
-    "formula risolutiva per EDO lineari del 1° ordine.md",
-    "EDO omogenea associata.md",
-    "Equazioni di bernoulli.md"
+    "Problema di Cauchy.md"
   ]
 }
