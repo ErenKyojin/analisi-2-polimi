@@ -13,10 +13,14 @@ Le soluzioni sono quindi la costante $y(t) = 0$ o $y(t) = ce^{kt}$,
 
 
 ```tikz
-\usetikzlibrary{pgfplots}
+\usepackage{pgfplots}
 \begin{document}
 \begin{tikzpicture}
-\begin{axis}
+\begin{axis}[
+axis y line = center,
+axis x line = center,
+]
+\addplot[samples = 200] {exp(2*x)};
 \draw (1,1) -- (2,2);
 \end{axis}
 \end{tikzpicture}
