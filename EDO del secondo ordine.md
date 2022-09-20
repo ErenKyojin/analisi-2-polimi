@@ -42,6 +42,6 @@ $a \neq 0, f$ definito forzante.
 >$$ \begin{align}
 >&Li'(t) + Ri(t) + \frac{q(t)}{C} = E(t) \\
 >&Lq''(t)+Rq'(t)+\frac{1}{C}q(t)=E(t) \\
->Lq''
+>&Li''(t) + Ri'(t) + \frac{1}{C}i(t) = E'(t)
 \end{align}$$
 >
