@@ -15,4 +15,17 @@
 
 >[!esempio]
 >Prendo due soluzioni distinte della EDO
-> dlm
+> $$ y' = a(t)y + b(t) \Rightarrow
+>\begin{align}
+>y_{1}' = a(t)y_{1}+b(t) \\
+>y_{2}' = a(t)y_{2}+b(t)
+>\end{align} $$
+>
+> $$ \begin{align}
+>
+>(y_{1}+y_{2})' = y_{1}'+y_{2}' &=  a(t)y_{1}+b(t) a(t)y_{2}+b(t) \\
+> &= a(t)[y_{1}+y_{2}]+2b(t)
+>\end{align}$$
+>$2b(t) \neq b(t) \Rightarrow y_{1}+y_{2}$ non è soluzione della EDO di partenza 
+>$\Rightarrow$ non basta sommare le soluzioni trovate in una <u>non omogenea</u> per trovare altre soluzioni
+
