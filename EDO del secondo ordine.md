@@ -136,6 +136,13 @@ con $a,b,c \in \mathbb{R}$. Dal [[teorema di struttura]] per trovare ogni soluzi
 >Per verificare che sono indipendenti basta dividerli tra loro:
 >$$ \frac{y_{1}(t)}{y_{2}(t)} = \frac{e^{-t}}{e^{-3t}} = e^{2t}$$
 
+Quindi data un'equazione lineare omogenea del secondo ordine a coefficienti costanti:
+$$ ay'' + by' + cy = 0 $$
+Le soluzioni si trovano attraverso la formula $$(a \lambda^2 + b \lambda + c) = 0$$
+Questo polinomio è detto [[polinomio caratteristico]] e si chiama $P(\lambda)$, l'equazione $P(\lambda) = 0$ è detta invece [[equazione caratteristica]], trovati $\lambda_{1}, \lambda_{2}$, attraverso il teorema di struttura
+$$ y(t) = C_{1}e^{\lambda_{1}t}+C_{2}e^{\lambda_{2}t} $$
+### Abbiamo visto il caso con 
+
 
 # Problema di Cauchy
 per cercare una soluzione specifica dobbiamo risolvere il [[Problema di Cauchy]] del tipo:
