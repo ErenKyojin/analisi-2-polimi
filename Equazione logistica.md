@@ -30,4 +30,4 @@ Che in effetti approssima bene inizialmente l'andamento epidemiologico, tuttavia
 
 >[!def] Equazione logistica
 >$$ y'(t) = ky(t) - hy(t)^2 $$
->Con il secondo termine $hy(t)^2$ che caratterizza la competizione, ha coe soluzioni $\frac{h}{k}$ costante / 
+>Con il secondo termine $hy(t)^2$ che caratterizza la competizione, ha coe soluzioni $\frac{h}{k}$ costante 
