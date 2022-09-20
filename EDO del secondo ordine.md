@@ -21,7 +21,6 @@ Hanno forma
 $$ a(t)y''(t) + b(t)y'(t) + c(t)y(t) = f(t) $$
 $a \neq 0, f$ definito forzante.
 
-
 >[!esempio]
 >```tikz
 >\usepackage{circuitikz}
@@ -44,4 +43,21 @@ $a \neq 0, f$ definito forzante.
 >&Lq''(t)+Rq'(t)+\frac{1}{C}q(t)=E(t) \\
 >&Li''(t) + Ri'(t) + \frac{1}{C}i(t) = E'(t)
 \end{align}$$
->
+
+
+# Soluzioni di una EDO del secondo ordine
+
+Partiamo da un esempio
+>[!esempio]
+>$$ y'' = 0 $$
+>Che ha come soluzione ogni equazione lineare $y = c_{1}t+c_{2}$ per ogni $c_{1},c_{2} \in \mathbb{R}$
+>Ed, abbiamo quindi infinite soluzioni.
+
+Per la precisione abbiamo $\infty^2$ soluzioni, per cercarne una specifica dobbiamo risolvere il [[Problema di Cauchy]] del tipo:
+$$ 
+\begin{cases}
+a(t)y''+b(t)y' + c(t)y = f(t) \\
+y'(t_{0}) = v_{0} \\
+y (t_{0}) = y_{0}
+\end{cases}
+$$

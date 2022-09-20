@@ -17,14 +17,6 @@
         "group": "b136f897a8107d55"
       },
       {
-        "id": "4af645fc684e5a54",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
-      },
-      {
         "id": "3c43db5b9d6e867b",
         "type": "leaf",
         "state": {
@@ -150,7 +142,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4af645fc684e5a54",
+  "active": "0560173f6dae1655",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "EDO del secondo ordine.md",
