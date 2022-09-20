@@ -17,7 +17,7 @@ Le soluzioni sono quindi la costante $y(t) = 0$ o $y(t) = ce^{kt}$,
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}
-\
+\draw (1,1) -- (2,2);
 \end{axis}
 \end{tikzpicture}
 \end{document}
