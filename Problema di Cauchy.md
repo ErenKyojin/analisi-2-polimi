@@ -123,4 +123,18 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >\end{cases} $$
 Ha un unica soluzione $y(t)$ definita $\forall t \in J$
 
-$$ y'(t) = a(t)y(t) + b(t)\qquad a,b \text{ contiua su } J $$
+$$
+\begin{align}
+y'(t) &= a(t)y(t) + b(t)\qquad a,b \text{ contiua su } J  \\
+&=f(t,y(t))
+\end{align}$$
+Con $f$ lineare rispetto a $y : f(t,y) = a(t)y+b(t)$, dominio di definizione di $f = J \times \mathbb{R}$ 
+Quindi il teorema ci dice che:
+1. dati qualsiasi $(t_{0},y_{0}) \in J \times \mathbb{R}$ c'è una soluzione della EDO passante per $(t_{0},y_{0})$:
+—> i grafici della soluzioni riempiono $J \times \mathbb{R}$
+2. Essa è unica:
+—> i grafici delle soluzioni non si intersecano
+3. La soluzione è definita $\forall t \in J$
+—> per le variabili separabili, che non sono quindi lineari, non è necessario
+—> se $a,b$ costanti $\Rightarrow J = R$
+

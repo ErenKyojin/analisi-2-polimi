@@ -84,3 +84,5 @@ Le [[soluzioni]] di un equazione differenziale di primo ordine si possono trovar
 
 
 Da qui deriva il [[principio di sovrapposizione]]
+
+Per la soluzione [[formula risolutiva per EDO lineari del 1° ordine]]
