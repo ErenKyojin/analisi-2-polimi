@@ -122,3 +122,5 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 > y(t_{0}) = y_{0}
 >\end{cases} $$
 Ha un unica soluzione $y(t)$ definita $\forall t \in J$
+
+$$ y'(t) = a(t)y(t) + b(t)\qquad a,b \text{ contiua su } J $$
