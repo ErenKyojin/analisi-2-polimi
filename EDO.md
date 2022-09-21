@@ -2,6 +2,6 @@
 
 
 
-# [[Equazioni differenziali di primo odrine]]
+# [[EDO di primo odrine]]
 
 # [[EDO a variabili separabili]]
