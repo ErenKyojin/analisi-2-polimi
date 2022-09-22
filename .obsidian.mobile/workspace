@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "EDO del secondo ordine.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -115,15 +115,15 @@
   },
   "active": "d4d5a53b2109b8a0",
   "lastOpenFiles": [
+    "EDO alle derivate parziali.md",
+    "teorema di struttura.md",
+    "EDO del secondo ordine.md",
     "EDO di primo odrine.md",
     "principio di sovrapposizione.md",
-    "EDO del secondo ordine.md",
     "Problema di Cauchy.md",
     "formula risolutiva per EDO lineari del 1° ordine.md",
     "Equazioni di bernoulli.md",
     "soluzioni.md",
-    "EDO a variabili separabili.md",
-    "EDO.md",
-    "dominio.md"
+    "EDO a variabili separabili.md"
   ]
 }

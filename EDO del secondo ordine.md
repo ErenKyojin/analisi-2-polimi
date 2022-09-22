@@ -136,6 +136,8 @@ con $a,b,c \in \mathbb{R}$. Dal [[teorema di struttura]] per trovare ogni soluzi
 >Per verificare che sono indipendenti basta dividerli tra loro:
 >$$ \frac{y_{1}(t)}{y_{2}(t)} = \frac{e^{-t}}{e^{-3t}} = e^{2t}$$
 
+### caso con $\Delta >0$
+
 Quindi data un'equazione lineare omogenea del secondo ordine a coefficienti costanti:
 $$ ay'' + by' + cy = 0 $$
 Le soluzioni si trovano attraverso la formula $$(a \lambda^2 + b \lambda + c) = 0$$
