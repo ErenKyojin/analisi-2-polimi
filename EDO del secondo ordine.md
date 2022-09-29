@@ -195,4 +195,4 @@ $$ y(t) = C_{1}e^{\lambda t} + C_{2}te^{\lambda t}$$
 > | $\Delta < 0$| $\lambda_{1,2} = \alpha + i \beta,\quad \lambda_{1,2} \in \mathbb{C}$ | $e^{\alpha t} \cos \beta t$ | $e^{\alpha t} \sin \beta t$
 
 
-Per ottenere una soluzione precisa dobbiamo, come al solito, risolvere il [[Problema di Cauchy]]
+Per ottenere una soluzione precisa dobbiamo, come al solito, risolvere il [[Problema di Cauchy]], ed è richiesto sapere la situazione iniziale.
