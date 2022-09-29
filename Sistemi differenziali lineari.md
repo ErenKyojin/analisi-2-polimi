@@ -91,9 +91,15 @@ $$
 ## [[Problema di Cauchy#Problema di Cauchy in sistemi differenziali lineari|Problema di Cauchy]]
 Il problema di Cauchy nei sistemi differenziali lineari assume un carattere più generale, approfondimento nel file relativo.
 
-
+# Soluzioni
 >[!def]
 >Dato un sistema differenziale lineare $n \times n$, omogeneo, chiamo sistema fondamentale di soluzioni una famiglia di $n$ soluzioni linearmente indipendenti:
 >$$ y_{o_{1}}(t), \dots, y_{o_{n}}(t) $$
 >Base dello spazio vettoriale delle saoluzioni
+
+
+## Risoluzione esplicita di alcuni sistemi omogenei
+1. $A \in M_{n,n} \mathbb{R}$ [[diagonalizzabilità|diagonalizzazione]] reale
+2. $A \in M_{2,2} \mathbb{R}$ con autovalori complessi coniugati
+
 

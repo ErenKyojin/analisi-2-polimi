@@ -12,4 +12,13 @@ Sistema fondamentale $\Leftrightarrow$ esiste $t_{0} : \det(\mathbf{y_{o_{1}}}(t
 
 >[!oss]
 >Con la matrice Wronskiana possiamo scrivere in un modo compatto l'integrale generale del sistema omogeneo:
->$$ \mathbf{y}_{o}(t) = W(t) \cdot  $$
+>$$ \mathbf{y}_{o}(t) = W(t) \cdot  \mathbf{c},\qquad \mathbf{c} \in \mathbb{R}^n$$
+>$$ W(t)\cdot \mathbf{c} = \begin{bmatrix}
+\mathbf{y}_{o_{1}} &\dots&\mathbf{y}_{o_{n}}
+\end{bmatrix} \cdot
+\begin{bmatrix}
+c_{1} \\
+\vdots \\
+>c_{n}
+\end{bmatrix}$$
+
