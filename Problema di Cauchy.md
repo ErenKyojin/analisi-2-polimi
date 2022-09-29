@@ -180,3 +180,13 @@ c_{2} = -\frac{7}{4}
 >L'unica e sola soluzione del problema di Cauchy
 
 
+# Problema di Cauchy in sistemi differenziali lineari
+
+Come si scrive un problema di Cauchy in un [[Sistemi differenziali lineari|sistema differenziale lineare]]? 
+Partiamo da un esempio:
+>[!esempio]
+>$$ y''(t) - 2y'(t) = t $$
+>E diamo un generico problema di Cauchy
+>$$ \begin{cases}
+y(t_{0}) =
+\end{cases} $$
