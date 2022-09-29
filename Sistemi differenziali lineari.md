@@ -88,6 +88,9 @@ $$
 
 
 
-# [[Problema di Cauchy#Problema di Cauchy in sistemi differenziali lineari|Problema di Cauchy]]
+## [[Problema di Cauchy#Problema di Cauchy in sistemi differenziali lineari|Problema di Cauchy]]
 Il problema di Cauchy nei sistemi differenziali lineari assume un carattere più generale, approfondimento nel file relativo.
 
+
+>[!def]
+>Dato un sistema differenziale lineare $n \times n$, omogeneo, chiamo sistema fondamentale di soluzioni una famiglia di n soluzioni linearmente dipendente

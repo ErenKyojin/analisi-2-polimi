@@ -222,9 +222,8 @@ Partiamo da un esempio:
 >>y_{1}(0) = 1 \\
 >>y_{2}(0) = 0
 >>\end{cases} $$
->>$$ \begin{align}
->>
-\end{align}\mathbf{y}(t) = \begin{bmatrix}
+>>$$
+>>\mathbf{y}(t) = \begin{bmatrix}
 >>y_{1}(t) \\
 >>y_{2}(t)
 >>\end{bmatrix}
@@ -236,5 +235,11 @@ Partiamo da un esempio:
 >>\qquad\mathbf{b}(t) = \begin{bmatrix}
 >>0 \\
 >>t
-\end{bmatrix}
-\end{algin}$$
+\end{bmatrix}$$
+>> $$ t_{0} = 0\qquad y_{0} = \begin{bmatrix}
+1 \\
+0
+\end{bmatrix} $$
+
+>[!oss]
+>In un problema di Cauchy di un sistema lineare avremo sempre derivate prime di ogni funzione.
