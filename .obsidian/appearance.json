@@ -1,5 +1,7 @@
 {
   "enabledCssSnippets": [
-    "test"
+    "test",
+    "underline",
+    "MCL Multi Column"
   ]
 }
