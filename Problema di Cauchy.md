@@ -188,5 +188,20 @@ Partiamo da un esempio:
 >$$ y''(t) - 2y'(t) = t $$
 >E diamo un generico problema di Cauchy
 >$$ \begin{cases}
-y(t_{0}) =
-\end{cases} $$
+>y(t_{0}) = y_{0} \\
+>y'(t_{0}) = v_{0}
+>\end{cases} $$
+>Trasformo le EDO in sistema:
+>$$ \begin{cases}
+> y_{1}(t) = y(t) \\
+> y_{2}(t) = y'(t)
+>\end{cases} \Rightarrow \begin{cases}
+>y'(t) = y_{2}(t) \\
+>y_{2}'(t) = 2y_{2}(t)+t 
+>\end{cases}
+>$$
+
+
+
+>[!def]
+>Dato $\mathbf{y}'(t) = A \cdot \mathbf{y(t)} + \mathbf{b}(t)$
