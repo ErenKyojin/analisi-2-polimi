@@ -93,4 +93,7 @@ Il problema di Cauchy nei sistemi differenziali lineari assume un carattere più
 
 
 >[!def]
->Dato un sistema differenziale lineare $n \times n$, omogeneo, chiamo sistema fondamentale di soluzioni una famiglia di n soluzioni linearmente dipendente
+>Dato un sistema differenziale lineare $n \times n$, omogeneo, chiamo sistema fondamentale di soluzioni una famiglia di $n$ soluzioni linearmente indipendenti:
+>$$ y_{o_{1}}(t), \dots, y_{o_{n}}(t) $$
+>Base dello spazio vettoriale delle saoluzioni
+

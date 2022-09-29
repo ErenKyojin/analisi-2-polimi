@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemi differenziali lineari.md",
+            "file": "Determinante wronskiano.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemi differenziali lineari.md",
+            "file": "Determinante wronskiano.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi differenziali lineari.md",
+                "file": "Determinante wronskiano.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi differenziali lineari.md",
+                "file": "Determinante wronskiano.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi differenziali lineari.md"
+                "file": "Determinante wronskiano.md"
               }
             }
           }
@@ -144,8 +144,8 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
-    "formula risolutiva per EDO lineari del 1° ordine.md",
     "Sistemi differenziali lineari.md",
+    "formula risolutiva per EDO lineari del 1° ordine.md",
     "Problema di Cauchy.md",
     "principio di sovrapposizione.md",
     "README.md",
