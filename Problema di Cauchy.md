@@ -204,4 +204,37 @@ Partiamo da un esempio:
 
 
 >[!def]
->Dato $\mathbf{y}'(t) = A \cdot \mathbf{y(t)} + \mathbf{b}(t)$
+>Dato $\mathbf{y}'(t) = A \cdot \mathbf{y(t)} + \mathbf{b}(t)\qquad n\times n$
+>con $b_{j} : J \subseteq \mathbb{R} \to \mathbb{R}$
+>
+>Dati $t_{0} \in J, y_{0} \in \mathbb{R}^n$
+>Chiamiamo problema di Cauchy:
+>$$ \begin{cases}
+>\mathbf{y'}(t) = A \cdot y'(t) + \mathbf{b}(t)  \\
+>\mathbf{y}(t_{0}) = \mathbf{y}_{0}
+>\end{cases}$$
+>
+>>[!esempio]
+>>Al tempo $t_{0} = 0$ posizione $1$ e velocità nulla
+>>$$ \begin{cases}
+>>y_{1}'(t) = y_{2}(t) \\
+>>y_{2}'(t) = 2y_{2}+t \\
+>>y_{1}(0) = 1 \\
+>>y_{2}(0) = 0
+>>\end{cases} $$
+>>$$ \begin{align}
+>>
+\end{align}\mathbf{y}(t) = \begin{bmatrix}
+>>y_{1}(t) \\
+>>y_{2}(t)
+>>\end{bmatrix}
+>>\qquad
+>>A = \begin{bmatrix}
+>>0 & 1 \\
+>>0 & 2
+>>\end{bmatrix}
+>>\qquad\mathbf{b}(t) = \begin{bmatrix}
+>>0 \\
+>>t
+\end{bmatrix}
+\end{algin}$$
