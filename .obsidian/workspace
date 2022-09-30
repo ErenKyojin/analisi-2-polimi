@@ -144,6 +144,8 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
+    "convergenza.md",
+    "Serie di funzioni.md",
     "Sistemi differenziali lineari.md",
     "formula risolutiva per EDO lineari del 1° ordine.md",
     "Determinante wronskiano.md",
@@ -151,8 +153,6 @@
     "formula di eulero.md",
     "Matrice esponenziale.md",
     "diagonalizzabilità.md",
-    "molteplicità geometrica.md",
-    "molteplicità algebrica.md",
-    "EDO di primo odrine.md"
+    "molteplicità geometrica.md"
   ]
 }
