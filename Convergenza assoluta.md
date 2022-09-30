@@ -19,3 +19,5 @@
 >$$ E = (1, +\infty) = \{x > 1\} $$
 >La convergenza è anche assoluta in $E$ perchè per $x \in E\quad$ $|f_{n}(x)| = f_{n}(x)$
 
+>[!oss]
+>Se $x = 1$ serie armonica "standard" che diverge/

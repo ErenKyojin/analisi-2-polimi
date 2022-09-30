@@ -257,5 +257,3 @@ Analogo alla [[formula risolutiva per EDO lineari del 1° ordine]]
 >Questa formula ci richiede di integrare un vettore componente per componente
 
 >[!esempio]
-
-

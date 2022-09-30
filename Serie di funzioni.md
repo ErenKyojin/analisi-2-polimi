@@ -38,3 +38,9 @@ Partiamo da un esempio
 >per $x \geq 1$ divergente
 >per x $\in E = (-1,1)$ somma $\frac{1}{1-x} = \sum_{n=0}^{+\infty} x^n$
 
+>[!error]
+>Se le $f_{n}(x)$ sono cotinue/derivabili/integrabili, anche $f$ resterà continua/derivabili/integrabili?
+>
+>Il dubbio viene dallo "scambiare" i due limiti, se non fosse una serie sarebbe ovvio dalla linearità della derivata/integrale.
+
+## [[Convergenza totale]]

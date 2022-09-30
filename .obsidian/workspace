@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Convergenza assoluta.md",
+            "file": "Convergenza totale.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Convergenza assoluta.md",
+            "file": "Convergenza totale.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Convergenza assoluta.md",
+                "file": "Convergenza totale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Convergenza assoluta.md",
+                "file": "Convergenza totale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Convergenza assoluta.md"
+                "file": "Convergenza totale.md"
               }
             }
           }
@@ -144,13 +144,13 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
+    "Serie di funzioni.md",
+    "Sistemi differenziali lineari.md",
+    "Convergenza assoluta.md",
     "Determinante wronskiano.md",
     "EDO alle derivate parziali.md",
-    "Serie di funzioni.md",
-    "Convergenza assoluta.md",
     "serie di potenze.md",
     "convergenza.md",
-    "Sistemi differenziali lineari.md",
     "formula risolutiva per EDO lineari del 1° ordine.md",
     "Sistemi.md",
     "formula di eulero.md"
