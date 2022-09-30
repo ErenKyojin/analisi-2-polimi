@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Serie di funzioni.md",
+            "file": "Convergenza assoluta.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Serie di funzioni.md",
+            "file": "Convergenza assoluta.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Serie di funzioni.md",
+                "file": "Convergenza assoluta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Serie di funzioni.md",
+                "file": "Convergenza assoluta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Serie di funzioni.md"
+                "file": "Convergenza assoluta.md"
               }
             }
           }
@@ -144,15 +144,15 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
-    "convergenza.md",
+    "Determinante wronskiano.md",
+    "EDO alle derivate parziali.md",
     "Serie di funzioni.md",
+    "Convergenza assoluta.md",
+    "serie di potenze.md",
+    "convergenza.md",
     "Sistemi differenziali lineari.md",
     "formula risolutiva per EDO lineari del 1° ordine.md",
-    "Determinante wronskiano.md",
     "Sistemi.md",
-    "formula di eulero.md",
-    "Matrice esponenziale.md",
-    "diagonalizzabilità.md",
-    "molteplicità geometrica.md"
+    "formula di eulero.md"
   ]
 }

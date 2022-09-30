@@ -25,4 +25,16 @@ Partiamo da un esempio
 >La serie converge assolutamente in $\overline{ x} \in J$ se la serie numerica di termini generale $\mid f_{n}(z)\mid$ converge.
 
 >[!oss]
->La convergenza assoluta implica 
+>La convergenza assoluta implica la convergenza semplice in $\overline{x}$
+
+
+>[!esempio] Esempio fondamentale
+>Questo esempio servirà per le [[serie di potenze]] –> le serie di taylor ne sono un caso particolare
+>$$ \sum_{n=0}^{+\infty} x^n $$
+>
+>
+>L'insieme convergente puntuale $E = (-1,1) = \{|x| < 1\}$, la convergenza in $E$ è anche assoluta:
+>$\Rightarrow$ per $x \leq -1$ indeterminata
+>per $x \geq 1$ divergente
+>per x $\in E = (-1,1)$ somma $\frac{1}{1-x} = \sum_{n=0}^{+\infty} x^n$
+
