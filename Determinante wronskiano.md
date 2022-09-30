@@ -1,3 +1,6 @@
+---
+alias: matrice wronskiana
+---
 # Determinante wronskiano
 Supponiamo di conoscere $n$ soluzioni $y_{o_{1}},\dots,y_{o_{n}}$ di un [[Sistemi differenziali lineari|sistema differenziale lineare]] omogoeneo $n \times n$:
 Sistema fondamentale $\Leftrightarrow$ esiste $t_{0} : \det(\mathbf{y_{o_{1}}}(t_{0}),\dots ,\mathbf{y_{o_{n}}}) \neq 0$

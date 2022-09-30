@@ -103,7 +103,7 @@ Il problema di Cauchy nei sistemi differenziali lineari assume un carattere più
 2. $A \in M_{2,2} \mathbb{R}$ con autovalori complessi coniugati
 
 
-## 1. Integrale generale del sistema omogeneo
+### 1. Integrale generale del sistema omogeneo
 dato un sistema omogeneo $\mathbf{y}'(t) = A\mathbf{y}(t)$ con $A$ [[diagonalizzabilità|diagonalizzabile]], si scrive
 $$ y_{o}(t) = e^{At} \cdot \mathbf{c} \qquad \mathbf{c} \in \mathbb{R}^n$$
 Verifichiamo che questa forma coincida con quella del primo teorema della [[diagonalizzabilità]]
@@ -233,4 +233,11 @@ i
 >e^{2t} &\cos t
 \end{bmatrix}
 >\end{align} $$
->
+
+
+
+## Sistemi lineari non omogenei
+Per risolvere un sistema non omogeneo:
+1. Risolvo il sistema omogeneo associato
+Trovo $n$ soluzioni linearmente indipendenti (ossia una [[Determinante wronskiano|matrice wronskiana]] $W(t)$)
+$\Rightarrow$ l'0
