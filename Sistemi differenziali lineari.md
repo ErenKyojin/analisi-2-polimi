@@ -103,7 +103,7 @@ Il problema di Cauchy nei sistemi differenziali lineari assume un carattere più
 2. $A \in M_{2,2} \mathbb{R}$ con autovalori complessi coniugati
 
 
-## Integrale generale del sistema omogeneo
+## 1. Integrale generale del sistema omogeneo
 dato un sistema omogeneo $\mathbf{y}'(t) = A\mathbf{y}(t)$ con $A$ [[diagonalizzabilità|diagonalizzabile]], si scrive
 $$ y_{o}(t) = e^{At} \cdot \mathbf{c} \qquad \mathbf{c} \in \mathbb{R}^n$$
 Verifichiamo che questa forma coincida con quella del primo teorema della [[diagonalizzabilità]]
@@ -138,9 +138,14 @@ c_{n}
 >$\lambda_{1}, \dots , \lambda_{n}\rightarrow$ autovalori
 >$\mathbf{v}_{1},\dots,\mathbf{v}_{n} \to$ autovettori linearmente indipendenti
 >$S=(\mathbf{v_{1}},\dots,\mathbf{v_{n}})$
+>$$ y_{o}(t) = c_{1}e^{\lambda_{1}}t \mathbf{v}_{1} + \dots + c_{n}e^{\lambda_{n}t}\mathbf{v}_{n} $$
 >$$ e^A = S \begin{bmatrix}
->e^{\lambda_{1}}  & & &\\
+>e^{\lambda_{1}}  & &0 \\
 >&\ddots \\
->& & e^{\lambda_{n}}
->\end{bmatrix} $$
+>0& & e^{\lambda_{n}}
+>\end{bmatrix} 
+>S^{-1}$$
 
+### 2.  con autovalori complessi coniugati
+
+$A \in M_{2,2}$
