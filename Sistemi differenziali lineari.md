@@ -190,3 +190,33 @@ y_{2}' = -y_{1} + 2y_{2}
 Quindi non ha zeri reali, e gli zeri complessi sono:
 >$$ \Rightarrow (2-\lambda^2)= -1\qquad 2 - \lambda = \pm i\qquad \lambda = 2 \pm i $$
 >Scegliamo $\lambda = 2+i$
+>Cerchiamo un autovettore relativo a $\lambda$:
+>$$ (A - \lambda I) \begin{bmatrix}
+>v_{1} \\
+v_{2}
+>\end{bmatrix} = 0 \Rightarrow
+>\begin{bmatrix}
+>-i & 1 \\
+>-1 & i
+\end{bmatrix}
+>\begin{bmatrix}
+>v_{1} \\
+>v_{2}
+>\end{bmatrix}=0 \Rightarrow \mathbf{v = \begin{bmatrix}
+>1 \\
+>i
+\end{bmatrix}}
+>$$
+>Abbiamo quindi un sistema fondamentale di soluzioni omogene $y_{o_{1}}, y_{o_{2}}$:
+>$$ \begin{align}
+>&y_{o_{1}} (t) = Re(e^{\lambda t} \mathbf{v}) = Re\left(e^{(2+i)t} \begin{bmatrix}
+1 \\
+i
+\end{bmatrix}\right) \\
+>&y_{o_{2}}(t) = Im(e^{\lambda t} \mathbf{v}) = Im \left(e^{(2+i)t}\begin{bmatrix}
+>1 \\
+i
+\end{bmatrix}\right)
+\end{align} $$
+>E infine attraverso la [[formula di eulero]]
+>
