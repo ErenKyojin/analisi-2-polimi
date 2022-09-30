@@ -103,3 +103,6 @@ Il problema di Cauchy nei sistemi differenziali lineari assume un carattere più
 2. $A \in M_{2,2} \mathbb{R}$ con autovalori complessi coniugati
 
 
+## Integrale generale del sistema omogeneo
+dato un sistema omogeneo $\mathbf{y}'(t) = A\mathbf{y}(t)$ con $A$ [[diagonalizzabilità|diagonalizzabile]], si scrive
+$$ y_{o}(t) = e^{At} \cdot \mathbf{c} $$

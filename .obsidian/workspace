@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Matrice esponenziale.md",
+            "file": "Sistemi differenziali lineari.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Matrice esponenziale.md",
+            "file": "Sistemi differenziali lineari.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matrice esponenziale.md",
+                "file": "Sistemi differenziali lineari.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matrice esponenziale.md",
+                "file": "Sistemi differenziali lineari.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matrice esponenziale.md"
+                "file": "Sistemi differenziali lineari.md"
               }
             }
           }
@@ -144,8 +144,8 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
-    "diagonalizzabilità.md",
     "Matrice esponenziale.md",
+    "diagonalizzabilità.md",
     "molteplicità geometrica.md",
     "molteplicità algebrica.md",
     "EDO di primo odrine.md",
