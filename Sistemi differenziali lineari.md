@@ -243,4 +243,19 @@ Trovo $n$ soluzioni linearmente indipendenti (ossia una [[Determinante wronskian
 $\Rightarrow$ l'integrale generale del sistema omogeneo è $W \cdot \mathbf{c},\quad \mathbf{c} \in \mathbb{R}^n$
 
 2. (a) cerco una soluzione particolare col metodo di somiglianza ed applico il [[teorema di struttura]] $$ \mathbf{y} (t) = \mathbf{y}_{o}(t) + \mathbf{y}_{p}(t) = W(t) \cdot \mathbf{c} + \mathbf{y_{p}}(t) $$
-2. (b) alternativamente uso $W(t)$ per calcolare l'integrale generale 
+2. (b) alternativamente uso $W(t)$ per calcolare l'integrale generale:
+$$ \begin{align}
+y(t) &= W(t) \left( \int \! [W(\tau)]^{-1} \cdot \mathbf{b}(\tau)\, \mathrm{d} \tau  \right)  \\
+&= W(t) \int \! W(\tau)^{-1}\, \mathrm{d} \tau + W(t) \cdot \mathbf{c}
+\end{align}$$
+
+**In particolare** se $A$ è diagonalizzabile reale, una matrice Wronskiana è:
+$$ W(t) = e^{At},\qquad\mathbf{y}(t) = e^{At}\left[ \int \! e^{-A \tau} \cdot \mathbf{b} (\tau)\, \mathrm{d}\tau + \mathbf{c} \right] $$
+Analogo alla [[formula risolutiva per EDO lineari del 1° ordine]]
+
+>[!oss]
+>Questa formula ci richiede di integrare un vettore componente per componente
+
+>[!esempio]
+
+
