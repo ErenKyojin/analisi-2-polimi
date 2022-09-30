@@ -120,4 +120,27 @@ e^{\lambda_{1}t} & \dots & 0 \\
 0& \ddots & 0 \\
 0 & \dots & e^{\lambda_{n}t}
 \end{bmatrix}
+ \cdot 
+\begin{bmatrix}
+c_{1} \\
+\vdots \\
+c_{n}
+\end{bmatrix} =  \\
+&=c_{1}e^{\lambda t} \mathbf{v}_{1} + \dots + c_{n} e^{\lambda _{n}t} \mathbf{v}_{n}
 \end{align} $$
+
+>[!error]
+>Se a non è diagonalizzabile reale, le soluzioni non sono tutte esponenziali!
+
+
+>[!tldr]
+>$A$ $\quad n \times n$ diagonalizzabile
+>$\lambda_{1}, \dots , \lambda_{n}\rightarrow$ autovalori
+>$\mathbf{v}_{1},\dots,\mathbf{v}_{n} \to$ autovettori linearmente indipendenti
+>$S=(\mathbf{v_{1}},\dots,\mathbf{v_{n}})$
+>$$ e^A = S \begin{bmatrix}
+>e^{\lambda_{1}}  & & &\\
+>&\ddots \\
+>& & e^{\lambda_{n}}
+>\end{bmatrix} $$
+
