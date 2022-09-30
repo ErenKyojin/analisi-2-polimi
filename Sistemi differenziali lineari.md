@@ -148,4 +148,10 @@ c_{n}
 
 ### 2.  con autovalori complessi coniugati
 
-$A \in M_{2,2}$
+$A \in M_{2,2}$ con autovalori $\lambda, \overline{\lambda}$ con $Im(\lambda) \neq 0$
+Chiamo $\mathbf{v} \in \mathbb{C}^2$ L'autovettore associato a $\lambda$ (o $\overline{\lambda}$, nel cui caso è sufficiente cambiare i $\lambda \text{ in }\overline{\lambda}$
+Un sistema fondamentale di soluzioni del sistema omogeneo
+$$ \mathbf{y}'(t) = A\mathbf{y}(t) $$
+è:
+$$ \mathbf{y}_{o_{1}} = Re(e^{\lambda t}\mathbf{v})\qquad \mathbf{y_{o_{2}}}= Im(e^{\lambda t} \mathbf{v}) $$
+Equivalentemente l'integrale generale è dat
