@@ -1,7 +1,7 @@
 ---
 alias: sistema differenziale lineare
 ---
-# Sistemi differenziali lineari
+# [[Sistemi]] differenziali lineari
 Introduciamo l'argomento partendo da una considerazione, ossia la legge di Newton:
 $$ F = ma \Rightarrow y''(t) = \frac{F}{m}$$
 Infatti è semplice dimostrare che l'accelerazione è la derivata seconda dello spostamento.
@@ -219,4 +219,18 @@ i
 \end{bmatrix}\right)
 \end{align} $$
 >E infine attraverso la [[formula di eulero]]
+>
+>$$ \begin{align}
+>&\mathbf{y}_{o_{1}}(t) = Re \begin{pmatrix}
+>e^{2t}(\cos t + i \sin t) \\
+>i e^{2t}(\cos t + i \sin t)
+>\end{pmatrix} = \begin{bmatrix}
+>e^{2t} \cos t \\
+>-e^{2t} \sin t
+>\end{bmatrix} \\
+>&\mathbf{y}_{o_{1}}(t) = \begin{bmatrix}
+>e^{2t} &\sin t \\
+>e^{2t} &\cos t
+\end{bmatrix}
+>\end{align} $$
 >
