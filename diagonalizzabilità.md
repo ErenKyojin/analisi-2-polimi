@@ -1,3 +1,6 @@
+---
+alias: diagonalizzabile
+---
 # Diagonalizzabilità
 $A \in M_{n,n} \mathbb{R}$ è diagonalizzabile in $\mathbb{R}$
 
