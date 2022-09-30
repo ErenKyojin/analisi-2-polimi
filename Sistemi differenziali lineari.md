@@ -240,4 +240,7 @@ i
 Per risolvere un sistema non omogeneo:
 1. Risolvo il sistema omogeneo associato
 Trovo $n$ soluzioni linearmente indipendenti (ossia una [[Determinante wronskiano|matrice wronskiana]] $W(t)$)
-$\Rightarrow$ l'0
+$\Rightarrow$ l'integrale generale del sistema omogeneo è $W \cdot \mathbf{c},\quad \mathbf{c} \in \mathbb{R}^n$
+
+2. (a) cerco una soluzione particolare col metodo di somiglianza ed applico il [[teorema di struttura]] $$ \mathbf{y} (t) = \mathbf{y}_{o}(t) + \mathbf{y}_{p}(t) = W(t) \cdot \mathbf{c} + \mathbf{y_{p}}(t) $$
+2. (b) alternativamente uso $W(t)$ per calcolare l'integrale generale 
