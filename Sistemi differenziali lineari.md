@@ -154,4 +154,39 @@ Un sistema fondamentale di soluzioni del sistema omogeneo
 $$ \mathbf{y}'(t) = A\mathbf{y}(t) $$
 è:
 $$ \mathbf{y}_{o_{1}} = Re(e^{\lambda t}\mathbf{v})\qquad \mathbf{y_{o_{2}}}= Im(e^{\lambda t} \mathbf{v}) $$
-Equivalentemente l'integrale generale è dat
+Equivalentemente l'integrale generale è dato dalla combinazione:
+$$ y_{o}(t) = c_{1}Re(e^{\lambda t}\mathbf{v}) + c_{2}Im(e^{\lambda t}\mathbf{v}) $$
+>[!oss]
+>Nel caso di un sistema che deriva da una [[EDO del secondo ordine]], questo caso corrisponde al caso $\Delta < 0$.
+
+>[!oss]
+>$$ ay''+by' + cy = 0\qquad\qquad y = y_{1},\quad y_{2} = y_{1}' $$
+>$$ \begin{cases}
+>y_{1}' = y_{2} \\
+>y_{2}' = -\frac{b}{a}y_{2} -\frac{c}{a}y_{1}
+>\end{cases} $$
+>La cui matrice $A$ è:
+>$$ A = \begin{bmatrix}
+>0 & 1 \\
+>-\frac{c}{a} & -\frac{b}{a}
+>\end{bmatrix} $$
+>Per le [[EDO del secondo ordine]] lineari, osservando come le impostiamo, avremo sempre 0 ed 1 nella colonna superiore
+
+>[!esempio]
+>$$ \begin{cases}
+y_{1}' = 2y_{1} + y_{2} \\
+y_{2}' = -y_{1} + 2y_{2}
+\end{cases}
+\qquad A= 
+\begin{bmatrix}
+>2 & 1 \\
+-1 & 2
+\end{bmatrix}$$
+>Autovalori:
+>$$ \begin{vmatrix}
+>2-\lambda & 1 \\
+>1 & 2-\lambda
+\end{vmatrix} = (2-\lambda)^2+1 \geq 1$$
+Quindi non ha zeri reali, e gli zeri complessi sono:
+>$$ \Rightarrow (2-\lambda^2)= -1\qquad 2 - \lambda = \pm i\qquad \lambda = 2 \pm i $$
+>Scegliamo $\lambda = 2+i$
