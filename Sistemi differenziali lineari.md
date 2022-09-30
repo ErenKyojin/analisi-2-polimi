@@ -105,4 +105,19 @@ Il problema di Cauchy nei sistemi differenziali lineari assume un carattere più
 
 ## Integrale generale del sistema omogeneo
 dato un sistema omogeneo $\mathbf{y}'(t) = A\mathbf{y}(t)$ con $A$ [[diagonalizzabilità|diagonalizzabile]], si scrive
-$$ y_{o}(t) = e^{At} \cdot \mathbf{c} $$
+$$ y_{o}(t) = e^{At} \cdot \mathbf{c} \qquad \mathbf{c} \in \mathbb{R}^n$$
+Verifichiamo che questa forma coincida con quella del primo teorema della [[diagonalizzabilità]]
+
+$$ \begin{align}
+y_{o}(t) &= e^{At} \cdot \mathbf{c} = S \cdot e^{\Lambda t}\cdot \underbrace{ S^{-1} \cdot \mathbf{c} }_{ = \mathbf{c}\text{ nuova cost} } \\
+&=S \cdot e^{\Lambda t} \cdot \mathbf{c} = \\
+&=\begin{bmatrix}
+\mathbf{v_{1}} & \dots &\mathbf{v}_{n}
+\end{bmatrix} 
+\cdot
+\begin{bmatrix}
+e^{\lambda_{1}t} & \dots & 0 \\
+0& \ddots & 0 \\
+0 & \dots & e^{\lambda_{n}t}
+\end{bmatrix}
+\end{align} $$
