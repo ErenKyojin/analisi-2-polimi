@@ -5,6 +5,13 @@
  >$$ \frac{\sin nx}{n^3},\qquad x \in (-1,1) $$
  >```tikz
  >\begin{document}
+ >\begin{tikzpicture}[domain=-1:1]
+ >\draw[thin, color=gray] (-1.5,-1.5) grid (1.5,1.5);
+ >\draw[->] (-1.5,0) -- (1.5,0) node[right] {$x$};
+ >\draw[->] (0,-1.5) -- (0,1.5) node[above] {$f(x)$};
+ >\draw[color=orange] plot (\x,{sin(\x r)}) node[below right,color=orange] {$S_{1}(n)$};
+ >\draw[color=red] plot (\x, {sin(\x r) + sin(2\x r)/8});
+ >\end{tikzpicture}
  >\end{document}
 >```
  
