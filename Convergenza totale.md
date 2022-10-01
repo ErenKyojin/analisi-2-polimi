@@ -24,12 +24,14 @@
 >
 >```tikz
 >\begin{document}
->\begin{tikzpicture}[domain=-1:-0.5]
+>\begin{tikzpicture}[domain=-1.1:-0.4]
 >\draw[->] (-2.5,0) -- (2.5,0) node[right]{$x$};
 >\draw[->] (0,-2.5) -- (0,2.5) node[above]{$f(x)$};
->\draw[color=red] plot (\x, {\x^0});
->\draw[color=orange] plot (\x, {\x^0+\x^1});
->\draw[color = cyan] plot (\x, {\x^0 + \x^1 + \x^2});
+>\draw[color=red,samples=200] plot (\x, {1});
+>\draw[color=orange,samples=200] plot (\x, {1+\x^1});
+>\draw[color = cyan,samples=200 ] plot (\x, {1 + \x^1 + \x^2});
+>\draw[color = blue,samples=200] plot (\x, {1 + \x^1 + \x^2 + \x^3});
+>\draw[color = teal, samples=200] plot (\x, {1 + \x^1 + \x^2 + \x^3 + \x^4});
 >\end{tikzpicture}
 >\end{document}
 >```
