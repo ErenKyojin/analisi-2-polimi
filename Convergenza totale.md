@@ -2,6 +2,11 @@
 
  Partiamo con un esempio
  >[!esempio]
+ >$$ \frac{\sin nx}{n^3},\qquad x \in (-1,1) $$
+ >```tikz
+ >\begin{document}
+ >\end{document}
+>```
  
 >[!def] Definizione importante
 >La serie di termini generali $f_{n}(x), x \in J$, converge, totalmente nell'intervallo non vuoto $I \subseteq J$ se esiste una successione numerica $a_{n} \geq 0$ tale che:
@@ -10,3 +15,10 @@
 
 >[!oss]
 >Si parla di convergenza totale nel riguardo di un intervallo, non di un punto (motivo per cui non è un criterio presente nelle serie numeriche)
+
+>[!oss]
+>La convergenza totale in $I$ implica la [[Convergenza assoluta]] e quindi [[convergenza semplice]].
+>
+>>[!error]
+>>non vale il viceversa, se una serie converge assolutamente in ogni punto di $I$ non è detto che converga totalmente in $I$, basti pensare alla serie geometrica in $E=(-1,1)$
+

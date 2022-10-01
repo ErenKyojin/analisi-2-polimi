@@ -14,7 +14,7 @@ Partiamo da un esempio
 > $$ S_{0} (x) = f_{0}(x)\qquad S_{1}(x) = f_{0}(x) + f_{1}(x) \qquad \dots\qquad S_{k}^{(x)} = \sum_{n=0}^k f_{n}(x) \quad\dots$$
 
 >[!oss]
->Fissato $\overline{x} \in J$ si tratta di una serie numerica, e la serie di funzioni [[convergenza|converge]] puntualmente (o semplicemente) nel punto $\overline{x} \in J$ se la serie numerica di termine generale $f_{n}(\overline{x})$ è convergente, ossia esiste finito il limite delle somme parziali:
+>Fissato $\overline{x} \in J$ si tratta di una serie numerica, e la serie di funzioni [[convergenza semplice|converge]] puntualmente (o semplicemente) nel punto $\overline{x} \in J$ se la serie numerica di termine generale $f_{n}(\overline{x})$ è convergente, ossia esiste finito il limite delle somme parziali:
 >$$ \lim_{ k \to \infty } S_{k}(\overline{x}) = \lim_{ k \to \infty } \sum_{n=0}^k f_{n}(\overline{x})$$
 >Chiamiamo insieme di convergenza puntuale (o semplice) l'insieme $E \subseteq J$ di punti in cui la serie converge puntualmente.
 >Nell'insieme $E$ risulta così definita una nuova funzione detta somma delle serie, che si indica con il simbolo:
