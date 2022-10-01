@@ -24,7 +24,13 @@
 >
 >```tikz
 >\begin{document}
->\begin{ti}
+>\begin{tikzpicture}[domain=-1:-0.5]
+>\draw[->] (-2.5,0) -- (2.5,0) node[right]{$x$};
+>\draw[->] (0,-2.5) -- (0,2.5) node[above]{$f(x)$};
+>\draw[color=red] plot (\x, {\x^0});
+>\draw[color=orange] plot (\x, {\x^0+\x^1});
+>\draw[color = cyan] plot (\x, {\x^0 + \x^1 + \x^2});
+>\end{tikzpicture}
 >\end{document}
 >```
 
