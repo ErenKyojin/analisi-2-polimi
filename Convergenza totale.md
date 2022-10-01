@@ -10,7 +10,8 @@
  >\draw[->] (-1.5,0) -- (1.5,0) node[right] {$x$};
  >\draw[->] (0,-1.5) -- (0,1.5) node[above] {$f(x)$};
  >\draw[color=orange] plot (\x,{sin(\x r)}) node[below right,color=orange] {$S_{1}(n)$};
- >\draw[color=red] plot (\x, {sin(\x r) + sin(2\x r)/8});
+ >\draw[color=red] plot (\x, {sin(\x r) + sin(2\x r)/8}) node[above,color=red]{$S_{2}(n)$};
+ >\draw[color=cyan] plot (\x, {sin(\x r) + sin(2\x r)/8 + sin(3\x r)/27} ) node[left,color=cyan]{$S_{3}(n)$};
  >\end{tikzpicture}
  >\end{document}
 >```
