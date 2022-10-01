@@ -1,4 +1,4 @@
-# Convergenza totale di una serie di funzioni
+/# Convergenza totale di una serie di funzioni
 
  Partiamo con un esempio
  >[!esempio]

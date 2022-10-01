@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Convergenza totale.md",
+            "file": "Serie di funzioni.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Convergenza totale.md",
+            "file": "Serie di funzioni.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Convergenza totale.md",
+                "file": "Serie di funzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Convergenza totale.md",
+                "file": "Serie di funzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Convergenza totale.md"
+                "file": "Serie di funzioni.md"
               }
             }
           }
@@ -144,10 +144,10 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
+    "Convergenza totale.md",
     "Determinante wronskiano.md",
     "Convergenza assoluta.md",
     "convergenza semplice.md",
-    "Convergenza totale.md",
     "Serie di funzioni.md",
     "Sistemi differenziali lineari.md",
     "EDO alle derivate parziali.md",
