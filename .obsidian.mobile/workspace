@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "diagonalizzabilità.md",
+            "file": "Convergenza totale.md",
             "mode": "preview",
             "source": false
           }
@@ -77,7 +77,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "diagonalizzabilità.md",
+            "file": "Convergenza totale.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "diagonalizzabilità.md",
+            "file": "Convergenza totale.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -106,7 +106,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "diagonalizzabilità.md"
+            "file": "Convergenza totale.md"
           }
         }
       }
@@ -115,6 +115,8 @@
   },
   "active": "d4d5a53b2109b8a0",
   "lastOpenFiles": [
+    "Serie di funzioni.md",
+    "diagonalizzabilità.md",
     "Determinante wronskiano.md",
     "EDO del secondo ordine.md",
     "Equazioni di bernoulli.md",
@@ -122,8 +124,6 @@
     "soluzioni.md",
     "EDO alle derivate parziali.md",
     "teorema di struttura.md",
-    "EDO di primo odrine.md",
-    "principio di sovrapposizione.md",
-    "Problema di Cauchy.md"
+    "EDO di primo odrine.md"
   ]
 }
