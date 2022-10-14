@@ -24,3 +24,8 @@ L'insieme di convergenza dipende dalla rapidità di convergenza di $\sum a_{n}$
 >$$ l = \lim_{ n \to \infty } \frac{a_{n+1}}{a_{n}} = \frac{1}{(n+n!)}=\lim_{ n \to \infty } \frac{1}{n+1} = 0 < 1 $$
 
 Vogliamo quindi determinare il [[raggio di convergenza]]
+
+
+## Integrabilità termine a termine per una serie di potenze reali
+
+Data una serie di potenze $\sum a_{n}(x-x_{0})^n$ avente raggio di convergenza $0 < R \leq +\infty$ per ogni $x \in (x_{0}-R)$

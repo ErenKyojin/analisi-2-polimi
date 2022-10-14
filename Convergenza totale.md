@@ -69,5 +69,7 @@ Allora
 >
 >>[!esempio]
 >>$$ \begin{align}
->> dlm
+>> &\sum \frac{\sin(nx)}{n^3} \quad\text{converge totalmente su }\mathbb{R} \\
+>> e^x = &\sum \frac{x^n}{n!} \quad\text{converge totalmente su ogni insieme }[c,d], \text{non su }\mathbb{R}
 >>\end{align} $$
+
