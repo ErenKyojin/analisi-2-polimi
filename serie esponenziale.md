@@ -24,4 +24,5 @@ $$ \fbox{$e^{ix}=\cos x + i \sin x\qquad \forall x \in \mathbb{R}$} $$
 >[!oss]
 >$$e^{-ix} = e^{i(-x)} = \cos(x) - i\sin(x)$$
 >Notiamo quindi che $e^{ix} + e^{-ix} = 2\cos x$, quindi
->$$ \cos(x) = e^{ix} + e^{-ix} $$
+>$$ \cos(x) = \frac{e^{ix} + e^{-ix}}{2} $$
+>$$\sin(x) = \frac{e^{ix} - e^{-ix}}{2i}$$
