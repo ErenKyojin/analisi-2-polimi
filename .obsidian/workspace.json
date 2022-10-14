@@ -4,40 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "a9e6e7865ecd87bf",
+        "id": "8bd017305e7538fd",
         "type": "tabs",
         "children": [
           {
-            "id": "f7e3a1f621fd6785",
+            "id": "4df138d19a8d1aba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "criterio della radice.md",
+                "file": "Funzione periodiche.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "b6d5008e63fcce16"
+            "group": "53054af67ee5c617"
           }
         ]
       },
       {
-        "id": "b8a034585a5de48b",
+        "id": "acee11f8b3212983",
         "type": "tabs",
         "children": [
           {
-            "id": "ce154af4c39cfee9",
+            "id": "7336e087da73a9d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "criterio della radice.md",
+                "file": "Funzione periodiche.md",
                 "mode": "preview",
                 "source": false
               }
             },
-            "group": "b6d5008e63fcce16"
+            "group": "53054af67ee5c617"
           }
         ]
       }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "criterio della radice.md",
+                "file": "Funzione periodiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "criterio della radice.md",
+                "file": "Funzione periodiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "criterio della radice.md"
+                "file": "Funzione periodiche.md"
               }
             }
           }
@@ -159,8 +159,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f7e3a1f621fd6785",
+  "active": "4df138d19a8d1aba",
   "lastOpenFiles": [
+    "criterio della radice.md",
     "README.md",
     "Serie di Fourier.md",
     "serie esponenziale.md",
@@ -169,7 +170,6 @@
     "serie di taylor.md",
     "Serie di funzioni.md",
     "Convergenza totale.md",
-    "criterio del rapporto.md",
-    "criterio della radice.md"
+    "criterio del rapporto.md"
   ]
 }
