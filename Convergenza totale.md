@@ -51,3 +51,9 @@
 >>[!error]
 >>non vale il viceversa, se una serie converge assolutamente in ogni punto di $I$ non è detto che converga totalmente in $I$, basti pensare alla serie geometrica in $E=(-1,1)$
 
+
+
+## Convergenza totale per le [[serie di potenze]] reali
+
+Data una serie di potenza avente raggio di convergenza $0 \leq R \leq +\infty$ si ha:
+1. Se $R = +\infty$ la serie converge totalmente in ogni intervallo chiuso e limitato [c,d]

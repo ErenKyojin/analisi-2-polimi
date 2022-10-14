@@ -35,3 +35,9 @@ Allora la serie di partenza ha raggio di convergenza $R$
 > $$ \sum_{n=0}^\infty |a_{n}| |\overline{x}-x_{0}|^n$$
 > converge.
 > È una serie numerica a termini positivi, quindi posso utilizzare il [[criterio del rapporto]] ed il [[criterio della radice]]
+
+
+
+>[!oss]
+>Raggio di convergenza $R=2$ sicuramente la serie converge in $(-2,2)$
+>$x=2,x=-2$ studiati a parte
