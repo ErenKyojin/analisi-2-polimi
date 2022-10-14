@@ -73,3 +73,7 @@ Allora
 >> e^x = &\sum \frac{x^n}{n!} \quad\text{converge totalmente su ogni insieme }[c,d], \text{non su }\mathbb{R}
 >>\end{align} $$
 
+## convergenza totale della serie trigonometrica
+Data la serie trigonometrica
+$$ a_{0} + \sum_{n=1}^\infty (a_{n} \cos(nx) + b_{n}\sin(nx))$$
+

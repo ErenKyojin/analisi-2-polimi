@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "serie trigonometrica.md",
+                "file": "Convergenza totale.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "serie trigonometrica.md",
+                "file": "Convergenza totale.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "serie trigonometrica.md",
+                "file": "Convergenza totale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "serie trigonometrica.md",
+                "file": "Convergenza totale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "serie trigonometrica.md"
+                "file": "Convergenza totale.md"
               }
             }
           }
@@ -161,15 +161,15 @@
   },
   "active": "a62cbd6657198071",
   "lastOpenFiles": [
-    "Polinomio trigonometrico.md",
-    "Formule di ortogonalità.md",
-    "Funzione periodiche.md",
-    "criterio della radice.md",
-    "README.md",
-    "Serie di Fourier.md",
+    "serie trigonometrica.md",
     "serie esponenziale.md",
-    "Serie di potenze.md",
-    "Funzione analitica.md",
-    "serie di taylor.md"
+    "serie geometrica.md",
+    "Sistemi.md",
+    "serie di taylor.md",
+    "Serie di funzioni.md",
+    "Serie di Fourier.md",
+    "README.md",
+    "raggio di convergenza.md",
+    "Problema di Cauchy.md"
   ]
 }

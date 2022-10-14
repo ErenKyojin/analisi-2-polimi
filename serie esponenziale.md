@@ -1,7 +1,7 @@
 
 # serie esponenziale complessa
 
-Raggio di convergenza infinito (stessa dimostrazione del caso reale)
+[[Raggio di convergenza]] infinito (stessa dimostrazione del caso reale)
 definiamo la funzione esponenziale complessa da $\mathbb{C}$ a $\mathbb{C}$ come somma di questa serie:
 $$ \sum_{n=0}^\infty  \frac{z^n}{n!} = e^z\qquad \forall z \in \mathbb{C}$$
 Prendendo $z$ immaginario puro $(z = ix, x \in \mathbb{R})$
