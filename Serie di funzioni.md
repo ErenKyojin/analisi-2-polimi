@@ -29,7 +29,7 @@ Partiamo da un esempio
 
 
 >[!esempio] Esempio fondamentale
->Questo esempio servirà per le [[serie di potenze]] –> le serie di taylor ne sono un caso particolare
+>Questo esempio servirà per le [[Serie di potenze]] –> le serie di taylor ne sono un caso particolare
 >$$ \sum_{n=0}^{+\infty} x^n $$
 >
 >
