@@ -73,4 +73,7 @@ La somma di una serie di potenze è derivabile ad ogni ordine:
 >All'interno del raggio la serie converge, all'esterno non converge, e sul bordo del cerchio va studiato caso per caso.
 
 
-Le formule per il calcolo di $R$ rimangono valide
+Le formule per il calcolo di $R$ rimangono valide.
+
+[[serie esponenziale#serie esponenziale complessa]]
+

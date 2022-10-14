@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serie di potenze.md",
+                "file": "serie esponenziale.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serie di potenze.md",
+                "file": "serie esponenziale.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Serie di potenze.md",
+                "file": "serie esponenziale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Serie di potenze.md",
+                "file": "serie esponenziale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Serie di potenze.md"
+                "file": "serie esponenziale.md"
               }
             }
           }
@@ -159,17 +159,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "30b840c7cd3fabe6",
+  "active": "0560173f6dae1655",
   "lastOpenFiles": [
+    "Serie di potenze.md",
+    "serie esponenziale.md",
     "Funzione analitica.md",
     "serie di taylor.md",
-    "Serie di potenze.md",
     "Serie di funzioni.md",
     "Convergenza totale.md",
     "criterio del rapporto.md",
     "criterio della radice.md",
     "Determinante wronskiano.md",
-    "EDO.md",
-    "EDO del secondo ordine.md"
+    "EDO.md"
   ]
 }
