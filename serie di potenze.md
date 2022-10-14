@@ -43,3 +43,4 @@ E la serie di potenze derivata ha raggio di convergenza ancora R. È ovvio che s
 
 
 >[!conseguenze]
+La somma di una serie di potenzwe è derivabile ad ogni ordine:
