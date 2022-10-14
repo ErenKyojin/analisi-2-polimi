@@ -19,4 +19,8 @@ Posso determinare l'insieme di convergenza della  generica serie di potenze senz
 L'insieme di convergenza dipende dalla rapidità di convergenza di $\sum a_{n}$
 
 >[!esempio]
->$e^x = \s
+>Consideriamo la [[serie esponenziale]]
+>$e^x = \sum \frac{x^n}{n!}$ abbiamo che $a_{n} = \frac{1}{n!}$ che converge molto rapidamente come si vede usando il [[criterio del rapporto]]
+>$$ l = \lim_{ n \to \infty } \frac{a_{n+1}}{a_{n}} = \frac{1}{(n+n!)}=\lim_{ n \to \infty } \frac{1}{n+1} = 0 < 1 $$
+
+Vogliamo quindi determinare il [[raggio di convergenza]]

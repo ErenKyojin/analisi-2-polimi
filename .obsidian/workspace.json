@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serie di potenze.md",
+                "file": "raggio di convergenza.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,8 +32,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serie di potenze.md",
-                "mode": "source",
+                "file": "raggio di convergenza.md",
+                "mode": "preview",
                 "source": false
               }
             },
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Serie di potenze.md",
+                "file": "raggio di convergenza.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Serie di potenze.md",
+                "file": "raggio di convergenza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Serie di potenze.md"
+                "file": "raggio di convergenza.md"
               }
             }
           }
@@ -161,15 +161,15 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
-    "serie geometrica.md",
     "Serie di potenze.md",
-    "convergenza.md",
     "Serie di funzioni.md",
+    "serie esponenziale.md",
+    "criterio del rapporto.md",
+    "serie geometrica.md",
+    "convergenza.md",
     "Convergenza totale.md",
     "Determinante wronskiano.md",
     "Convergenza assoluta.md",
-    "convergenza semplice.md",
-    "Sistemi differenziali lineari.md",
-    "EDO alle derivate parziali.md"
+    "convergenza semplice.md"
   ]
 }
