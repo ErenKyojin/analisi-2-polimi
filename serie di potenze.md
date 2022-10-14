@@ -52,5 +52,20 @@ La somma di una serie di potenze è derivabile ad ogni ordine:
 > si dice serie di potenze complesse una serie del tipo:
 > $$ \sum_{n=0}^\infty a_{n}(z-z_{0})^n = a_{0} + a_{1}(z-z_{0})+a_{2}(z-z_{0})^2+\dots$$
 > 
-> $$
-  
+> Con:
+> - $a_{n} \in \mathbb{C}$ anche se solitamente è in $\mathbb{R}$
+> - $z \in \mathbb{C}$
+> - $z_{0} \in \mathbb{C}$
+
+>[!teorema]
+>
+>
+>```tikz
+>\begin{document}
+>\tikz{
+>\draw (-1.5,-2) -- (-1.5,4);
+>\draw(-2,-1.5) -- (7, -1.5);
+>\node[circle,draw,scale=6] (c) at (0,0){};
+>}
+>\end{document}
+>```
