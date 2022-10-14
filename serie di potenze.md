@@ -28,4 +28,11 @@ Vogliamo quindi determinare il [[raggio di convergenza]]
 
 ## Integrabilità termine a termine per una serie di potenze reali
 
-Data una serie di potenze $\sum a_{n}(x-x_{0})^n$ avente raggio di convergenza $0 < R \leq +\infty$ per ogni $x \in (x_{0}-R)$
+Data una serie di potenze $\sum a_{n}(x-x_{0})^n$ avente raggio di convergenza $0 < R \leq +\infty$ per ogni $x \in (x_{0}-R,x_{0}+R)$ finito, vale la formula di integrazione termine a termine:
+
+$$ \begin{align}
+\int_{x_{0}}^x \! \sum_{n=0}^\infty a_{n}(t-x_{0})^n \, \mathrm{d}t  &=  \sum a_{n}\int_{x_{0}}^x \! (t-x_{0})^n\, \mathrm{d}t  \\
+&=\sum a_{n} \frac{(x-x_{0})^{n+1}}{n+1}
+\end{align}$$
+Che ha raggio di convergenza ancora $R$ infatti:
+$$ \lim_{ n \to \infty }  \left| \frac{b_{n}}{b_{n+1}} \right| = \lim_{ n \to \infty } \left| \frac{a_{n}}{a_{n+1}} \cdot \frac{n+2}{n+1} \right| = \lim_{ n \to \infty }  \left( \frac{a_{n}}{a_{n+1}} \right) = R  $$
