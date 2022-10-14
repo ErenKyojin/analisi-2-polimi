@@ -11,3 +11,17 @@ e^{ix}=\sum_{n=0}^\infty \frac{(ix)^n}{n!} &= 1 + ix + \frac{ix^2}{2!} + \frac{i
 &=1 + ix - \frac{x^2}{2!}- \frac{ix^3}{3!}+\frac{x^4}{4!}+\frac{ix^5}{5!}-\frac{x^6}{6!}\dots
 \end{align} $$
 
+Raggruppando le parti reali:
+$$\begin{align}
+&= \left( 1-\frac{x^2}{2!} + \frac{x^4}{4!}  - \frac{x^6}{6!} + \dots\right) + i\left( x-\frac{x^3}{3!}+\frac{x^5}{5!} + \dots \right) =  \\
+&=\sum_{n=0}^\infty (-1)^n \frac{x^{2n}}{2n!} + i \sum_{n=0}^\infty \frac{x^{2n+1}}{(2n+1)!} = \\
+&=\cos x + i\sin x 
+\end{align}$$
+Formula di eulero 
+$$ \fbox{$e^{ix}=\cos x + i \sin x\qquad \forall x \in \mathbb{R}$} $$
+
+
+>[!oss]
+>$$e^{-ix} = e^{i(-x)} = \cos(x) - i\sin(x)$$
+>Notiamo quindi che $e^{ix} + e^{-ix} = 2\cos x$, quindi
+>$$ \cos(x) = e^{ix} + e^{-ix} $$
