@@ -56,4 +56,18 @@
 ## Convergenza totale per le [[serie di potenze]] reali
 
 Data una serie di potenza avente raggio di convergenza $0 \leq R \leq +\infty$ si ha:
-1. Se $R = +\infty$ la serie converge totalmente in ogni intervallo chiuso e limitato [c,d]
+1. Se $R = +\infty$ la serie converge totalmente in ogni intervallo chiuso e limitato $[c,d]$
+2. Se $0 < R < +\infty$ la serie converge totalmente in ogni intervallo chiuso $[c,d] \subset (x_{0} - R, x_{0}+R)$
+
+
+Allora
+>[!important] importante
+>Non è necessario studiare la convergenza totale per una serie di potenze!
+
+>[!oss]
+>Nel primo caso la serie potrebbe non convergetre totalmente su $\mathbb{R}$
+>
+>>[!esempio]
+>>$$ \begin{align}
+>> dlm
+>>\end{align} $$
