@@ -43,4 +43,14 @@ E la serie di potenze derivata ha raggio di convergenza ancora R. È ovvio che s
 
 
 >[!conseguenze]
-La somma di una serie di potenzwe è derivabile ad ogni ordine:
+La somma di una serie di potenze è derivabile ad ogni ordine:
+
+
+
+# serie di potenze complesse
+>[!def]
+> si dice serie di potenze complesse una serie del tipo:
+> $$ \sum_{n=0}^\infty a_{n}(z-z_{0})^n = a_{0} + a_{1}(z-z_{0})+a_{2}(z-z_{0})^2+\dots$$
+> 
+> $$
+  
