@@ -1,0 +1,1 @@
+$$ \lim_{ n \to \infty } \frac{b_{n+1}}{b_{n}} $$

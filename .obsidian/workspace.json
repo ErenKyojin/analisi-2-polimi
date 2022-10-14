@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raggio di convergenza.md",
+                "file": "criterio del rapporto.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raggio di convergenza.md",
+                "file": "criterio del rapporto.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "raggio di convergenza.md",
+                "file": "criterio del rapporto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "raggio di convergenza.md",
+                "file": "criterio del rapporto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raggio di convergenza.md"
+                "file": "criterio del rapporto.md"
               }
             }
           }
@@ -161,15 +161,15 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
-    "Problema di Cauchy.md",
+    "criterio della radice.md",
     "raggio di convergenza.md",
+    "Problema di Cauchy.md",
     "Serie di potenze.md",
     "Serie di funzioni.md",
     "serie esponenziale.md",
     "criterio del rapporto.md",
     "serie geometrica.md",
     "convergenza.md",
-    "Convergenza totale.md",
-    "Determinante wronskiano.md"
+    "Convergenza totale.md"
   ]
 }
