@@ -63,9 +63,14 @@ La somma di una serie di potenze è derivabile ad ogni ordine:
 >```tikz
 >\begin{document}
 >\tikz{
->\draw (-1.5,-2) -- (-1.5,4);
->\draw(-2,-1.5) -- (7, -1.5);
+>\draw[->] (-1.5,-2) -- (-1.5,4);
+>\draw[->](-2,-1.5) -- (7, -1.5);
 >\node[circle,draw,scale=6] (c) at (0,0){};
+>\node(c) at (0,0){$z_{0}$}
 >}
 >\end{document}
 >```
+>All'interno del raggio la serie converge, all'esterno non converge, e sul bordo del cerchio va studiato caso per caso.
+
+
+Le formule per il calcolo di $R$ rimangono valide
