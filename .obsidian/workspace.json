@@ -8,36 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4df138d19a8d1aba",
+            "id": "a62cbd6657198071",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Funzione periodiche.md",
+                "file": "serie trigonometrica.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "53054af67ee5c617"
+            "group": "609823e1e0e03a10"
           }
         ]
       },
       {
-        "id": "acee11f8b3212983",
+        "id": "607884e79b726abd",
         "type": "tabs",
         "children": [
           {
-            "id": "7336e087da73a9d6",
+            "id": "089288d672c2323a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Funzione periodiche.md",
+                "file": "serie trigonometrica.md",
                 "mode": "preview",
                 "source": false
               }
             },
-            "group": "53054af67ee5c617"
+            "group": "609823e1e0e03a10"
           }
         ]
       }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Funzione periodiche.md",
+                "file": "serie trigonometrica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Funzione periodiche.md",
+                "file": "serie trigonometrica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Funzione periodiche.md"
+                "file": "serie trigonometrica.md"
               }
             }
           }
@@ -159,17 +159,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "4df138d19a8d1aba",
+  "active": "a62cbd6657198071",
   "lastOpenFiles": [
+    "Polinomio trigonometrico.md",
+    "Formule di ortogonalità.md",
+    "Funzione periodiche.md",
     "criterio della radice.md",
     "README.md",
     "Serie di Fourier.md",
     "serie esponenziale.md",
     "Serie di potenze.md",
     "Funzione analitica.md",
-    "serie di taylor.md",
-    "Serie di funzioni.md",
-    "Convergenza totale.md",
-    "criterio del rapporto.md"
+    "serie di taylor.md"
   ]
 }

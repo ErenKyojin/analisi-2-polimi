@@ -18,10 +18,12 @@ Se $f$ è periodica di periodo $T$ pari (dispari) in $\left[ -\frac{T}{2}, \frac
 >\draw[-stealth] (-5,0) -- (5,0);
 >\draw[-stealth] (0,-2.5) -- (0,2.5);
 >\draw[samples=200,red] plot (\x,  {sin (\x r)}) node[right]{$\sin x$};
->\draw[samples=200,color=blue] plot(\x, {sin (2*\x r)});
->\draw[samples=200,color=green] plot(\x, {sin (3*\x r)});
+>\draw[samples=200,color=blue] plot(\x, {sin (2*\x r)}) node[right]{$\sin 2x$};
+>\draw[samples=200,color=green] plot(\x, {sin (3*\x r)}) node[right]{$\sin 3x$};
 >}
 >\end{document}
 >```
 
-ogni armonica $n$-esima è periodica di periodo $\frac{2\pi}{n}$
+ogni armonica $n$-esima è periodica di periodo $\frac{2\pi}{n}$, e quindi anche di periodo $2\pi$, il caso limite è $h=0 \implies f=1$
+
+
