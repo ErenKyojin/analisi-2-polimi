@@ -1,4 +1,4 @@
-Particolari serie dove abbiamo gli $x^n$ moltiplicati per coefficienti
+/Particolari serie dove abbiamo gli $x^n$ moltiplicati per coefficienti
 
 >[!def]
 >Una serie di potenze è una serie di funzioni della forma
@@ -36,3 +36,10 @@ $$ \begin{align}
 \end{align}$$
 Che ha raggio di convergenza ancora $R$ infatti:
 $$ \lim_{ n \to \infty }  \left| \frac{b_{n}}{b_{n+1}} \right| = \lim_{ n \to \infty } \left| \frac{a_{n}}{a_{n+1}} \cdot \frac{n+2}{n+1} \right| = \lim_{ n \to \infty }  \left( \frac{a_{n}}{a_{n+1}} \right) = R  $$
+## Derivabilità termine a termine per una serie di potenze
+Data una serie di potenze $\sum a_{n}(x-x_{0})^n$ avente raggio di convergenza $0 < R \leq +\infty$ per ogni $x \in (x_{0}-R, x_{0}+R)$ vale la formula di derivazione termine a termine:
+$$ \left( \sum_{n=0}^\infty a_{n}(x-x_{0})^n \right)' = \sum_{\color{red}n=1\color{white}}a_{n}n(x-x_{0})^{n-1} $$
+E la serie di potenze derivata ha raggio di convergenza ancora R. È ovvio che si può reiterare per derivate di ogni ordine:
+
+
+>[!conseguenze]
