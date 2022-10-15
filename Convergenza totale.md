@@ -76,4 +76,10 @@ Allora
 ## convergenza totale della serie trigonometrica
 Data la serie trigonometrica
 $$ a_{0} + \sum_{n=1}^\infty (a_{n} \cos(nx) + b_{n}\sin(nx))$$
+1. Se $\sum (|a_{n}| + |b_{n}|) < \infty$
+Allora la serie trigonometrica converge totalmente in $\mathbb{R}$, in particolare la funzione somma è continua in $\mathbb{R}$ e posso integrare termine a termine in ogni sottoinsieme limitato
 
+2. Se $\sum n(|a_{n}| + |b_{n}|) < \infty$ allora la funzione somma è derivabile in $\mathbb{R}$ e posso derivare termine a termine
+
+Iterando la seconda II:
+se $n^2(|a_{n}|+|b_{n}|)< +\infty$ allora la $f$ somma è derivabile termine a termine 2 volte.
