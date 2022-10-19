@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "serie esponenziale.md",
+                "file": "Convergenza assoluta.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "serie esponenziale.md",
+                "file": "Convergenza assoluta.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "serie esponenziale.md",
+            "file": "Convergenza assoluta.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "serie esponenziale.md",
+            "file": "Convergenza assoluta.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -134,7 +134,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "serie esponenziale.md"
+            "file": "Convergenza assoluta.md"
           }
         }
       }
@@ -146,6 +146,8 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
+    "Formule di ortogonalità.md",
+    "serie esponenziale.md",
     "Serie di funzioni.md",
     "Convergenza totale.md",
     "Determinante wronskiano.md",
@@ -153,8 +155,6 @@
     "convergenza semplice.md",
     "Sistemi differenziali lineari.md",
     "EDO alle derivate parziali.md",
-    "serie di potenze.md",
-    "formula risolutiva per EDO lineari del 1° ordine.md",
-    "Sistemi.md"
+    "serie di potenze.md"
   ]
 }
