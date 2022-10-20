@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Convergenza assoluta.md",
+                "file": "Serie di Fourier.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Convergenza assoluta.md",
+                "file": "Serie di Fourier.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Convergenza assoluta.md",
+            "file": "Serie di Fourier.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Convergenza assoluta.md",
+            "file": "Serie di Fourier.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -134,7 +134,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Convergenza assoluta.md"
+            "file": "Serie di Fourier.md"
           }
         }
       }
@@ -146,12 +146,12 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
+    "Convergenza assoluta.md",
     "Formule di ortogonalità.md",
     "serie esponenziale.md",
     "Serie di funzioni.md",
     "Convergenza totale.md",
     "Determinante wronskiano.md",
-    "Convergenza assoluta.md",
     "convergenza semplice.md",
     "Sistemi differenziali lineari.md",
     "EDO alle derivate parziali.md",
