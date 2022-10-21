@@ -13,31 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "convergenza semplice.md",
-                "mode": "source",
+                "file": "serie esponenziale.md",
+                "mode": "preview",
                 "source": false
               }
-            },
-            "group": "b136f897a8107d55"
-          }
-        ]
-      },
-      {
-        "id": "0054bd7d82ddd8be",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3c43db5b9d6e867b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "convergenza semplice.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "b136f897a8107d55"
+            }
           }
         ]
       }
@@ -105,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "convergenza semplice.md",
+            "file": "serie esponenziale.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -122,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "convergenza semplice.md",
+            "file": "serie esponenziale.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -134,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "convergenza semplice.md"
+            "file": "serie esponenziale.md"
           }
         }
       }
@@ -146,6 +126,7 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
+    "convergenza semplice.md",
     "criterio del rapporto.md",
     "Serie di Fourier.md",
     "Convergenza assoluta.md",
@@ -154,7 +135,6 @@
     "Serie di funzioni.md",
     "Convergenza totale.md",
     "Determinante wronskiano.md",
-    "convergenza semplice.md",
     "Sistemi differenziali lineari.md"
   ]
 }
