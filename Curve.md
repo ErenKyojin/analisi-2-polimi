@@ -88,4 +88,6 @@ f(t)
 
 >[!oss]
 >Il sostegno è univocamente determinato dalla [[parametrizzazione]]
->
+
+
+Il viceversa non è vero, esistono infinite parametrizzazioni associate al medesimo sostegno
