@@ -123,4 +123,8 @@ Il viceversa non è vero, esistono infinite parametrizzazioni associate al medes
 
 
 
+Possiamo dare una definizione informale di parametrizzazioni equivalenti come due parametrizzazioni che hanno il medesimo sostegno percorso lo stesso numero di volte.
+Eventualmente in verso opposto
+
+
 
