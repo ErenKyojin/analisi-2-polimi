@@ -91,3 +91,36 @@ f(t)
 
 
 Il viceversa non è vero, esistono infinite parametrizzazioni associate al medesimo sostegno
+
+>[!esempio]
+>Riprendiamo il primo esempio
+> $$ \begin{cases}
+> r_{1}(t) = R \cos t \\
+> r_{2}(t) = R \sin t
+>\end{cases} \qquad t\in [0, 2\pi)$$
+>Parametrizzazioni diverse, aventi lo stesso sostegno:
+>
+> $$ \begin{cases}
+> v_{1}(s) = r_{1}(2s) = r\cos (2s) \\
+> v_{2}(s) = r_{2}(2s) = r \sin(2s)
+>\end{cases} \qquad s=\frac{t}{2}, s \in [0, \pi)$$
+>è una parametrizzazione più rapida, il punto si muove il doppio più velocemente.
+>
+> $$ \begin{cases}
+> w_{1}(s) = r_{1}(-s) = R \cos(-s) = R\cos(s) \\
+> w_{2}(s) = r_{2}(-s) = R \sin(-s) = -R \sin(s)
+>\end{cases} \quad s=-t, s \in (-2\pi,0]$$
+> 
+> Con tutte queste parametrizzazioni otteniamo sempre la stessa circonferenza, quello che cambia sono velocità (e verso) di percorrenza
+
+
+>[!warning] Attenzione
+> $$ \begin{cases}
+> z_{1}(s) = R \cos (2s) \\
+> z_{2}(s) = R \sin (2s)
+>\end{cases}\qquad s = (-2\pi,0] $$
+> In questo caso facciamo il giro due volte! Non va bene, bisogna considerare la parametrizzazione a "parità" di giri. Non è la stessa curva di prima
+
+
+
+
