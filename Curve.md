@@ -123,8 +123,20 @@ Il viceversa non è vero, esistono infinite parametrizzazioni associate al medes
 
 
 
-Possiamo dare una definizione informale di parametrizzazioni equivalenti come due parametrizzazioni che hanno il medesimo sostegno percorso lo stesso numero di volte.
-Eventualmente in verso opposto
+Possiamo dare una definizione informale di parametrizzazioni equivalenti come due parametrizzazioni che hanno il medesimo sostegno percorso lo stesso numero di volte (eventualmente in verso opposto). Più formalmente:
+
+>[!def]
+>due parametrizzazioni continue $\mathbf{r}(t) : I \to \mathbb{R}^3, \mathbf{v}(s) : J \to \mathbb{R}$
+>si dicono equivalenti se esiste:
 
 
 
+
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[->] (0,0) -- (0,1){};
+\end{tikzpicture}
+\end{document}
+```
