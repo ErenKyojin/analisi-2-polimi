@@ -126,17 +126,95 @@ Il viceversa non è vero, esistono infinite parametrizzazioni associate al medes
 Possiamo dare una definizione informale di parametrizzazioni equivalenti come due parametrizzazioni che hanno il medesimo sostegno percorso lo stesso numero di volte (eventualmente in verso opposto). Più formalmente:
 
 >[!def]
->due parametrizzazioni continue $\mathbf{r}(t) : I \to \mathbb{R}^3, \mathbf{v}(s) : J \to \mathbb{R}$
->si dicono equivalenti se esiste:
+>due parametrizzazioni continue $\mathbf{r}(t) : I \to \mathbb{R}^3, \mathbf{v}(s) : J \to \mathbb{R}^3$
+>si dicono equivalenti se esiste $\phi(s) : J \to I$ continua e **biunivoca** tale che:
+> $$ \mathbf{v} (s) = \mathbf{r}(\phi(s)) = \mathbf{r} \circ \phi(s) : J \to \mathbb{R}^3 $$
+
+Nell'esempio: 
+$\mathbf{v}(s) = \mathbf{r} (2s) \quad s=\frac{t}{2} \iff t = 2s$ cioè $\phi(s) = 2s$
+$\mathbf{w}(s) = \mathbf{r}(-s)$ $s = -t \iff t = -s$ cioè $\phi(s) = -s$
+
+>[!oss]
+>$\phi$ biunivoca $\iff \phi$ monotona
+> - crescenete $\implies$ stesso verso
+> - decrescente $\implies$ verso opposto
 
 
+## Curve regolari
+Data una curva nel piano o nello spazio come determino in ogni punto la direzione tangente alla curva?
+$$ \begin{pmatrix}
+x_{1} \\
+x_{2}
+\end{pmatrix} = 
+
+\begin{pmatrix}
+r_{1}(t) \\
+r_{2}(t)
+\end{pmatrix}$$
+Per ogni $t_{1}$ la direzione tangente alla curva nel punto $\mathbf{r}(t)$ è:
+$$ \begin{bmatrix}
+r_{1}'(t) \\
+r_{2}'(t)
+\end{bmatrix} $$
 
 
+>[!esempio]
+>$I = \mathbb{R}$ $$
+>\mathbf{r}(t) = \begin{bmatrix}
+> r_{1}(t) \\
+r_{2}(t)
+>\end{bmatrix} = \begin{bmatrix}
+t \\
+t^2
+\end{bmatrix}$$
+Dico che la direzione tangente alla curva nel punto $$\mathbf{r}(t) = \begin{bmatrix}
+>r_{1}'(t) \\
+>r_{2}'(t)
+>\end{bmatrix} = \begin{bmatrix}
+1  \\
+2t
+\end{bmatrix}$$
+>
+> $t=0\quad \mathbf{r}(0) = [0\quad 0]^T \implies \mathbf{r}'(0)= [1 \quad 0]^T$ 
+> $t = -1\quad \mathbf{r}(-1)=[-1\quad 1]^T \implies \mathbf{r}'(-1)=[1\quad 2]^T$
+> $t=2\quad \mathbf{r}(2) = [2\quad 4]^T \implies \mathbf{r}'(2)=[2\quad 4]^T$
+> Ovviamente dobbiamo traslare al punto $t$ in quanto la soluzione è il vettore applicato nell'origine
+>
+>>[!oss]
+>>la direzione tangente ha il verso uguale a dove si sta spostando il punto, inoltre il modulo non è di nostro interesse.
 
-```tikz
-\begin{document}
-\begin{tikzpicture}
-\draw[->] (0,0) -- (0,1){};
-\end{tikzpicture}
-\end{document}
-```
+
+Inoltre $r_{1},r_{2}$ devono essere almeno #derivabili
+
+>[!esempio]
+>$I = \mathbb{R}$
+>$$ \mathbf{r}(t) = \begin{bmatrix}
+>r_{1}(t) \\
+>r_{2}(t)
+\end{bmatrix} =
+\begin{bmatrix}
+>t^3 \\
+>t^2
+\end{bmatrix}$$
+>$r_{1},r_{2}$ derivabili
+>$$ \mathbf{r}'(t) = \begin{bmatrix} 
+>r_{1}'(t) \\
+>r_{2}'(t)
+>\end{bmatrix} =
+>\begin{bmatrix}
+>3t^2 \\
+>2t
+>\end{bmatrix}$$
+>
+> Disegno il sostegno:
+> $$ y(t) = t^2 = (t^3)^{2/3} = x^{2/3}$$
+Che non è derivabile in $0$ (punto cuspide)
+>$$ \mathbf{r}'(0)=\begin{bmatrix}
+0 \\
+0
+\end{bmatrix} $$
+Essendo il grafico di una funzione continua rientra nell'esempio 3, una possibile parametrizzazione è anche
+> $$ \mathbf{v}(s) = \begin{bmatrix}
+>s \\
+>s^{2/3}
+>\end{bmatrix} $$
