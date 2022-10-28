@@ -18,3 +18,5 @@ Chiamiamo regolare una curva che ammette una prametrizzazione $\mathbf{r}(t)$ ta
 
 >[!oss]
 >Una curva regolare ammette sempre parametrizzazioni non regolare
+
+[[versore tangente]]
