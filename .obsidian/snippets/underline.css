@@ -1,34 +1,45 @@
-.cm-header-2
-{
-    text-decoration: underline;
-    text-decoration-color: #ffb480;
+:root {
+
+    --tc: #8b6cef;
+    --h1c: #67D120;
+    --h2c: #F5EC50;
+    --h3c: #F38F1D;
+    --h4c: #C32C57;
+    --h5c: #62275D;
 }
+
 
 .cm-header-1
 {
     text-decoration: underline;
-    text-decoration-color: #42d6a4;
+    text-decoration-color: var(--h1c);
+}
+
+.cm-header-2
+{
+    text-decoration: underline;
+    text-decoration-color: var(--h2c);
 }
 
 .cm-header-3
 {
 
     text-decoration: underline;
-    text-decoration-color: #59adf6;
+    text-decoration-color: var(--h3c);
 
 }
 
 .cm-header-4
 {
     text-decoration: underline;
-    text-decoration-color: #9d94ff;
+    text-decoration-color: var(--h4c);
 }
 
 .cm-header-5
 {
 
     text-decoration: underline;
-    text-decoration-color: #c780e8;
+    text-decoration-color: var(--h5c);
 
 }
 
@@ -37,34 +48,34 @@
 h1
 {
     text-decoration: underline;
-    text-decoration-color: #ffb480;
+    text-decoration-color: var(--h1c);
 }
 
 h2
 {
     text-decoration: underline;
-    text-decoration-color: 	#42d6a4;
+    text-decoration-color: 	var(--h2c);
 }
 
 h3
 {
 
     text-decoration: underline;
-    text-decoration-color: #59adf6;
+    text-decoration-color: var(--h3c);
 
 }
 
 h4
 {
     text-decoration: underline;
-    text-decoration-color: #9d94ff;
+    text-decoration-color: var(--h4c);
 }
 
 h5
 {
 
     text-decoration: underline;
-    text-decoration-color: #c780e8	;
+    text-decoration-color: var(--h5c);
 
 }
 
@@ -76,4 +87,44 @@ h5
 ol
 {
     list-style-type: upper-roman;
+}
+
+
+.inline-title
+{
+    text-decoration: underline;
+    color: var(--tc);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px -2px 4px #000000;
+    transition: 0.5s;
+    
+}
+
+
+
+.inline-title::before
+{
+    content: " ";
+    display: block;
+    height: 1em;
+    margin-top: -1em;
+    visibility: hidden;
+    transform: scale(0.1);
+}
+
+.inline-title:hover::before
+{
+    text-shadow: 2px 2px 4px #000000;
+    transition: 1s;
+    
+}
+
+.inline-title:hover
+{
+    color: #b168d5;
+    text-shadow: 2px 2px 20px var(--tc);
+    font-size: 40px;
+    transition: .5s;
 }
