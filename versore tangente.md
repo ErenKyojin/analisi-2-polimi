@@ -5,4 +5,4 @@
  Il versore tangente ha:
 - direzione parallela alla retta tangente alla curva nel punto $\mathbf{r}(t)$
  - norma unitaria
- - 
+ 
