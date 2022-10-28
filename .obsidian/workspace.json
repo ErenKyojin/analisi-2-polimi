@@ -8,36 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a62cbd6657198071",
+            "id": "ee3acc25788dd534",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "serie esponenziale.md",
+                "file": "Curva regolare.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "609823e1e0e03a10"
+            "group": "44584547a470027e"
           }
         ]
       },
       {
-        "id": "607884e79b726abd",
+        "id": "2a32163c9f374244",
         "type": "tabs",
         "children": [
           {
-            "id": "089288d672c2323a",
+            "id": "41e65f99ff37727a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "serie esponenziale.md",
+                "file": "Curva regolare.md",
                 "mode": "preview",
                 "source": false
               }
             },
-            "group": "609823e1e0e03a10"
+            "group": "44584547a470027e"
           }
         ]
       }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "serie esponenziale.md",
+                "file": "Curva regolare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "serie esponenziale.md",
+                "file": "Curva regolare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "serie esponenziale.md"
+                "file": "Curva regolare.md"
               }
             }
           }
@@ -156,8 +156,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a62cbd6657198071",
+  "active": "ee3acc25788dd534",
   "lastOpenFiles": [
+    "serie esponenziale.md",
     "serie trigonometrica.md",
     "Funzione analitica.md",
     "formula risolutiva per EDO lineari del 1° ordine.md",
@@ -166,7 +167,6 @@
     "raggio di convergenza.md",
     "Matrice esponenziale.md",
     "molteplicità algebrica.md",
-    "molteplicità geometrica.md",
-    "polinomio caratteristico.md"
+    "molteplicità geometrica.md"
   ]
 }
