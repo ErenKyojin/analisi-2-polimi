@@ -10,3 +10,12 @@ $$ \begin{align}
 
 Quindi siano $[a,b] \subseteq \mathbb{R}$ limitato e $\mathbf{r} : [a,b] \to \mathbb{R}^3$ la parametrizzazione di una [[curva regolare]] avente sostengno $\gamma$ allora
 $$ \text{lunghezza($\gamma$)} = \int_{a}^b \! ||\mathbf{r}'(t)|| \, \mathrm{d}t  $$
+
+
+![[Pasted image 20221028114248.png]]
+
+>[!teorema]
+>Parametrizzazioni equivalenti di sostegno $\delta$
+>Allora lunghezza$(\gamma) =$ lunghezza$(\delta)$
+>
+>>[!dim]
