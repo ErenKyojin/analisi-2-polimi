@@ -14,8 +14,13 @@ $$ \text{lunghezza($\gamma$)} = \int_{a}^b \! ||\mathbf{r}'(t)|| \, \mathrm{d}t 
 
 ![[Pasted image 20221028114248.png]]
 
->[!teorema]
->Parametrizzazioni equivalenti di sostegno $\delta$
+>[!teorema] Invarianza della lunghezza di una curva per riparametrizzazioni
+>$[a,b] \subseteq \mathbb{R}$ limitato
+>$\mathbf{r} : [a,b] \to \mathbb{R}^3$ parametrizzazione di una curva regolare di sostegno $\gamma$
+>$\mathbf{v} : [c,d] \to \mathbb{R}^3, \mathbf{v}(s) = \mathbf{r(\phi(s))}$ parametrizzazione equivalente di sostegno $\delta$
+>
+>
 >Allora lunghezza$(\gamma) =$ lunghezza$(\delta)$
 >
 >>[!dim]
+>>
