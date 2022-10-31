@@ -23,4 +23,6 @@ $$ \text{lunghezza($\gamma$)} = \int_{a}^b \! ||\mathbf{r}'(t)|| \, \mathrm{d}t 
 >Allora lunghezza$(\gamma) =$ lunghezza$(\delta)$
 >
 >>[!dim]
->>
+
+
+#TODO riguardare 28/10/22
