@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lunghezza di una curva.md",
+                "file": "Curve.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lunghezza di una curva.md",
+                "file": "Curve.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lunghezza di una curva.md",
+                "file": "Curve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lunghezza di una curva.md",
+                "file": "Curve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lunghezza di una curva.md"
+                "file": "Curve.md"
               }
             }
           }
@@ -166,10 +166,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "7317b4538e0197a0",
   "lastOpenFiles": [
+    "Lunghezza di una curva.md",
     "versore tangente.md",
     "Curva regolare.md",
     "serie esponenziale.md",
@@ -178,7 +180,6 @@
     "formula risolutiva per EDO lineari del 1° ordine.md",
     "criterio della radice.md",
     "Determinante wronskiano.md",
-    "raggio di convergenza.md",
-    "Matrice esponenziale.md"
+    "raggio di convergenza.md"
   ]
 }
