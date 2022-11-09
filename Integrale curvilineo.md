@@ -31,4 +31,4 @@ Introduciamo quindi l'integrale curvilineo:
 >- $\int \! f\, \mathrm{d}s \implies \mathrm{d}s \to ||\mathbf{r}'(t) dt||$
 >- Quando $f(\mathbf{r}(t)) \leq 0$ l'integrale curvilineo ha comunque sanso
 >- Se $\gamma$ è regolare a tratti
-> $$\implies \int \! \, \mathrm{d}x$$
+> $$\implies \int_{\gamma} \!f \, \mathrm{d}s = \int_{\gamma_{1}} \!f \, \mathrm{d}s + \ldots + \int_{\gamma_{*}} \!f \, \mathrm{d}s $$
