@@ -12,4 +12,4 @@ $$ \mathbf{r}'(t) = \begin{bmatrix}
 r_{1}'(t) \\
 r_{2}'(t) \\
 r_{3}'(t)
-\end{bmatrix} $$
+\end{bmatrix} \qquad \mid\mid \mathbf{r}'(t)\mid\mid = \sqrt{ r_{1}'(t)^2 + r_{2}'(t)^2 + r_{3}'(t)^2 }$$
