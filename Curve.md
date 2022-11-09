@@ -265,4 +265,13 @@ $$ lunghezza(\gamma) = \int_{a}^b \! \,||\mathbf{r}'(t)|| \mathrm{d}t  $$
 >>
 >>$t = \phi(s), \mathrm{d}t = \phi'(s)\mathrm{d}s$
 >>dato che $\phi$ è decrescente: $\phi(c) = b \quad \phi(d) = a$
->>$$ lunghezza(\delta) = \int_{b}^a \! ||\mathbf{r}||\, \mathrm{d}x  $$
+>>$$ lunghezza(\delta) = \int_{b}^a \! ||\mathbf{r}'(t)||\, (-\mathrm{d}t) = \int_{a}^b \! ||\mathbf{r}'(t)|| \, \mathrm{d}t = lunghezza(\gamma)   $$
+
+
+>[!oss]
+>Essendo $$ \begin{align}
+>&r_{1},r_{2},r_{3} &\in C^1([a,b]) \\
+>&v_{1},v_{2},v_{3} &\in C^1([a,b]) \\
+>&\mathbf{v}  = \mathbf{r} \circ \phi
+>\end{align} $$
+>Allora $\phi : [c,d] \to [a,b]$ di [[classe C]] $C^1$

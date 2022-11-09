@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curve.md",
+                "file": "classe C.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curve.md",
+                "file": "classe C.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Curve.md",
+                "file": "classe C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Curve.md",
+                "file": "classe C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Curve.md"
+                "file": "classe C.md"
               }
             }
           }
@@ -171,9 +171,9 @@
   },
   "active": "7317b4538e0197a0",
   "lastOpenFiles": [
+    "Curve.md",
     "versore tangente.md",
     "parametrizzazione.md",
-    "Curve.md",
     "Lunghezza di una curva.md",
     "Curva regolare.md",
     "serie esponenziale.md",

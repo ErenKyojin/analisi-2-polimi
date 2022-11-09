@@ -1,0 +1,1 @@
+La classe C di una funzione si indica con $C^n$ dove $n$
