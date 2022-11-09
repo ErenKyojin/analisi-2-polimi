@@ -248,6 +248,9 @@ $$ lunghezza(\gamma) = \int_{a}^b \! \,||\mathbf{r}'(t)|| \mathrm{d}t  $$
 >>r_{2}'(\phi(s)) \phi'(s) \\
 >>r_{3}'(\phi(s)) \phi'(s)
 >>\end{bmatrix} $$
->>$$ ||\mathbf{v}'(s) || = ||\mathbf{r}'(\phi(s))'||\ |\phi'(s)| $$
+>>$$ ||\mathbf{v}'(s) || = ||\mathbf{r}'(\phi(s))'||\cdot|\phi'(s)| $$
 >>Allora la lunghezza è:
->>$$lunghezza(s)=$$
+>>$$lunghezza(\delta)= \int_{c}^d \! ||\mathbf{r}'(\phi(s))|| \cdot |\phi'(s)|\, \mathrm{d}s $$
+>>Pr definiziano di [[parametrizzazione]] equivalente $\phi$ è biunivoca, cioè sempre crescente o sempre decrescente.
+>>Prendiamo il caso crescente, quindi $\phi'(s) \geq 0 \forall s \in [c,d] \implies Lunghezza(\delta) =$
+>>$$ = \int_{c}^d \! ||\mathbf{r}'(\phi(s))||\, \mathrm{d}x  $$
