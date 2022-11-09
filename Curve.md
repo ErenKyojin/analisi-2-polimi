@@ -252,5 +252,17 @@ $$ lunghezza(\gamma) = \int_{a}^b \! \,||\mathbf{r}'(t)|| \mathrm{d}t  $$
 >>Allora la lunghezza è:
 >>$$lunghezza(\delta)= \int_{c}^d \! ||\mathbf{r}'(\phi(s))|| \cdot |\phi'(s)|\, \mathrm{d}s $$
 >>Pr definiziano di [[parametrizzazione]] equivalente $\phi$ è biunivoca, cioè sempre crescente o sempre decrescente.
+>>1. ---
 >>Prendiamo il caso crescente, quindi $\phi'(s) \geq 0 \forall s \in [c,d] \implies Lunghezza(\delta) =$
->>$$ = \int_{c}^d \! ||\mathbf{r}'(\phi(s))||\, \mathrm{d}x  $$
+>>$$ = \int_{c}^d \! ||\mathbf{r}'(\phi(s))|| \fbox{$\phi'(s)\, \mathrm{d}s$}_{= \mathrm{d}t}  $$
+>>Cambio di variabile nell'integrale $t=\phi(s), \mathrm{d}t = \phi'(s) \mathrm{d}s$
+>>$$ \implies \int_{a}^b \! ||\mathbf{r}'(t)||\, \mathrm{d}t   = lunghezza(\gamma)$$
+>>2. ---
+>>Prendiamo il caso decrescente, quindi $\phi'(s) \leq 0 \forall s \in [c,d]$ allora $$\begin{align}
+>>lunghezza(\delta) &= \int_{c}^d \! ||\mathbf{r}'(\phi(s))|| \cdot |\phi'(s)|\, \mathrm{d}s \\
+>> &=\int_{c}^d \! ||\mathbf{r}'(\phi(s))||\cdot |-\phi'(s)|\, \mathrm{d}s 
+>>\end{align}$$
+>>
+>>$t = \phi(s), \mathrm{d}t = \phi'(s)\mathrm{d}s$
+>>dato che $\phi$ è decrescente: $\phi(c) = b \quad \phi(d) = a$
+>>$$ lunghezza(\delta) = \int_{b}^a \! ||\mathbf{r}||\, \mathrm{d}x  $$
