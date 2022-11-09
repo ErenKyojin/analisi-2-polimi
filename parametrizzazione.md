@@ -26,3 +26,5 @@ $$
 
 $\mathbf{r}$ è derivabile, ma $\mathbf{r}'(0) = \begin{bmatrix}0 &0\end{bmatrix}^T$
 $\mathbf{v}$ non è derivabile in $0$ (a causa di $\mathbf{v}_{2}$)
+
+
