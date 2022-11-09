@@ -25,3 +25,10 @@ Introduciamo quindi l'integrale curvilineo:
 >$f(\mathbf{(t)})$ continua, $t \in[a,b]$
 >L'integrale curvilineo di $f$ lungo $\gamma$ che si indica $\int_{\gamma} \! f\, \mathrm{d}s$ e si calcola come:
 > $$ \int_{a}^b \! f(\mathbf{r}(t))\ ||\mathbf{r}'(t)||\, \mathrm{d}t  $$
+
+
+>[!oss]
+>- $\int \! f\, \mathrm{d}s \implies \mathrm{d}s \to ||\mathbf{r}'(t) dt||$
+>- Quando $f(\mathbf{r}(t)) \leq 0$ l'integrale curvilineo ha comunque sanso
+>- Se $\gamma$ è regolare a tratti
+> $$\implies \int \! \, \mathrm{d}x$$
