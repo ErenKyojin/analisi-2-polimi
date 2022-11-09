@@ -229,3 +229,12 @@ $$ lunghezza(\gamma) = \int_{a}^b \! \,||\mathbf{r}'(t)|| \mathrm{d}t  $$
 >$\mathbf{v} : [c,d] \to \mathbb{R}^3, \mathbf{v}(s) = \mathbf{r}(\phi(s))$ parametrizzazione equivalente di sostegno $\delta$
 >allora $lunghezza(\gamma) = lunghezza(\delta)$
 >
+>>[!dim] #dim 5
+>>$lunghezza(\gamma) := \int_{a}^b \! ||\mathbf{r}'(t)||\, \mathrm{d}t$
+>>$lunghezza(\delta) := \int_{c}^d \! ||\mathbf{v}'(s)||\, \mathrm{d}t$
+>>Ricordando che
+>>$$ \mathbf{v}(s) = \begin{bmatrix}
+>>v_{1}(s) \\
+>>v_{2}(s) \\
+>>v_{3}(s)
+>>\end{bmatrix} = \mathbf{r}()$$
