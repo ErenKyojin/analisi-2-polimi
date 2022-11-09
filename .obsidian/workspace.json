@@ -20,37 +20,37 @@
             }
           },
           {
-            "id": "7317b4538e0197a0",
+            "id": "68df416d5abcd896",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curve.md",
+                "file": "Integrale curvilineo.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "9c9c172c47afb282"
+            "group": "d37516e9b69c6a12"
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "9233819f598368d2",
+        "id": "13f05db25a513355",
         "type": "tabs",
         "children": [
           {
-            "id": "743ac86f4aef9062",
+            "id": "54da5dc53e77afcf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curve.md",
+                "file": "Integrale curvilineo.md",
                 "mode": "preview",
                 "source": false
               }
             },
-            "group": "9c9c172c47afb282"
+            "group": "d37516e9b69c6a12"
           }
         ]
       }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Curve.md",
+                "file": "Integrale curvilineo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Curve.md",
+                "file": "Integrale curvilineo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Curve.md"
+                "file": "Integrale curvilineo.md"
               }
             }
           }
@@ -169,17 +169,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7317b4538e0197a0",
+  "active": "68df416d5abcd896",
   "lastOpenFiles": [
+    "Curva regolare.md",
+    "Integrale curvilineo.md",
+    "Curve.md",
     "classe C.md",
     "versore tangente.md",
-    "Curve.md",
     "parametrizzazione.md",
     "Lunghezza di una curva.md",
-    "Curva regolare.md",
     "serie esponenziale.md",
     "serie trigonometrica.md",
-    "Funzione analitica.md",
-    "formula risolutiva per EDO lineari del 1° ordine.md"
+    "Funzione analitica.md"
   ]
 }

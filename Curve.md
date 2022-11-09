@@ -284,4 +284,5 @@ $$ lunghezza(\gamma) = \int_{a}^b \! \,||\mathbf{r}'(t)|| \mathrm{d}t  $$
 >2. Ad eccezzione di un numero finito di valori $a < t_{1} < t_{2} < \ldots < t_{k} < b$ la curva è regolare
 
 
-##
+## Lunghezza di una curva regolare a tratti:
+$$ lunghezza(\gamma) = \int_{a}^{t_{1}} \! ||\mathbf{r}'(t)|| \, \mathrm{d}t + \int_{t_{1}}^{t_{2}} \! ||\mathbf{r}'(t)||\, \mathrm{d}t + \ldots + \int_{t_{k}}^{b} \!||\mathbf{r}'(t)|| \, \mathrm{d}t   $$
