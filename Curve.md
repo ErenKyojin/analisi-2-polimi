@@ -274,4 +274,14 @@ $$ lunghezza(\gamma) = \int_{a}^b \! \,||\mathbf{r}'(t)|| \mathrm{d}t  $$
 >&v_{1},v_{2},v_{3} &\in C^1([a,b]) \\
 >&\mathbf{v}  = \mathbf{r} \circ \phi
 >\end{align} $$
->Allora $\phi : [c,d] \to [a,b]$ di [[classe C]] $C^1$
+>Allora $\phi : [c,d] \to [a,b]$ di [[classe C|classe]] $C^1$
+
+
+# Curva regolare a tratti
+>[!def]
+>Si dice regolare a tratti una curva $\mathbf{r} : I \to \mathbb{R}^3$ tale che:
+>1. $\mathbf{r}$ continua in $I$
+>2. Ad eccezzione di un numero finito di valori $a < t_{1} < t_{2} < \ldots < t_{k} < b$ la curva è regolare
+
+
+##
