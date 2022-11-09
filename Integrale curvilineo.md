@@ -15,3 +15,11 @@ Rappresenti un filo avente densità di massa
 >
 >avente densità di massa $\delta(t) = f(\mathbf{r}(t))$ dove $f(x,y,z = x)$ ossia
 > $$ \delta(t) = f(\mathbf{r}(t))= \mathbf{r_{1}}(t) = t $$
+
+
+Introduciamo quindi l'integrale curviliano:
+
+>[!def]
+>$[a,b] \subset \mathbb{R}$ limitato
+>$\mathbf{r}:[a,b] \to \mathbb{R}^3$ curva regolare di sostegno $\gamma$
+>$f$
