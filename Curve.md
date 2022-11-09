@@ -218,3 +218,14 @@ Essendo il grafico di una funzione continua rientra nell'esempio 3, una possibil
 >s \\
 >s^{2/3}
 >\end{bmatrix} $$
+
+# Lunghezza di una curva
+Siano $[a,b] \subseteq \mathbb{R}$ limitato e $\mathbf{r} : [a,b] \to \mathbb{R}^3$ la parametrizzazione di una curva regolare avente sostegno $\gamma$ allora
+$$ lunghezza(\gamma) = \int_{a}^b \! \,||\mathbf{r}'(t)|| \mathrm{d}t  $$
+
+>[!teorema] Invarianza della lunghezza di una curva per riparametrizzazioni
+>$[a,b] \subseteq \mathbb{R}$ limitato
+>$\mathbf{r} : [a,b] \to \mathbb{R}^3$ parametrizzazione di una curva regolare di sostegno $\gamma$
+>$\mathbf{v} : [c,d] \to \mathbb{R}^3, \mathbf{v}(s) = \mathbf{r}(\phi(s))$ parametrizzazione equivalente di sostegno $\delta$
+>allora $lunghezza(\gamma) = lunghezza(\delta)$
+>
