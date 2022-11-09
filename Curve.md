@@ -237,4 +237,17 @@ $$ lunghezza(\gamma) = \int_{a}^b \! \,||\mathbf{r}'(t)|| \mathrm{d}t  $$
 >>v_{1}(s) \\
 >>v_{2}(s) \\
 >>v_{3}(s)
->>\end{bmatrix} = \mathbf{r}()$$
+>>\end{bmatrix} = \mathbf{r}(\phi(s))=\begin{bmatrix}
+>> r_{1}(\phi(s)) \\
+>> r_{2}(\phi(s)) \\
+>> r_{3}(\phi(s))
+>>\end{bmatrix}$$
+>>Allora
+>>$$ \mathbf{v}'(s) = \begin{bmatrix}
+>>r_{1}'(\phi(s)) \phi'(s) \\
+>>r_{2}'(\phi(s)) \phi'(s) \\
+>>r_{3}'(\phi(s)) \phi'(s)
+>>\end{bmatrix} $$
+>>$$ ||\mathbf{v}'(s) || = ||\mathbf{r}'(\phi(s))'||\ |\phi'(s)| $$
+>>Allora la lunghezza è:
+>>$$lunghezza(s)=$$
