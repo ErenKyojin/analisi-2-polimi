@@ -17,7 +17,27 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "ad56be01c0215e05"
+          }
+        ]
+      },
+      {
+        "id": "6898824a6a7c337c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e434eb5051761ef3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Limiti.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "ad56be01c0215e05"
           }
         ]
       }
@@ -121,17 +141,17 @@
     ],
     "currentTab": 0
   },
-  "active": "6c2ec4c1ab8d4325",
+  "active": "e434eb5051761ef3",
   "lastOpenFiles": [
-    "Curve.md",
     "Limiti.md",
+    "EDO.md",
+    "EDO di primo odrine.md",
+    "Curve.md",
     "parametrizzazione.md",
     "intervallo.md",
     "Convergenza in media quadratica.md",
     "serie esponenziale.md",
     "convergenza semplice.md",
-    "criterio del rapporto.md",
-    "Serie di Fourier.md",
-    "Convergenza assoluta.md"
+    "criterio del rapporto.md"
   ]
 }
