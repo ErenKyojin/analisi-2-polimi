@@ -8,36 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f3132345050e7b81",
+            "id": "6c2ec4c1ab8d4325",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curve.md",
+                "file": "Limiti.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "debb1ce8cf627163"
-          }
-        ]
-      },
-      {
-        "id": "68f7b430afcb7aaa",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "debdc9c9dc2aabd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curve.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "debb1ce8cf627163"
+            }
           }
         ]
       }
@@ -105,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Curve.md",
+            "file": "Limiti.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -122,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Curve.md",
+            "file": "Limiti.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -134,27 +114,24 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Curve.md"
+            "file": "Limiti.md"
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "f3132345050e7b81",
+  "active": "6c2ec4c1ab8d4325",
   "lastOpenFiles": [
-    "parametrizzazione.md",
     "Curve.md",
+    "Limiti.md",
+    "parametrizzazione.md",
     "intervallo.md",
     "Convergenza in media quadratica.md",
     "serie esponenziale.md",
     "convergenza semplice.md",
     "criterio del rapporto.md",
     "Serie di Fourier.md",
-    "Convergenza assoluta.md",
-    "Formule di ortogonalità.md"
+    "Convergenza assoluta.md"
   ]
 }
