@@ -161,9 +161,10 @@ Adesso abbiamo due casi:
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw[-stealth] (0,0) -- (3,0){};
+\draw[] (0,0) -- (3,0){};
 \draw[] (5,0) -- (9,0){};
 \draw[] (7,-2) -- (7,2){};
+\draw[] (11,0) -- (14,0){};
 \end{tikzpicture}
 \end{document}
 ```
@@ -171,3 +172,14 @@ La restrizione di $f$ a $\mathbf{r}$ è la funzione composta:
 $$ F(t) = (f \circ \mathbf{r})(t) = f(\mathbf{r}(t)) = f(r_{1}(t),r_{2}(t)) $$
 $F: J \subseteq \mathbb{R} \to \mathbb{R}$
 ? $F'(t)$
+
+Se $f$ è differenziabile e la curva $\mathbf{r}$ è regolare allora la derivata della composta 
+$$ F'(t) = \langle \nabla f(\mathbf{r}(t)), \mathbf{r}'(t)\rangle = \langle
+\begin{bmatrix}
+\frac{ \partial f }{ \partial x } (r_{1}(t),r_{2}(t)) \\
+\frac{ \partial f }{ \partial y } (r_{1}(t),r_{2}(t))
+\end{bmatrix}, \begin{bmatrix}
+r_{1}'(t) \\
+r_{2}'(t)
+\end{bmatrix}\rangle $$ 
+
