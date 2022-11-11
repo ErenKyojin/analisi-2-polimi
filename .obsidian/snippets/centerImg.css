@@ -1,9 +1,6 @@
-.centerImg img {
+img {
     display: block;
-    margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
-
-.rightImg img{
-
-    margin-right: initial;
-}
