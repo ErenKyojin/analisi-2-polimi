@@ -71,12 +71,13 @@ $$ f(\mathbf{x}) = f(\mathbf{x_{0}}) + \langle \nabla f(\mathbf{x_{0}}, \mathbf{
  >$$ f(x,y) = e^{2x-y} \quad\text{differenziabile}$$
  >Calcolare l'equazione del piano tangente al grafico di $f$ nel punto $(1,2,f(1,2))$
  > $$ \begin{align}
-> &\frac{ \partial f }{ \partial x } = e^{2x-y} \cdot 2 \\
-&\frac{ \partial f }{ \partial x }(1,2) = 2  \\
-&\frac{ \partial f }{ \partial y } = e^{2x-y} \cdot(-1) \\
-&\frac{ \partial f }{ \partial y }  = -1\\
-&f(1,2) = 1   \\
->&z = f(1,2) + \frac{ \partial f }{ \partial x } (1,2)(x-1) + \frac{ \partial f }{ \partial y }(1,2)(y-2) = 
+> \frac{ \partial f }{ \partial x } &= e^{2x-y} \cdot 2 \\
+\frac{ \partial f }{ \partial x }(1,2) &= 2  \\
+\frac{ \partial f }{ \partial y } &= e^{2x-y} \cdot(-1) \\
+\frac{ \partial f }{ \partial y }(1,2)  &= -1\\
+f(1,2) &= 1   \\
+>z &= f(1,2) + \frac{ \partial f }{ \partial x } (1,2)(x-1) + \frac{ \partial f }{ \partial y }(1,2)(y-2) =  \\
+&=1 +2(x-1)-(y-2)
 >\end{align} $$
 
 ## Stabilire differenziabilità
