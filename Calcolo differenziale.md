@@ -85,5 +85,87 @@ $$ f(\mathbf{x}) = f(\mathbf{x_{0}}) + \langle \nabla f(\mathbf{x_{0}}, \mathbf{
 >Se $\frac{ \partial f }{ \partial x }$ e$\frac{ \partial f }{ \partial y }$ sono continue in $A$ diciamo che $f$ è di [[classe C]]$^1$ in A e scriviamo $f \in C^1(A)$
 
 
->[!teorema]
->Teorema del differenziale totale
+>[!teorema] Teorema del differenziale totale
+>$A \subseteq \mathbb{R}^2$ aperto e $f \in C^1(A)$ allora $f$ è differenziabile in ogni punti di $A$
+
+
+>[!esempio]
+>Riprendendo l'esempio di prima $f(x,y) = e^{2x-y}$
+>dominio di definizione $\mathbb{R}^2$.
+>$$\begin{flalign}
+> &\frac{ \partial f }{ \partial x }(x,y) = 2e^{2x-y} &\frac{ \partial f }{ \partial y}(x,y) = -e^{2x-y} 
+\end{flalign}$$
+Sono funzioni definite e continue in $\mathbb{R}^2$ quindi per il teorema del differenziale totale, $f$ è differenziabile in $\mathbb{R}^2$
+
+
+Ci sono due casi in cui è necessario ricorrere alla definizione: gli stessi utili per la derivabilità
+
+>[!esempio]
+>$f(x,y) = yx^{1/3}$
+>Provo ad applicare il teorema del differenziale totale
+> $$ \frac{ \partial f }{ \partial x } (x,y) = y \frac{1}{3}x^{-2/3} \implies \text{non definita per } x = 0 $$
+> Allora il teorema non sia applica in tutti i punti dell'asse y per i quali dovrei utilizzare la definizione. 
+
+
+La definizione richiede di verificare il limite di due variabili:
+$$ \lim_{ \mathbf{h} \to \mathbf{0} } \frac{R(\mathbf{h})}{||\mathbf{h}||} = \lim_{ \mathbf{h} \to \mathbf{0} } \frac{f(\mathbf{x_{0}+h}) - f(\mathbf{x_{0}} )- \langle\nabla f(\mathbf{x_{0},\mathbf{h}})\rangle}{||\mathbf{h}||} = 0$$
+
+>[!teorema] Teorema differenziabile implica continua
+Siano $A \subseteq \mathbb{R}^2$ aperto
+ $\mathbf{x_{0}} \in A$
+ $f : A \to \mathbb{R}$ differenziabile in $\mathbf{x_{0}}$
+ Allora $f$ è continua in $\mathbf{x_{0}}$
+ >
+ >>[!dim] #Dim 6
+ >>Dobbiamo dimostrare
+ >>$$ \lim_{ \mathbf{x} \to \mathbf{x_{0}} } f(\mathbf{x}) = f(\mathbf{x_{0}})  $$
+ >>Essendo $f$ differenziabile in $\mathbf{x}_{0}$
+ >> $$ \begin{align}
+> f(\mathbf{x}) - f(\mathbf{x_{0}}) &= \langle\nabla f(\mathbf{x_{0}}), \mathbf{x} - \mathbf{x_{0}}\rangle + o(||\mathbf{x}-\mathbf{x_{0}}||) \\
+ |f(\mathbf{x}) - f(\mathbf{x_{0}})| &= |\langle\nabla f(\mathbf{x_{0}}, \mathbf{x} - \mathbf{x_{0}})\rangle + o(||\mathbf{x}-\mathbf{x_{0}}||)|  \\
+>\text{disuguaglianza triangolare}&\leq |\langle\nabla f(\mathbf{x_{0}}),\mathbf{x}-\mathbf{x_{0}}\rangle| + o (||\mathbf{x-\mathbf{x_{0}}}||) \\
+\text{TODO}&\leq ||\nabla f(\mathbf{x_{0}})||\cdot ||\mathbf{x}-\mathbf{x_{0}}|| + o(||\mathbf{x}\mathbf{x_{0}}||)
+>\end{align} $$
+>Quindi $$\lim_{ \mathbf{x} \to \mathbf{x_{0}} } |f(\mathbf{x})-f(\mathbf{x_{0}})| = 0 \implies \lim_{ \mathbf{x} \to \mathbf{x_{0}} } f(\mathbf{x}) = \mathbf{x_{0}} $$
+
+Schema
+$$ \begin{align}
+f \in C^1(A) \implies f &\text{ differenziabile in }A \implies f &\text{ derivabile in }A \\
+&\Downarrow &\cancel{ \Downarrow } \\
+&f \text{ continua in A} &f \text{ continua in A}
+\end{align} $$
+## Altre proprietà delle funzioni differenziabili
+
+### Derivate direzionali
+
+>[!def]
+>$A \subseteq \mathbb{R}^2$ aperto, $\mathbf{x}_{0} = (x_{0},y_{0}) \in A$, $f : A \to \mathbb{R}$, $\mathbf{v} = (v_{1},v_{2})$ di norma unitaria cioè, $||\mathbf{v}|| = 1$
+>La derivata direzionale di $f$ in $\mathbf{x}_{0}$ nella direzione individuata da $\mathbf{v}$ è $$\frac{ \partial f }{ \partial \mathbf{v} } = \lim_{ t \to 0 } \frac{f(x_{0}+tv_{1}, y_{0}+tv_{2}) - f(x_{0},y_{0})}{t}$$
+>Se il limite esiste finito
+
+>[!oss]
+>le derivate parziali sono casi particolari di derivate direzionali in cui
+>$$ \mathbf{v} = \begin{bmatrix}
+1 \\
+0
+\end{bmatrix} \implies \frac{ \partial f }{ \partial x }  $$
+
+
+[[gradiente#formula del gradiente]]
+
+# Derivata della composta
+In analisi 1: $[f(g(x))]' = f'(g(x)) \cdot g'(x)$
+Adesso abbiamo due casi:
+1. Derivata della restrizione di una funzione di 2 variabili ad una curva piana
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[] (0,0) -- (1,1){};
+\end{tikzpicture}
+\end{document}
+```
+La restrizione di $f$ a $\mathbf{r}$ è la funzione composta:
+$$ F(t) = (f \circ \mathbf{r})(t) = f(\mathbf{r}(t)) = f(r_{1}(t),r_{2}(t)) $$
+$F: J \subseteq \mathbb{R} \to \mathbb{R}$
+? $F'(t)$
