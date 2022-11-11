@@ -47,10 +47,43 @@ Devo usare la definizione $\forall (x,y)$ tale che $g(x,y) = 0$
 In tutti gli altri casi posso concludere che $f$ è derivabile senza dover sfruttare la definizione.
 
 
-# Differenziabilità
+# Differenziabilità e piano tangente
 >[!def]
 >$A \subseteq \mathbb{R}^2$ aperto $f : A \to \mathbb{R}$
 >Diciamo che $f$ è differenziabile in $\mathbf{x_{0}} = (x_{0},y_{0}) \in A$ se
 >1. $f$ è derivabile in $\mathbf{x_{0}}$
 >2. $f(\mathbf{x_{0}+h}) = f(\mathbf{x_{0}}) + \langle \nabla f(\mathbf{x_{0}}),\mathbf{h}\rangle + R(\mathbf{h})$ con $R(\mathbf{h}) = o(||\mathbf{h}||)$ cioè $$\lim_{ \mathbf{h} \to (0,0)} \frac{R(\mathbf{h})}{||\mathbf{h}||} = 0$$
->
+
+Ossia $f$ è derivabile e vale lo sviluppo di taylor al primo ordine.
+
+Esplicito: $\mathbf{x_{0}} = (x_{0},y_{0})\quad \mathbf{h}=(h_{1},h_{2})$
+$$ f(x_{0}+h_{1},y_{0}+h_{2}) = f(x_{0},y_{0}) + \underbrace{ \frac{ \partial f }{ \partial x } (x_{0},y_{0})h_{1} + \frac{ \partial f }{ \partial y } (x_{0},y_{0})h_{2} }_{ \text{prodotto scalare } \langle\nabla f(\mathbf{x_{0}}),h\rangle } + R(\mathbf{h}) $$
+$$ \lim_{ \mathbf{h} \to (0,0) } \frac{R(\mathbf{h})}{||\mathbf{h}||}  = \lim_{ (h_{1},h_{2}) \to (0,0) } \frac{R(h_{1},h_{2})}{\sqrt{ h_{1}^2+h_{2}^2 }} = 0$$
+Scrittura equivalente ponendo $x=x_{0}+h$:
+$$ f(\mathbf{x}) = f(\mathbf{x_{0}}) + \langle \nabla f(\mathbf{x_{0}}, \mathbf{x}- \mathbf{x_{0}}) \rangle + o(||\mathbf{x}|-\mathbf{x_{0}}|) $$
+
+
+>[!def] 
+>se $f$ è differenziabile in $\mathbf{x_{0}} = (x_{0},y_{0})$ il piano tangente al grafico di $f$ in $(\mathbf{x_{0}},f(\mathbf{x_{0}}))$ è 
+> $$ z = f(\mathbf{x}_{0}) + \langle\nabla f(\mathbf{x_{0}}),\mathbf{x}-\mathbf{x_{0}}\rangle$$
+ 
+ >[!esempio] 
+ >$$ f(x,y) = e^{2x-y} \quad\text{differenziabile}$$
+ >Calcolare l'equazione del piano tangente al grafico di $f$ nel punto $(1,2,f(1,2))$
+ > $$ \begin{align}
+> &\frac{ \partial f }{ \partial x } = e^{2x-y} \cdot 2 \\
+&\frac{ \partial f }{ \partial x }(1,2) = 2  \\
+&\frac{ \partial f }{ \partial y } = e^{2x-y} \cdot(-1) \\
+&\frac{ \partial f }{ \partial y }  = -1\\
+&f(1,2) = 1   \\
+>&z = f(1,2) + \frac{ \partial f }{ \partial x } (1,2)(x-1) + \frac{ \partial f }{ \partial y }(1,2)(y-2) = 
+>\end{align} $$
+
+## Stabilire differenziabilità
+>[!def]
+>$A \subseteq \mathbb{R}^2$ aperto, $f:A \to \mathbb{R}$ derivabile.
+>Se $\frac{ \partial f }{ \partial x }$ e$\frac{ \partial f }{ \partial y }$ sono continue in $A$ diciamo che $f$ è di [[classe C]]$^1$ in A e scriviamo $f \in C^1(A)$
+
+
+>[!teorema]
+>Teorema del differenziale totale
