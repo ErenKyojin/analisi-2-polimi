@@ -161,7 +161,9 @@ Adesso abbiamo due casi:
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw[] (0,0) -- (1,1){};
+\draw[-stealth] (0,0) -- (3,0){};
+\draw[] (5,0) -- (9,0){};
+\draw[] (7,-2) -- (7,2){};
 \end{tikzpicture}
 \end{document}
 ```
