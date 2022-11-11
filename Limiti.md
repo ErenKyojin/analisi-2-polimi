@@ -70,3 +70,20 @@ Per stabilire che un limite $2D$
 >3. Cerca una $h(r)$ che dipende solo dalla cordinata radiale $r$ tale che
 > $$\fbox{$\begin{align}&\mid g(r, \theta) - l\mid \leq h(r) \\
 &\lim_{ r \to 0 } h(r) = 0\end{align}$}$$
+>
+>Esssendo in questo caso $l=0$
+>$$ |g(r, \theta) - 0| = |g(r, \theta)| = |2 \pi \underbrace{ \cos^2 \theta \sin \theta }_{ \leq 1 }| \leq 2r \xrightarrow{r \to 0} 0 $$
+>Quindi
+>$$ \lim_{ (x,y) \to 0 } \frac{2x^2y}{x^2+y^2} = 0$$
+
+
+>[!oss]
+>Se dobbiamo calcolare il limite in un punto $\mathbf{x}_{0} = (x_{0},y_{0})$ diverso dall'origine vanno utilizzate le [[coordinate polari]] centrate intorno ad $\mathbf{x}_{0}$
+
+
+>[!oss]
+>Se non si tratta di un quoziente di polinomi può essere necessario utilizzare i limiti notevoli di analisi 1 in uno "step 0"
+>
+>>[!warning]
+>>Non si possono applicare i limiti notevoli dopo essere passati alle coordinate polari.
+
