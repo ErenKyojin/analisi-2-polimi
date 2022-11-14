@@ -182,4 +182,12 @@ $$ F'(t) = \langle \nabla f(\mathbf{r}(t)), \mathbf{r}'(t)\rangle = \langle
 r_{1}'(t) \\
 r_{2}'(t)
 \end{bmatrix}\rangle $$ 
-
+2. **Caso 2**
+	$$ G(x,y) = g(f(x,y)) : A \subseteq \mathbb{R}^2 \to \mathbb{R} $$
+	Se $f$ è differenziabile e $g$ è derivabile allora:
+	$$ \begin{align}
+&\frac{ \partial G }{ \partial x } (x,y) = g'(f(x,y)) \cdot \frac{ \partial f }{ \partial x } (x,y)  \\
+&\frac{ \partial G }{ \partial y } (x,y) = g'(f(x,y)) \cdot \frac{ \partial f }{ \partial y } (x,y) 
+\end{align}$$
+Cioè
+$$ \nabla G(x,y) = g'(f(x,y)) \nabla f(x,y) $$
