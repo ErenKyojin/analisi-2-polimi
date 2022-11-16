@@ -8,49 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "928463b26559715c",
+            "id": "1253028fbb4ea8cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Continuità.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88f48f50054cccb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calcolo differenziale.md",
+                "file": "Direzioni di crescita.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "953ad891b0f96b51"
+            "group": "1f4827b8069930f2"
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "03f7710cbb464ab7",
         "type": "tabs",
         "children": [
           {
-            "id": "849cd55e52319d6d",
+            "id": "a133f8fcf35ee296",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo differenziale.md",
+                "file": "Direzioni di crescita.md",
                 "mode": "preview",
                 "source": false
               }
             },
-            "group": "953ad891b0f96b51"
+            "group": "1f4827b8069930f2"
           }
         ]
       }
@@ -118,7 +105,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Continuità.md",
+            "file": "Direzioni di crescita.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -135,7 +122,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Continuità.md",
+            "file": "Direzioni di crescita.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -147,24 +134,24 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Continuità.md"
+            "file": "Direzioni di crescita.md"
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "56ee7108265d5d1a",
+  "active": "1253028fbb4ea8cf",
   "lastOpenFiles": [
+    "Direzioni di crescita.md",
     "gradiente.md",
     "Calcolo differenziale.md",
-    "derivate direzionali.md",
+    "2022-11-16.md",
     "Continuità.md",
+    "derivate direzionali.md",
     "Limiti.md",
     "coordinate polari.md",
     "EDO.md",
-    "EDO di primo odrine.md",
-    "Curve.md",
-    "parametrizzazione.md"
+    "EDO di primo odrine.md"
   ]
 }
