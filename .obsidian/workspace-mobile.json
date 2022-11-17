@@ -11,11 +11,9 @@
             "id": "1253028fbb4ea8cf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Calcolo differenziale.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md"
               }
             }
           }
@@ -85,7 +83,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Calcolo differenziale.md",
+            "file": "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Calcolo differenziale.md",
+            "file": "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +112,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Calcolo differenziale.md"
+            "file": "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md"
           }
         }
       }
@@ -123,15 +121,15 @@
   },
   "active": "1253028fbb4ea8cf",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2022-11-17 13.38.25.excalidraw.md",
+    "Calcolo differenziale.md",
     "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md",
     "derivate seconde.md",
     "gradiente.md",
-    "Calcolo differenziale.md",
     "matrice hessiana.md",
     "ottimizzazione libera.md",
     "Direzioni di crescita.md",
     "2022-11-16.md",
-    "Continuità.md",
-    "derivate direzionali.md"
+    "Continuità.md"
   ]
 }
