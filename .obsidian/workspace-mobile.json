@@ -11,33 +11,11 @@
             "id": "1253028fbb4ea8cf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "derivate seconde.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md"
               }
-            },
-            "group": "1f4827b8069930f2"
-          }
-        ]
-      },
-      {
-        "id": "03f7710cbb464ab7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a133f8fcf35ee296",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "derivate seconde.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "1f4827b8069930f2"
+            }
           }
         ]
       }
@@ -105,7 +83,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "derivate seconde.md",
+            "file": "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -122,7 +100,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "derivate seconde.md",
+            "file": "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -134,7 +112,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "derivate seconde.md"
+            "file": "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md"
           }
         }
       }
@@ -143,10 +121,10 @@
   },
   "active": "1253028fbb4ea8cf",
   "lastOpenFiles": [
+    "derivate seconde.md",
     "gradiente.md",
     "Calcolo differenziale.md",
     "matrice hessiana.md",
-    "derivate seconde.md",
     "ottimizzazione libera.md",
     "Direzioni di crescita.md",
     "2022-11-16.md",
