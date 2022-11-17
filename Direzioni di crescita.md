@@ -31,3 +31,22 @@ Questo teorema dice che:
 >  $$ F'(t) = \langle \nabla f(\mathbf{r}(t)), \mathbf{r}'(t)\rangle$$
 >  quindi per le ultime due osservazioni
 >  $$\implies\langle \nabla f(\mathbf{r}(t)), \mathbf{r}'(t)\rangle =0$$
+
+
+>[!teorema] Teorema di direzioni di massima e minima crescita
+>$A \subseteq \mathbb{R}^2$ aperto, $\mathbf{x_{0}} \in A$
+>$f : A \to \mathbb{R}$ differenziabile in $\mathbf{x_{0}}$
+>$\nabla f(\mathbf{x_{0}}) \neq 0$
+>Allora:
+>1. $\forall \mathbf{v} \in \mathbb{R}^2$ di norma unitaria (ossia per ogni direzione) si ha che
+> $$ |\frac{ \partial f }{ \partial \mathbf{v} } (\mathbf{x_{0}})| \leq ||\nabla f(\mathbf{x_{0}})|| $$
+> 2. Detti $\mathbf{v}_{max} = \frac{\nabla f(\mathbf{x_{0}})}{||\nabla f(\mathbf{x_{0}})||}$ e $\mathbf{v}_{min} = \frac{-\nabla f(\mathbf{x_{0}})}{||\nabla f(\mathbf{x_{0}})||}$ si ha
+>  $$ \frac{ \partial f }{ \partial \mathbf{v}_{max} }(\mathbf{x_{0}}) = ||\nabla f (\mathbf{x}_{0})||\qquad \frac{ \partial f }{ \partial \mathbf{v}_{min} }(\mathbf{x_{0}}) = - ||\nabla f(\mathbf{x_{0}})||  $$
+>
+>>[!dim] facoltativa
+>>ide della dim
+>> $$ \frac{ \partial f }{ \partial \mathbf{v} } = \langle \nabla f(\mathbf{x_{0}}),\mathbf{v}\rangle $$
+>> Con cauchy schwartz:
+>>  $$  |\frac{ \partial f }{ \partial \mathbf{v} } (\mathbf{x_{0}})| \leq ||\nabla f(\mathbf{x_{0}})|| \cdot ||\mathbf{v}|| $$
+
+Questi teoremi ci aprono le porte all'[[ottimizzazione libera]]

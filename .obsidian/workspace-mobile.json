@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Direzioni di crescita.md",
+                "file": "matrice hessiana.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Direzioni di crescita.md",
+                "file": "matrice hessiana.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Direzioni di crescita.md",
+            "file": "matrice hessiana.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Direzioni di crescita.md",
+            "file": "matrice hessiana.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -134,7 +134,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Direzioni di crescita.md"
+            "file": "matrice hessiana.md"
           }
         }
       }
@@ -143,15 +143,15 @@
   },
   "active": "1253028fbb4ea8cf",
   "lastOpenFiles": [
+    "derivate seconde.md",
+    "matrice hessiana.md",
+    "ottimizzazione libera.md",
     "Direzioni di crescita.md",
     "gradiente.md",
     "Calcolo differenziale.md",
     "2022-11-16.md",
     "Continuità.md",
     "derivate direzionali.md",
-    "Limiti.md",
-    "coordinate polari.md",
-    "EDO.md",
-    "EDO di primo odrine.md"
+    "Limiti.md"
   ]
 }
