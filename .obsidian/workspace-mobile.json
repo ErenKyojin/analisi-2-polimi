@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "matrice hessiana.md",
+                "file": "derivate seconde.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "matrice hessiana.md",
+                "file": "derivate seconde.md",
                 "mode": "preview",
                 "source": false
               }
@@ -93,7 +93,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "a0138d5246f7a7c2",
@@ -105,7 +105,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "matrice hessiana.md",
+            "file": "derivate seconde.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "matrice hessiana.md",
+            "file": "derivate seconde.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -134,7 +134,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "matrice hessiana.md"
+            "file": "derivate seconde.md"
           }
         }
       }
@@ -143,12 +143,12 @@
   },
   "active": "1253028fbb4ea8cf",
   "lastOpenFiles": [
-    "derivate seconde.md",
-    "matrice hessiana.md",
-    "ottimizzazione libera.md",
-    "Direzioni di crescita.md",
     "gradiente.md",
     "Calcolo differenziale.md",
+    "matrice hessiana.md",
+    "derivate seconde.md",
+    "ottimizzazione libera.md",
+    "Direzioni di crescita.md",
     "2022-11-16.md",
     "Continuità.md",
     "derivate direzionali.md",
