@@ -90,7 +90,7 @@ $$ f(x,y) = 3x^2 + y^2 - x^3y $$
 >\end{cases}
 >\end{align}$$
 >
->Quindi grazie al teorema di fermat ci riconduce ai tre punti critici
+>Quindi grazie al [[teorema di fermat]] ci riconduce ai tre punti critici
 >
 >
 > $$ (0,0)\quad (\sqrt{ 2 },\sqrt{ 2 })\quad(-\sqrt{ 2 }, \sqrt{ 2 }) $$
