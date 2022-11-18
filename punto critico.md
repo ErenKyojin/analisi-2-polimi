@@ -15,11 +15,11 @@
 \begin{axis}[colormap/viridis, hide axis]
 \addplot3[
 	surf,
-	samples=50,
+	samples= 18,
 	domain= -2:2
 ]
 {x*sin(deg(y))};
-
+\addlegendentry{\(x * \sin y\)};
 \end{axis}
 
 \end{tikzpicture}
