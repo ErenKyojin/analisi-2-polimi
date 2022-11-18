@@ -89,4 +89,92 @@ $$ f(x,y) = 3x^2 + y^2 - x^3y $$
 >\end{cases}
 >\end{align}$$
 >
->Quindi grazie al teorema di fermat ci ricond
+>Quindi grazie al teorema di fermat ci riconduce ai tre punti critici
+>
+>
+> $$ (0,0)\quad (\sqrt{ 2 },\sqrt{ 2 })\quad(-\sqrt{ 2 }, \sqrt{ 2 }) $$
+
+
+# Classifficazione di punti critici
+Criterio hessiana:
+>[!teorema]
+>$A \subseteq \mathbb{R}^2$ aperto
+>$f \in C^2(A)$ [[classe C]]
+>$x_{0} = (x_{0},y_{0}) \in A$ punto critico per $f$ ($\nabla f(\mathbf{x_{0}}) = \mathbf{0}$)
+>
+>Denotiamo $q$ la forma quadratica indotta dalla [[matrice hessiana]] $H_{f}(\mathbf{x_{0}})$ cioè
+>$$ q(h_{1},h_{2}) = \begin{bmatrix}
+> h_{1} & h_{2}
+\end{bmatrix} H_{f}(\mathbf{x_{0}}) \cdot \begin{bmatrix}
+h_{1} \\
+h_{2}
+\end{bmatrix} $$
+Allora:
+>1. Se $q$ è definita positiva $\implies \mathbf{x_{0}}$  è punto di min
+>2. se $q$ è definita negativa $\implies \mathbf{x_{0}}$ punto di max
+>3. se $q$ è indefinita $\implies \mathbf{x_{0}}$ punto di sella
+>
+>>[!dim] #dim 9
+>>Essendo $\nabla f (\mathbf{x_{0}}) = \mathbf{0}$ la formula di taylor al secondo ordine diventa:
+>> $$ f(\mathbf{x_{0}}) = f(\mathbf{x_{0}}) + \frac{1}{2}q(\mathbf{h}) + o(||\mathbf{h}||^2) $$
+>> 1. $q$ definita positiva, cioè $q(\mathbf{h}) > 0\quad \forall \mathbf{h}$
+>> 	$\implies f(\mathbf{x_{0}} + \mathbf{h}) > f(\mathbf{x_{0}}) + o (||\mathbf{h}||^2)$
+>> 	$\implies$ in una pialletta $f(\mathbf{x_{0}}+\mathbf{h}) > f(\mathbf{x_{0}})$
+>> 	$\implies \mathbf{x_{0}}$ punto di minimo locale
+>>
+>>2. $q$ definita negativa $q(\mathbf{h}) < 0\quad\forall \mathbf{h} \implies f(\mathbf{x_{0}}+\mathbf{h}) < f(\mathbf{x_{0}}) + o(||\mathbf{h}||^2)$
+>>3. $q$ indefinita, cioè esiste $\mathbf{h}_{p}, \mathbf{h}_{n}$ tale che
+>> $$ q(\mathbf{h}_{p}) \quad e \quad q(\mathbf{h}_{n}) $$
+>> $$ \implies \begin{align}
+>>&f(\mathbf{x}_{0} + \mathbf{h}_{p}) > f(\mathbf{x_{0}}) + o(||\mathbf{h}_{p}||^2) \\
+>>&f(\mathbf{x_{0}} + \mathbf{h}_{n}) < f(\mathbf{x_{0}}) + o(||\mathbf{h}_{n}||^2)
+>>\end{align}
+>>\implies \mathbf{x_{0}} \text{ sella} $$
+>
+>>[!warning]
+>>Se $q$ è semidefinita il criterio della matrice hessiana non da alcuna informazione, quindi può succedere qualsiasi cosa, infatti esiste $\mathbf{h}_{0} + 0$ tale che $q(\mathbf{h}_{0}) = 0$
+>>$\implies f(\mathbf{x_{0}}+\mathbf{h}_{0}) = f(\mathbf{x_{0}})+o(||\mathbf{h}_{0}||^2)$
+>>Il resto non è più trascurabile
+
+## Come applicare il criterio hessiano:
+1. $\det(H_{f} (x_{0},y_{0})) > 0$ e $\frac{ \partial^2 f }{ \partial x^2 }(x_{0},y_{0}) > 0 \implies min$
+2. $\det(H_{f}(x_{0},y_{0})) > 0$ e $\frac{ \partial^2 f }{ \partial x^2 }(x_{0},y_{0}) < 0 \implies max$
+3. $\det(H_{f}(x_{0},y_{0})) < 0 \implies$ sella
+>[!warning]
+>$\det(H_{f}(x_{0},y_{0})) = 0$ precedere in altro modo
+
+
+>[!esempio]
+>$f(x,y) = 3x^2 + y^2 - x^3y$
+>voglio trovare i punti di estremo locale di $f$ in $\mathbb{R}^2$
+>Per il [[Teorema di fermat#2D]] i punti di estremo vanno ricercati tra i punti critici.
+>
+> I punti critici li abbiamo calcolati in un esempio precedente e sono:
+> $(0,0),\quad (\sqrt{ 2 },\sqrt{ 2 }),\quad(-\sqrt{ 2 },-\sqrt{ 2 })$
+> $$ \begin{align}
+>&H_{f}(x,y) = \begin{bmatrix}
+> 6 -6xy & -3x^2 \\
+>-3x^2 & 2
+>\end{bmatrix}  \\
+>&H_{f}(0,0) = \begin{bmatrix}
+>6 & 0 \\
+0 & 2
+\end{bmatrix} \\
+>&H_{f}(\sqrt{ 2 },\sqrt{ 2 }) = 
+\begin{bmatrix}
+> -6 & 6 \\
+-6 & 2
+\end{bmatrix}
+>\end{align}$$
+>
+>$\det H_{f}(0,0) = 12 > 0, \frac{ \partial^2 f }{ \partial x^2 }(0,0) = 6 > 0 \implies min$
+>$\det H_{f}(\sqrt{ 2 },\sqrt{ 2 }) = -48 < 0 \implies$ sella
+In conclusione L'unico punto di estremo è l'origine che è anche punto di minimo locale
+
+Domanda aggiuntiva (0,0) minimo globale?
+Considerando la restrizione di $f$ alla retta $y = x$
+$$ \begin{align}
+f(x,y) &= 3x^2 + y^2 - x^3y \\
+g(x) &= f(x,x) = 4x^2 - x^4 \\
+\lim_{ x \to \infty } f(x,x) &= 4x^2 - x^4 = -\infty
+\end{align} $$
