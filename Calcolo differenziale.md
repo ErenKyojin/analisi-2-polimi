@@ -191,3 +191,5 @@ r_{2}'(t)
 \end{align}$$
 Cioè
 $$ \nabla G(x,y) = g'(f(x,y)) \nabla f(x,y) $$
+
+

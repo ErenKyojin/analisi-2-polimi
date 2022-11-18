@@ -11,11 +11,33 @@
             "id": "1253028fbb4ea8cf",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md"
+                "file": "ottimizzazione libera.md",
+                "mode": "source",
+                "source": false
               }
-            }
+            },
+            "group": "d17e1e16bc6ccdc8"
+          }
+        ]
+      },
+      {
+        "id": "94511d9b23dd7cee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7067dd515b18610",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ottimizzazione libera.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "d17e1e16bc6ccdc8"
           }
         ]
       }
@@ -83,7 +105,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md",
+            "file": "ottimizzazione libera.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -100,7 +122,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md",
+            "file": "ottimizzazione libera.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -112,7 +134,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md"
+            "file": "ottimizzazione libera.md"
           }
         }
       }
@@ -122,14 +144,14 @@
   "active": "1253028fbb4ea8cf",
   "lastOpenFiles": [
     "derivate seconde.md",
-    "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md",
-    "Excalidraw/Drawing 2022-11-17 13.38.25.excalidraw.md",
-    "Calcolo differenziale.md",
     "gradiente.md",
-    "matrice hessiana.md",
     "ottimizzazione libera.md",
-    "Direzioni di crescita.md",
-    "2022-11-16.md",
-    "Continuità.md"
+    "derivate direzionali.md",
+    "Curve.md",
+    "Calcolo differenziale.md",
+    "formula di eulero.md",
+    "EDO.md",
+    "Excalidraw/Drawing 2022-11-17 19.09.12.excalidraw.md",
+    "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md"
   ]
 }
