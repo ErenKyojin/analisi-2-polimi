@@ -10,13 +10,16 @@
 ```tikz
 \usepackage{pgfplots}
 \begin{document}
-\begin{tikzpicture}[colormap/virdis]
+\begin{tikzpicture}
+\begin{axis}[colormap/virdis]
 \addplot[
 	surf,
 	samples=18,
 	domain= -3:3
 ]
-x*sin(y)
+x*sin(y);
+
+\end{axis}
 
 \end{tikzpicture}
 \end{document}
