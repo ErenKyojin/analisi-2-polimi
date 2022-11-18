@@ -9,15 +9,16 @@
 
 ```tikz
 \usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
 \begin{document}
 \begin{tikzpicture}
-\begin{axis}[colormap/viridis]
+\begin{axis}[colormap/viridis, hide axis]
 \addplot3[
 	surf,
-	samples=18,
-	domain= -5:5
+	samples=50,
+	domain= -2:2
 ]
-{x*sin(y)};
+{x*sin(deg(y))};
 
 \end{axis}
 
