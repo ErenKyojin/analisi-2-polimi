@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ottimizzazione libera.md",
+                "file": "punto critico.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ottimizzazione libera.md",
+                "file": "punto critico.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "ottimizzazione libera.md",
+            "file": "punto critico.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "ottimizzazione libera.md",
+            "file": "punto critico.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -134,7 +134,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "ottimizzazione libera.md"
+            "file": "punto critico.md"
           }
         }
       }
@@ -143,15 +143,15 @@
   },
   "active": "1253028fbb4ea8cf",
   "lastOpenFiles": [
+    "Teorema di fermat.md",
+    "punto critico.md",
+    "ottimizzazione libera.md",
+    "ottimizzazione vincolata.md",
+    "Teorema di Weierstrass.md",
+    "insieme compatto.md",
     "derivate seconde.md",
     "gradiente.md",
-    "ottimizzazione libera.md",
     "derivate direzionali.md",
-    "Curve.md",
-    "Calcolo differenziale.md",
-    "formula di eulero.md",
-    "EDO.md",
-    "Excalidraw/Drawing 2022-11-17 19.09.12.excalidraw.md",
-    "Excalidraw/Drawing 2022-11-17 13.12.48.excalidraw.md"
+    "Curve.md"
   ]
 }
