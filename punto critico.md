@@ -44,7 +44,7 @@ y-y_{0}
 >[!esempio]
 >Determinare tutti i punti critici di
 >
-$$ f(x,y) = rx^2 + y^2 - x^3y $$
+$$ f(x,y) = 3x^2 + y^2 - x^3y $$
 >
 >
 >```tikz
@@ -62,3 +62,31 @@ $$ f(x,y) = rx^2 + y^2 - x^3y $$
 >\end{tikzpicture}
 >\end{document}
 >```
+>
+>Ricaviamo il sistema in generale non lineare:
+>$$ 
+>\begin{cases}
+>6x - 3x^2y = 0 \\
+>2y - x^3 = 0
+>\end{cases}
+>$$
+>ad occhio $(0,0)$ è soluzione:
+>$$ \begin{align}
+>&\begin{cases}
+>3x(2-xy) = 0 \\
+>y = \frac{x^3}{2}
+>\end{cases} \\
+>&\begin{cases}
+>y= \frac{2}{x} \\
+>y =\frac{x^3}{2} 
+>\end{cases} \implies \begin{cases}
+>y = \frac{2}{x} \\
+>x^4 = 4
+>\end{cases} \\
+>&\begin{cases}
+>x = \pm \sqrt{ 2 } \\
+>y = \frac{2}{x}
+>\end{cases}
+>\end{align}$$
+>
+>Quindi grazie al teorema di fermat ci ricond
