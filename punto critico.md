@@ -178,3 +178,5 @@ f(x,y) &= 3x^2 + y^2 - x^3y \\
 g(x) &= f(x,x) = 4x^2 - x^4 \\
 \lim_{ x \to \infty } f(x,x) &= 4x^2 - x^4 = -\infty
 \end{align} $$
+
+
