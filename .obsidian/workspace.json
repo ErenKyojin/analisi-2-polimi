@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serie di Fourier.md",
-                "mode": "preview",
+                "file": "Convergenza totale.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Serie di Fourier.md",
+                "file": "Convergenza totale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Serie di Fourier.md",
+                "file": "Convergenza totale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Serie di Fourier.md"
+                "file": "Convergenza totale.md"
               }
             }
           }
@@ -152,8 +152,8 @@
   "active": "68df416d5abcd896",
   "lastOpenFiles": [
     "Serie di funzioni.md",
-    "Serie di potenze.md",
     "Serie di Fourier.md",
+    "Serie di potenze.md",
     "serie di taylor.md",
     "punto critico.md",
     "convergenza semplice.md",
