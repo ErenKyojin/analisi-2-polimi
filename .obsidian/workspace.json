@@ -25,34 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo differenziale.md",
+                "file": "Convergenza totale.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "d37516e9b69c6a12"
+            }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "13f05db25a513355",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "54da5dc53e77afcf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calcolo differenziale.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "d37516e9b69c6a12"
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calcolo differenziale.md",
+                "file": "Convergenza totale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calcolo differenziale.md",
+                "file": "Convergenza totale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calcolo differenziale.md"
+                "file": "Convergenza totale.md"
               }
             }
           }
@@ -171,15 +151,15 @@
   },
   "active": "68df416d5abcd896",
   "lastOpenFiles": [
-    "dominio.md",
-    "diagonalizzabilità.md",
-    "Determinante wronskiano.md",
-    "spazio vettoriale.md",
-    "versore tangente.md",
-    "teorema di struttura.md",
-    "teorema fondamentale del calcolo integrale.md",
-    "serie geometrica.md",
+    "Serie di funzioni.md",
     "Serie di Fourier.md",
-    "Equazione logistica.md"
+    "Serie di potenze.md",
+    "serie di taylor.md",
+    "punto critico.md",
+    "convergenza semplice.md",
+    "Convergenza in media quadratica.md",
+    "Convergenza assoluta.md",
+    "Continuità.md",
+    "convergenza.md"
   ]
 }

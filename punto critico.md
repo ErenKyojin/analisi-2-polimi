@@ -9,16 +9,17 @@
 
 ```tikz
 \usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
 \begin{document}
 \begin{tikzpicture}
-\begin{axis}[colormap/viridis]
+\begin{axis}[colormap/viridis, hide axis]
 \addplot3[
 	surf,
-	samples=18,
-	domain= -5:5
+	samples= 18,
+	domain= -2:2
 ]
-{x*sin(y)};
-
+{x*sin(deg(y))};
+\addlegendentry{\(x * \sin y\)};
 \end{axis}
 
 \end{tikzpicture}
@@ -89,7 +90,7 @@ $$ f(x,y) = 3x^2 + y^2 - x^3y $$
 >\end{cases}
 >\end{align}$$
 >
->Quindi grazie al teorema di fermat ci riconduce ai tre punti critici
+>Quindi grazie al [[teorema di fermat]] ci riconduce ai tre punti critici
 >
 >
 > $$ (0,0)\quad (\sqrt{ 2 },\sqrt{ 2 })\quad(-\sqrt{ 2 }, \sqrt{ 2 }) $$
