@@ -1,0 +1,1 @@
+dominio vincolato con bordo o solo bordo
