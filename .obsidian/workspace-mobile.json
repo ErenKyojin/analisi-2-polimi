@@ -17,27 +17,19 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "d17e1e16bc6ccdc8"
-          }
-        ]
-      },
-      {
-        "id": "94511d9b23dd7cee",
-        "type": "tabs",
-        "children": [
+            }
+          },
           {
-            "id": "a7067dd515b18610",
+            "id": "ca8e54c4737010f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "punto critico.md",
-                "mode": "preview",
+                "file": "Convessit.md",
+                "mode": "source",
                 "source": false
               }
-            },
-            "group": "d17e1e16bc6ccdc8"
+            }
           }
         ]
       }
@@ -143,15 +135,15 @@
   },
   "active": "1253028fbb4ea8cf",
   "lastOpenFiles": [
+    "Convessit.md",
+    "punto critico.md",
     "teorema di struttura.md",
     "Teorema di fermat.md",
-    "punto critico.md",
     "Teorema di Weierstrass.md",
     "ottimizzazione libera.md",
     "ottimizzazione vincolata.md",
     "insieme compatto.md",
     "derivate seconde.md",
-    "gradiente.md",
-    "derivate direzionali.md"
+    "gradiente.md"
   ]
 }

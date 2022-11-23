@@ -204,8 +204,8 @@ Cosa fare quando troviamo un punto ciritico della funzione $f$ ma il [[criterio 
 >\usepackage{pgfplots}
 >\begin{document}
 >\begin{tikzpicture}
->\begin{axis}[colormap = viridis]
->\addplot3[] {x^4 - 6 x ^2 y ^2 + y ^4 };
+>\begin{axis}[colormap/viridis]
+>\addplot3[surf, samples = 16] {x^4 - 6 x ^2 y ^2 + y ^4 };
 >\end{axis}
 >\end{tikzpicutre}
 >\end{document}
