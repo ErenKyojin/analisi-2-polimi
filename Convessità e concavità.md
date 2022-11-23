@@ -22,7 +22,7 @@ In questo caso $(x_{0},y_{0})$ punto critico $\to (x_{0},y_{0})$ punto di massim
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[colormap/viridis]
-\addplot3[surf, samples = 16, domain = -5:5]{x*y};
+\addplot3[surf, samples = 16, domain = -5:5]{x^2*y};
 \end{axis}
 \end{tikzpicture}
 \end{document}
