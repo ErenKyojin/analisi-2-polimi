@@ -1,3 +1,4 @@
+
 >[!teorema]
 >$(a,b)$ intervallo aperto (limitato o illimitato)
 >$f : (a,b) \to \mathbb{R}$ derivabile in $(a,b)$

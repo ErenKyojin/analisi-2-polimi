@@ -181,3 +181,35 @@ g(x) &= f(x,x) = 4x^2 - x^4 \\
 \end{align} $$
 
 
+## Indagine diretta $\det = 0$
+
+Cosa fare quando troviamo un punto ciritico della funzione $f$ ma il [[criterio dell'hessiana]] non si applica, ossia quando $\det H_{f}(\mathbf{x_{0}}) = 0$
+($\nabla f (\mathbf{x_{0}}) = \mathbf{0}, \mathbf{x_{0}} \in A$ aperto)
+
+>[!esempio]
+>determinare i punti di estremo
+>$$ f(x,y) = x^4 - 6 x^2 y^2 + y^4 $$
+>e classificarli
+>$f$ definita in $\mathbb{R}^2$ e la [[classe C]]$^2(\mathbb{R}^2)$
+>Cerco i punti di estremo sul dominio di $f$ cioè $\mathbb{R}^2$. Essendo aperto, per il [[Teorema di fermat]] i punti di estremo vanno ricercati tra i punti critici.
+>L'unico punto critico è l'origine $(0,0)$
+>Ma il $\det H_{f}(0,0) = 0 \implies$ non posso applicarne il criterio .
+>
+>La strategia per evitare il problema è di fissare una direzione, studiamo quindi
+>$y=0 \quad f(x,0) = x^4$
+>$y = x\quad f(x,x) = xˆ4 - 6x^4 + x^4 = -x^4$
+>Globalmente $(0,0)$ è una sella per $f$, $f$ non ha punti di estremo locali
+>
+>```tikz
+>\usepackage{pgfplots}
+>\begin{document}
+>\begin{tikzpicture}
+>\begin{axis}[colormap = viridis]
+>\addplot3 {x^4 - 6 x ^2 y ^2 + y ^4 };
+>\end{axis}
+>\end{tikzpicutre}
+>\end{document}
+>```
+
+Alternativamente posso studiare il segno di $f$ attorno al punto candidato
+
