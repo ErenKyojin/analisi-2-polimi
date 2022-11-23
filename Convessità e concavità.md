@@ -3,3 +3,7 @@
 
 (Simile alla dimensione 1)
 
+
+# Ottimiazzazione per funzioni convesse
+Sia $f\ C^2(\mathbb{R}^2)$ convessa
+Se $\mathbf{x_{0}} \in \mathbb{R}^2$ è [[punto critico]] di $f$ allora $\mathbf{x_{0}}$ è punto di minimo assoluto

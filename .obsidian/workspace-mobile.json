@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1253028fbb4ea8cf",
+            "id": "ca8e54c4737010f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,15 +20,11 @@
             }
           },
           {
-            "id": "ca8e54c4737010f4",
+            "id": "b3b645e3a3769689",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Convessità e concavità.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -133,7 +129,7 @@
     ],
     "currentTab": 0
   },
-  "active": "1253028fbb4ea8cf",
+  "active": "ca8e54c4737010f4",
   "lastOpenFiles": [
     "Convessità e concavità.md",
     "punto critico.md",
