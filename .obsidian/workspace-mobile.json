@@ -13,20 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Convessità e concavità.md",
+                "file": "vincolo di uguaglianza.md",
                 "mode": "source",
                 "source": false
               }
             },
             "group": "41b54076dd32d7b2"
-          },
-          {
-            "id": "b3b645e3a3769689",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ]
       },
@@ -40,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Convessità e concavità.md",
+                "file": "vincolo di uguaglianza.md",
                 "mode": "preview",
                 "source": false
               }
@@ -113,7 +105,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Convessità e concavità.md",
+            "file": "vincolo di uguaglianza.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -130,7 +122,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Convessità e concavità.md",
+            "file": "vincolo di uguaglianza.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -142,7 +134,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Convessità e concavità.md"
+            "file": "vincolo di uguaglianza.md"
           }
         }
       }
@@ -152,14 +144,14 @@
   "active": "ca8e54c4737010f4",
   "lastOpenFiles": [
     "ottimizzazione vincolata.md",
+    "README.md",
     "Convessità e concavità.md",
+    "vincolo di uguaglianza.md",
     "punto critico.md",
     "teorema di struttura.md",
     "Teorema di fermat.md",
     "Teorema di Weierstrass.md",
     "ottimizzazione libera.md",
-    "insieme compatto.md",
-    "derivate seconde.md",
-    "gradiente.md"
+    "insieme compatto.md"
   ]
 }
