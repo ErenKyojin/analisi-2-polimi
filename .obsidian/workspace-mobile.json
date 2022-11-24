@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teorema di fermat.md",
+                "file": "punto critico.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teorema di fermat.md",
+                "file": "punto critico.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Teorema di fermat.md",
+            "file": "punto critico.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Teorema di fermat.md",
+            "file": "punto critico.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -134,7 +134,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Teorema di fermat.md"
+            "file": "punto critico.md"
           }
         }
       }
@@ -143,15 +143,15 @@
   },
   "active": "ca8e54c4737010f4",
   "lastOpenFiles": [
-    "ottimizzazione vincolata.md",
-    "Teorema di Weierstrass.md",
     "Teorema di fermat.md",
+    "ottimizzazione vincolata.md",
+    "ottimizzazione libera.md",
+    "molteplicità geometrica.md",
+    "Teorema di Weierstrass.md",
     "vincolo di uguaglianza.md",
     "README.md",
     "Convessità e concavità.md",
     "punto critico.md",
-    "teorema di struttura.md",
-    "ottimizzazione libera.md",
-    "insieme compatto.md"
+    "teorema di struttura.md"
   ]
 }
