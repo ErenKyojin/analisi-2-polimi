@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vincolo di uguaglianza.md",
+                "file": "Teorema di fermat.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vincolo di uguaglianza.md",
+                "file": "Teorema di fermat.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "vincolo di uguaglianza.md",
+            "file": "Teorema di fermat.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "vincolo di uguaglianza.md",
+            "file": "Teorema di fermat.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -134,7 +134,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "vincolo di uguaglianza.md"
+            "file": "Teorema di fermat.md"
           }
         }
       }
@@ -144,13 +144,13 @@
   "active": "ca8e54c4737010f4",
   "lastOpenFiles": [
     "ottimizzazione vincolata.md",
+    "Teorema di Weierstrass.md",
+    "Teorema di fermat.md",
+    "vincolo di uguaglianza.md",
     "README.md",
     "Convessità e concavità.md",
-    "vincolo di uguaglianza.md",
     "punto critico.md",
     "teorema di struttura.md",
-    "Teorema di fermat.md",
-    "Teorema di Weierstrass.md",
     "ottimizzazione libera.md",
     "insieme compatto.md"
   ]
