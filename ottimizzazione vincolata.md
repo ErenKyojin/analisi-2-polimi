@@ -21,5 +21,9 @@ Confronto tra [[teorema di fermat]] e [[Lagrange]]
 | | Fermat | Lagrange
 --- | --- | ---
 ambito di utilizzo | [[Ottimizzazione libera]] (su un aperto)| [[ottimizzazione vincolata]] con vincolo di uguaglianza (su una curva)|
-Afferma che, sotto opportune ipotesi | $\mathbf{x_{0}}$ punto di estremo $\implies \nabla f (\mathbf{x_{0}} = \mathbf{0}$ | $\mathbf{x_{0}}$ punto di estremo vincolato $\implies \nabla f(\mathbf{x_{0}}) \parallel \nabla F(\mathbf{x_{0}})$</br> (purchè $\lambda_{0} \neq 0$)^[1]
+Afferma che, sotto opportune ipotesi | $\mathbf{x_{0}}$ punto di estremo $\implies \nabla f (\mathbf{x_{0}} = \mathbf{0}$ | $\mathbf{x_{0}}$ punto di estremo vincolato $\implies \nabla f(\mathbf{x_{0}}) \parallel \nabla F(\mathbf{x_{0}})$</br> (purchè $\lambda_{0} \neq 0$)[^long]
+
+[^long]: Se $\lambda_{0} = 0$ significa che $\mathbf{x_{0}}$ è punto di estremo libero ed il vincolo $Z$ passa proprio per $\mathbf{x_{0}}$
+
+
 

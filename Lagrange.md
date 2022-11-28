@@ -1,3 +1,4 @@
+#todo
 >[!esempio]
 >$f(x,y) = x^2y$
 > $$ Z = {(x,y) \in \mathbb{R}^2 : F(x,y) = 0}\quad F(x,y) = x^2 +y^2 - 1 $$
@@ -61,3 +62,18 @@ x^2 = 2\lambda^2 = \frac{2}{3} \\
 $\nabla f(\mathbf{x_{0}}) = \lambda_{0} \nabla F(\mathbf{x_{0}})$ :
 - Con $\lambda_{0} \neq 0 \implies$ paralleli
 - Con $\lambda_{0} = 0 \implies \mathbf{x_{0}}$ punto critico libero
+
+
+
+### Interpretazione geometrica del teorema di lagrange nel caso $\lambda_{0} \neq 0$
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[color = gray] (-2.1, -2.1) grid (2.1, 2.1);
+\draw[->] (0,-2) -- (0,2) node[right]{$x$};
+\draw[->] (-2,0) -- (2,0) node[above]{$y$};
+\draw[color=red] plot(\x, 1 /\x *\x) node[right] {$f$};
+\end{tikzpicture}
+\end{document}
+```
