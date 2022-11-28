@@ -69,10 +69,11 @@ $\nabla f(\mathbf{x_{0}}) = \lambda_{0} \nabla F(\mathbf{x_{0}})$ :
 
 ```tikz
 \usepackage{pgfplots}
+\pgfplotsset{compat=1.8}
 \begin{document}
-\begin{tikzpicture}[colormap/viridis]
-\begin{axis}
-\addplot{x};
+\begin{tikzpicture}
+\begin{axis}[colormap/viridis]
+\addplot[domain=-3:3,samples=18]{1/(x*x)};
 \end{axis}
 \end{tikzpicture}
 \end{document}
