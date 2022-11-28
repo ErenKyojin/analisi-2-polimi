@@ -58,3 +58,6 @@ x^2 = 2\lambda^2 = \frac{2}{3} \\
 >- #TODO 
 
 
+$\nabla f(\mathbf{x_{0}}) = \lambda_{0} \nabla F(\mathbf{x_{0}})$ :
+- Con $\lambda_{0} \neq 0 \implies$ paralleli
+- Con $\lambda_{0} = 0 \implies \mathbf{x_{0}}$ punto critico libero
