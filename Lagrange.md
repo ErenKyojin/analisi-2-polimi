@@ -48,4 +48,13 @@ x^2 = 2\lambda^2 = \frac{2}{3} \\
 >\end{cases} $$
 >se $\lambda = \frac{1}{\sqrt{ 3 }}\implies x = \pm\sqrt{ \frac{2}{3} },\quad y=\frac{1}{\sqrt{ 3 }}$
 >Altri due candidati
->$$ P_{1} = \left( \sqrt{ \frac{2}{3} }, \frac{1}{\sqrt{ 3 } }\right), P_{2} =\left( -\sqrt{ \frac{2}{3} } \right) $$
+>$$ P_{1} = \left( \sqrt{ \frac{2}{3} }, \frac{1}{\sqrt{ 3 } }\right), P_{2} =\left( -\sqrt{ \frac{2}{3} }, \frac{1}{\sqrt{ 3 }}  \right) $$
+>Se $\lambda = - \frac{1}{\sqrt{ 3 }}$ altri due candidati
+>$$ P_{3} = \left( \sqrt{ \frac{2}{3} }, -\frac{1}{\sqrt{ 3 }} \right), P_{4} = \left( - \sqrt{ \frac{2}{3} } , -\frac{1}{3}\right)  $$
+>E chiamandi $P_{5} = (0,1)$ e $P_{6} = (0,-1)$ 
+>Confrontando i valori $f(P_{i})$
+>Trovo massimo e minimi vincolati.
+>- Punti di massimo $P_{1},P_{2}$ $\quad f(P_{1}) = f(P_{2})$
+>- #TODO 
+
+
