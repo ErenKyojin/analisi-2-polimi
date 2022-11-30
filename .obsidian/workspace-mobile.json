@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "molteplicità algebrica.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Calcolo integrale.md",
+            "file": "molteplicità algebrica.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Calcolo integrale.md",
+            "file": "molteplicità algebrica.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Calcolo integrale.md"
+            "file": "molteplicità algebrica.md"
           }
         }
       }
@@ -123,6 +123,7 @@
   },
   "active": "ff74530cb00fda9e",
   "lastOpenFiles": [
+    "Calcolo integrale.md",
     "Moltiplicatori di Lagrange.md",
     "ottimizzazione vincolata.md",
     "punto critico.md",
@@ -131,7 +132,6 @@
     "molteplicità geometrica.md",
     "Teorema di Weierstrass.md",
     "vincolo di uguaglianza.md",
-    "README.md",
-    "Convessità e concavità.md"
+    "README.md"
   ]
 }
