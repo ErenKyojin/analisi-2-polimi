@@ -14,8 +14,9 @@ Strategia:
 >In ottimizzazione vincolata solitamente è richiesto di determinare solo massimo e minimo assoluti
 
 >[!oss]
-Se il vincolo è lineare 
-
+Se il vincolo è :
+> - lineare $\implies$ sostituzione
+> - non lineare $\implies$
 
 Confronto tra [[teorema di fermat]] e [[Lagrange]]
 
