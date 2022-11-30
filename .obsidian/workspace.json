@@ -8,49 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ee3acc25788dd534",
+            "id": "d1ac3ebe59e0ea50",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "versore tangente.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "68df416d5abcd896",
+            "id": "dc6207b8b30b97b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "convergenza.md",
+                "file": "derivate seconde.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "a8341af8ab9a732b"
+            "group": "adc24eb90ad04429"
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "56a1f530e17772a0",
+        "id": "ef7bfb16874a8188",
         "type": "tabs",
         "children": [
           {
-            "id": "6762666e9e946226",
+            "id": "f7ccaf63c731ee5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "convergenza.md",
+                "file": "derivate seconde.md",
                 "mode": "preview",
                 "source": false
               }
             },
-            "group": "a8341af8ab9a732b"
+            "group": "adc24eb90ad04429"
           }
         ]
       }
@@ -118,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "convergenza.md",
+                "file": "derivate seconde.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "convergenza.md",
+                "file": "derivate seconde.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "convergenza.md"
+                "file": "derivate seconde.md"
               }
             }
           }
@@ -166,20 +162,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "68df416d5abcd896",
+  "active": "dc6207b8b30b97b9",
   "lastOpenFiles": [
-    "Convergenza totale.md",
-    "Serie di funzioni.md",
-    "Serie di Fourier.md",
-    "Serie di potenze.md",
-    "serie di taylor.md",
+    "Lagrange.md",
+    "ottimizzazione vincolata.md",
+    "Metodo dei moltiplicatori di lagrange.md",
+    "conflict-files-obsidian-git.md",
+    "ottimizzazione libera.md",
     "punto critico.md",
-    "convergenza semplice.md",
-    "Convergenza in media quadratica.md",
-    "Convergenza assoluta.md",
-    "Continuità.md"
+    "Teorema di fermat.md",
+    "teorema di struttura.md",
+    "Teorema di Weierstrass.md",
+    "Serie di potenze.md"
   ]
 }
