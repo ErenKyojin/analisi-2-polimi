@@ -24,7 +24,7 @@ Significato geometrico dell'integrale doppio è il volume con segno sottostante 
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[axis lines = center]
-\addplot[domain = -3:3, samples=25]{cos(deg(x))};
+\addplot[domain = -3:3, samples=25]{x^2 + y^2 - 2 = 0};
 \end{axis}
 \end{tikzpicture}
 \end{document}
