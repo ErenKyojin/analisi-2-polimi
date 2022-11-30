@@ -6,7 +6,7 @@
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[axis lines = left]
-\addplot[domain = -6:6, samples=16]{cos(deg(x))};
+\addplot[domain = -3:3, samples=25]{cos(deg(x))};
 \end{axis}
 \end{tikzpicture}
 \end{document}
