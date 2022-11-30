@@ -24,9 +24,10 @@ Significato geometrico dell'integrale doppio è il volume con segno sottostante 
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[axis lines = center]
-\addplot[domain = -3:3, samples=100]{-sqrt(1 - x^2)};
-\addplot[domain = -3:3, samples=100]{sqrt(1-x^2)};
+\addplot[domain = -3:3, samples=100,color = red]{-sqrt(1 - x^2)};
+\addplot[domain = -3:3, samples=100,color = blue]{sqrt(1-x^2)};
 \end{axis}
 \end{tikzpicture}
 \end{document}
 ```
+
