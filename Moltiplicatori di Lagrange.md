@@ -1,4 +1,4 @@
-#todo
+Sappiamo che il teorema di fermat indica 
 >[!esempio]
 >$f(x,y) = x^2y$
 > $$ Z = {(x,y) \in \mathbb{R}^2 : F(x,y) = 0}\quad F(x,y) = x^2 +y^2 - 1 $$
