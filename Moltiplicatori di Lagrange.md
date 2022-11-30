@@ -1,4 +1,45 @@
-Sappiamo che il [[teorema di fermat]] indica i punti candidati di estremo libero, allo stesso modo il metodo dei moltiplicatori fornisce i punti candidati di estremo vincolato. Tra i c m,n
+Sappiamo che il [[teorema di fermat]] indica i punti candidati di estremo libero, allo stesso modo il metodo dei moltiplicatori fornisce i punti candidati di estremo vincolato. Tra i candidati di estremo vincolato l selezioniamo massimo e minimo assoluti confrontando i valori di $f$
+
+>[!teorema]
+>$A \subseteq \mathbb{R}^2$ aperto $f,F \in C^1(A)$
+>Sia $\mathbf{x_{0}} = (x_{0},y_{0})$ punto di estremo vincolato per $f$ sul vincolo
+> $$ Z = \{(x,y) \in A : F(x,y) = 0\} $$
+> Supponiamo inoltre che
+> $$ \nabla F(\mathbf{x_{0}}) = \mathbf{0} $$
+> Allora esiste $\lambda \in \mathbb{R}$ detto moltiplicatori di Lagrange tale che
+>  $$ \fbox{$\nabla f(\mathbf{x_{0}}) = \lambda_{0} \nabla F(\mathbf{x_{0}})$} $$
+> 
+
+>[!oss] 
+>scriviamo le condizioni
+> $$ \nabla f(x_{0},y_{0}) = \lambda_{0} \nabla F(x_{0},y_{0})\quad e \quad(x_{0},y_{0}) \in Z $$
+> in modo più esplicito:
+> $$ \begin{cases}
+> \frac{ \partial f }{ \partial x } (x_{0},y_{0}) = \lambda_{0} \frac{ \partial F }{ \partial x } (x_{0},y_{0}) \\
+>\frac{ \partial f }{ \partial y } (x_{0},y_{0}) = \lambda_{0} \frac{ \partial F }{ \partial y } \\
+F (x_{0},y_{0}) = 0 
+>\end{cases} $$
+>Sistema non lineare di 3 equazioni nelle 3 incognite $x_{0},y_{0},\lambda_{0}$
+>
+> In pratica:
+> i punti candidati sono le soluzioni di 
+> $$ \begin{cases}
+> \nabla F(\mathbf{x_{0}}) = \mathbf{0} \\
+F(\mathbf{x_{0}}) = 0
+>\end{cases}
+>\qquad
+>\begin{cases}
+>\nabla f(\mathbf{x_{0}}) = \lambda_{0} \nabla F(\mathbf{x_{0}}) \\
+F(\mathbf{x_{0}}) = 0
+>\end{cases}
+>
+>$$
+>Che sono rispettivamente i punti di $Z$ dove **non** si applica il teorema ed il sistema dei moltiplicatori di lagrange
+
+
+
+>[!oss] $\lambda_{0} = 0$ è ammissibile
+
 >[!esempio]
 >$f(x,y) = x^2y$
 > $$ Z = {(x,y) \in \mathbb{R}^2 : F(x,y) = 0}\quad F(x,y) = x^2 +y^2 - 1 $$
