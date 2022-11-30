@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ottimizzazione vincolata.md",
+                "file": "Moltiplicatori di Lagrange.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "ottimizzazione vincolata.md",
+            "file": "Moltiplicatori di Lagrange.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "ottimizzazione vincolata.md",
+            "file": "Moltiplicatori di Lagrange.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "ottimizzazione vincolata.md"
+            "file": "Moltiplicatori di Lagrange.md"
           }
         }
       }
@@ -123,9 +123,9 @@
   },
   "active": "ff74530cb00fda9e",
   "lastOpenFiles": [
+    "ottimizzazione vincolata.md",
     "punto critico.md",
     "Teorema di fermat.md",
-    "ottimizzazione vincolata.md",
     "ottimizzazione libera.md",
     "molteplicità geometrica.md",
     "Teorema di Weierstrass.md",

@@ -16,9 +16,10 @@ Strategia:
 >[!oss]
 Se il vincolo è :
 > - lineare $\implies$ sostituzione
-> - non lineare $\implies$
+> - non lineare $\implies$ [[Moltiplicatori di Lagrange]]
+> 
 
-Confronto tra [[teorema di fermat]] e [[Lagrange]]
+Confronto tra [[teorema di fermat]] e [[Moltiplicatori di Lagrange]]
 
 | | Fermat | Lagrange
 --- | --- | ---
