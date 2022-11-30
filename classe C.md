@@ -5,10 +5,7 @@
 \pgfplotsset{compat=1.16}
 \begin{document}
 \begin{tikzpicture}
-\begin{axis}[axis lines = left,
-xlabel = x,
-y label = f(x),
-]
+\begin{axis}[axis lines = left]
 \addplot[domain = -6:6, samples=16]{cos(rad(x))};
 \end{axis}
 \end{tikzpicture}
