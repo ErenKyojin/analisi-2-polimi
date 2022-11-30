@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "cambiamento di variabile.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "cambiamento di variabile.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Calcolo integrale.md",
+            "file": "cambiamento di variabile.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Calcolo integrale.md",
+            "file": "cambiamento di variabile.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -134,24 +134,24 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Calcolo integrale.md"
+            "file": "cambiamento di variabile.md"
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "6dc94341f5429013",
+  "active": "ff74530cb00fda9e",
   "lastOpenFiles": [
+    "Calcolo integrale.md",
+    "Formule di riduzione nel piano.md",
     "Moltiplicatori di Lagrange.md",
     "classe C.md",
-    "Calcolo integrale.md",
     "molteplicità algebrica.md",
     "ottimizzazione vincolata.md",
     "punto critico.md",
     "Teorema di fermat.md",
     "ottimizzazione libera.md",
-    "molteplicità geometrica.md",
-    "Teorema di Weierstrass.md"
+    "molteplicità geometrica.md"
   ]
 }

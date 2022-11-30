@@ -13,10 +13,7 @@ $$ A \subseteq \mathbb{R}^3 \int\!\int\!\int_{A} \! f(x,y,z)\, \mathrm{d}x  \! \
 > $$ D = \{(x,y) \in \mathbb{R}^2 : y \in [c,d], h_{1}(y) \leq x \leq h_{2}(y)\} $$
 > Con $[c,d]$ limitato e $h_{1} \leq h_{2}$ continue in $[c,d]$
 
----
 
-
-Significato geometrico dell'integrale doppio è il volume con segno sottostante alla curva, oppure la massa di una superficie 2d
 
 ```tikz
 \usepackage{pgfplots}
@@ -31,3 +28,52 @@ Significato geometrico dell'integrale doppio è il volume con segno sottostante 
 \end{document}
 ```
 
+$g_{1} = -\sqrt{ 1 - x^2 }$ in rosso e $g_{2} = \sqrt{ 1 - x^2 }$ in blu, abbiamo una regione $y$-semplice
+
+
+Quindi la formula per l'area è
+$$ Area(D) = \int_{a}^b \! (g_{2}(x) - g_{1}(x))\, \mathrm{d}x  $$
+analogamente per le regioni $x$-semplici
+
+>[!oss]
+>Il volume del solido che ha $D$ come base
+ e altezza $h$ è
+ > $$ Volume = Area(D) \cdot h $$
+ > Ossia 
+ > $$ \int\!\int_{D} \!h \,  \mathrm{d}x  \! \, \mathrm{d}y  = Area(D) \cdot h$$
+
+ 
+----- 
+
+
+Significato geometrico dell'integrale doppio è il volume con segno sottostante alla curva, oppure la massa di una superficie 2d
+
+---
+## Integrabilità delle funzioni continue
+Siano $D \subseteq \mathbb{R}^2$ è una regione semplice $f : D \to \mathbb{R}$ continua in $D$ allora $f$ è integrabile in $D$
+
+
+>[!oss]
+>Le regioni semplici per come le abbiamo definite sono chiuse e limitate, $f$ è continua, quindi per il [[teorema di Weierstrass]] $f$ è limitata su $D$
+>- è possibile costruire una funzione limitata non continua non integrabile simile alla funzione di Dirichlet
+
+
+>[!oss]
+>Non vale l'implicazione opposta
+>>[!ESEMPIO]
+>>
+>>$f(x,y) = 2$ sulla parte alta di un quadrato
+>>$f(x,y) = 1$ sulla parte bassa di un quadrato
+>>L'integrale di $f$ è la somma degli integrali
+
+>[!oss]
+>Se $\Omega \subseteq \mathbb{R}^2$ è unione di regioni semplici posso integrare sui vari pezzi separatamente e poi fare le somme
+
+
+
+
+## Metodi di risoluzioni
+
+### - [[Formule di riduzione nel piano]]
+
+### - [[cambiamento di variabile]]
