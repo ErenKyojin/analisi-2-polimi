@@ -1,4 +1,4 @@
-Sappiamo che il teorema di fermat indica 
+Sappiamo che il teorema di fermat indica i punti di estremo
 >[!esempio]
 >$f(x,y) = x^2y$
 > $$ Z = {(x,y) \in \mathbb{R}^2 : F(x,y) = 0}\quad F(x,y) = x^2 +y^2 - 1 $$
