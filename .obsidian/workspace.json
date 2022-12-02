@@ -21,15 +21,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "integrazione per strati.md",
+                "file": "Calcolo integrale.md",
                 "mode": "source",
                 "source": false
               }
             },
             "group": "adc24eb90ad04429"
+          },
+          {
+            "id": "136765aac71581a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coordinate sferiche.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "ef7bfb16874a8188",
@@ -41,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "integrazione per strati.md",
+                "file": "Calcolo integrale.md",
                 "mode": "preview",
                 "source": false
               }
@@ -114,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "integrazione per strati.md",
+                "file": "Coordinate sferiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "integrazione per strati.md",
+                "file": "Coordinate sferiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "integrazione per strati.md"
+                "file": "Coordinate sferiche.md"
               }
             }
           }
@@ -165,11 +177,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dc6207b8b30b97b9",
+  "active": "136765aac71581a4",
   "lastOpenFiles": [
     "Calcolo integrale.md",
-    "integrazione per fili.md",
     "integrazione per strati.md",
+    "integrazione per fili.md",
     "cambiamento di variabile.md",
     "matrice jacobiana.md",
     "derivate seconde.md",

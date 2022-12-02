@@ -94,3 +94,19 @@ $$ \iiint_{E} f(x,y,z) \mathrm{d}x\ \mathrm{d}y\ \mathrm{d}z \quad E \subseteq \
 ## Metodi risolutivi
 
 Vedremo [[integrazione per fili]] su regioni semplici dello spazio, dove si svolge prima un integrale singolo poi un integrale doppio ed [[integrazione per strati]] su regioni non necessariamente semplici ma che si prestano ad essere affettate e dove si svolge prima un integrale doppio poi un integrale singolo.
+--- ---
+
+### Applicazione fisica
+Massa e baricentro
+
+$E \subseteq \mathbb{R}^3$ $f : E \to \mathbb{R}, f \geq 0$ continua
+
+- massa(E) = $\iiint_{E} \! f(x,y,z)\, \mathrm{d}x \, \mathrm{d}y\, \mathrm{d}z$
+- baricentro è $(x_{b}, y_{b}, z_{b})$ dove 
+$$ \begin{align}
+x_{b} = \frac{1}{massa(E)} \cdot \iiint_{E} \! x f(x,y,z)\, \mathrm{d}x \, \mathrm{d}y\, \mathrm{d}z  \\
+y_{b} = \frac{1}{massa(E)} \cdot \iiint_{E} \! y f(x,y,z)\, \mathrm{d}x \, \mathrm{d}y\, \mathrm{d}z  \\
+z_{b} = \frac{1}{massa(E)} \cdot \iiint_{E} \! z f(x,y,z)\, \mathrm{d}x \, \mathrm{d}y\, \mathrm{d}z 
+\end{align}$$
+
+
