@@ -16,19 +16,6 @@
             }
           },
           {
-            "id": "dc6207b8b30b97b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calcolo integrale.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "adc24eb90ad04429"
-          },
-          {
             "id": "136765aac71581a4",
             "type": "leaf",
             "state": {
@@ -38,27 +25,28 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "1db7f689e1e2f3c4"
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
-        "id": "ef7bfb16874a8188",
+        "id": "c2e38767778bd06a",
         "type": "tabs",
         "children": [
           {
-            "id": "f7ccaf63c731ee5d",
+            "id": "cce2aa263e152972",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "Coordinate sferiche.md",
                 "mode": "preview",
                 "source": false
               }
             },
-            "group": "adc24eb90ad04429"
+            "group": "1db7f689e1e2f3c4"
           }
         ]
       }
