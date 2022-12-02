@@ -43,12 +43,32 @@ Il testo ci comunica $h_{1}, h_{2}$, tuttavia non abbiamo il dominio $D$
 > Che è l'equazione di una calotta
 > ```tikz
 \usepackage{pgfplots}
-\pgfplotsset{compat=1.16}
+\pgfplotsset{compat=newest}
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[colormap/viridis]
-\addplot3[domain = -3:3, surf, samples=20]{x^2 + y^2 + z^2 - 1 = 0};
+\filldraw[ball] (axis cs: 1.40, -1.3, 0.25) circle [radius=0.25cm];
 \end{axis}
 \end{tikzpicture}
 \end{document}
 >```
+>Cerco D: $\sqrt{ R^2 - x^2 -y^2 } = 0 \iff x^2 + y^2 = \mathbb{R}^2$
+>$\implies$
+> $$ D = B_{R}(0) = \{(x,y) \in \mathbb{R}^2 : x^2 +y ^2 \leq R^2\} $$
+> Integro per fili
+> $$\begin{align}
+ I &= \iint_{B_{R(0)}} \! \left( \int_{0}^{\sqrt{ R^2 - x^2 - y^2 }} \! x^2 z \, \mathrm{d}z  \right)\, \mathrm{d}x \, \mathrm{d}y  = \iint_{B_{R}(0)}x^2 \cdot \left( \int_{0}^{\sqrt{ R^2 - x^2 -y^2 }} \!z \, \mathrm{d}z   \right) \! \, \mathrm{d}x \, \mathrm{d}y = \\
+&= \iint_{B_{R}(0)} \!x^2 \frac{R^2 - x^2 - y^2}{2} \, \mathrm{d}x \, \mathrm{d}y
+\end{align}$$ 
+>Passo in coordinate polari:
+ >$$ B_{R}(0) = [0,R] \times [0, 2\pi] $$
+ >Funzione integrando $(r \cos \theta)^2 \cdot \frac{R^2 - r^2}{2}$
+ >
+>$$ \begin{align}
+I &=  \int_{0}^{2\pi} \! \left( \int_{0}^R \! (r\cos \theta)^2 \cdot \frac{R^2-r^2}{2} \fbox{$r$}\, \mathrm{d}r  \right) \, \mathrm{d}\theta 
+=\\
+&= \dots
+\end{align} $$
+
+
+Come determinare $D$ senza l'intuizione geometrica?
