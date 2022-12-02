@@ -38,5 +38,8 @@ Per il cambio di variabile nell'integrale dobbio dobbiamo inserire
  Con $J_{\theta}$ [[matrice jacobiana]]
  $$ |\det J_{\phi}(r,\theta)| = |r \cos^2 \theta + r \sin^2 \theta| = |r| = r $$
 E quindi la formula per il cambio di variabile è
-$$ \iint_{E} \! f(x,y)\, \mathrm{d}x \, \mathrm{d}y = \iint_{D} \!f(r \cos \theta, r \sin \theta)\ r\, \mathrm{d}r \, \mathrm{d}\theta $$
- 
+$$ \iint_{E} \! f(x,y)\, \mathrm{d}x \, \mathrm{d}y = \iint_{D} \!f(r \cos \theta, r \sin \theta)\fbox{$r$}\, \mathrm{d}r \, \mathrm{d}\theta $$
+Con $r$ evidenziato determinante della jacobiana
+
+>[!esempio]
+>$$ \iint_{E} \! \frac{xy^2}{x^2+y^2}\, \mathrm{d}x \, \mathrm{d}y = \iint_{D} \! r \cos \theta \sin^2 \theta\ r\, \mathrm{d}r \, \mathrm{d}\theta $$
