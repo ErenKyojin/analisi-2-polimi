@@ -32,4 +32,11 @@ x \\
 y
 \end{bmatrix}$$
 
-$$ \iint_{E} $$
+$$ $$
+Per il cambio di variabile nell'integrale dobbio dobbiamo inserire
+ $$ \mathrm{d}x\, \mathrm{d}y \longrightarrow |\det J_{\phi}(r,\theta)| \mathrm{d}r, \mathrm{d}\theta $$
+ Con $J_{\theta}$ [[matrice jacobiana]]
+ $$ |\det J_{\phi}(r,\theta)| = |r \cos^2 \theta + r \sin^2 \theta| = |r| = r $$
+E quindi la formula per il cambio di variabile è
+$$ \iint_{E} \! f(x,y)\, \mathrm{d}x \, \mathrm{d}y = \iint_{D} \!f(r \cos \theta, r \sin \theta)\ r\, \mathrm{d}r \, \mathrm{d}\theta $$
+ 
