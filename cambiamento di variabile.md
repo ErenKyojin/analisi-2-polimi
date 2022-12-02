@@ -43,3 +43,29 @@ Con $r$ evidenziato determinante della jacobiana
 
 >[!esempio]
 >$$ \iint_{E} \! \frac{xy^2}{x^2+y^2}\, \mathrm{d}x \, \mathrm{d}y = \iint_{D} \! r \cos \theta \sin^2 \theta\ r\, \mathrm{d}r \, \mathrm{d}\theta $$
+
+
+
+Idea della formula di cambiamenti di variabili negli integrali:
+- Supponiamo prima che la trasformazione $T : \mathbb{R}^2 \to \mathbb{R}^2$  sia lineare
+
+```tikz
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[axis lines = left]
+\addplot[domain = -3:3, samples=25]{cos(deg(x))};
+\end{axis}
+\end{tikzpicture}
+
+\hskip 5pt
+$$T (u,V) =$$
+
+\begin{tikzpicture}
+\begin{axis}
+\end{tikzpicture}
+\end{axis}
+
+\end{document}
+```
