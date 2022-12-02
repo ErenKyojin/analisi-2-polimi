@@ -7,7 +7,7 @@
 >
 >```tikz
 >\usepackage{pgfplots}
->\pgfplotsset{compat=1.18}
+>\pgfplotsset{compat=1.16}
 >\begin{document}
 >\begin{tikzpicture}
 >\begin{axis}[colormap/viridis]
@@ -17,14 +17,3 @@
 >\end{document}
 >```
 
-```tikz
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.18}
-\begin{document}
-\begin{tikzpicture}
-\begin{axis}[colormap/viridis]
-\addplot3[domain = -3:3, surf, samples=20]{x*y};
-\end{axis}
-\end{tikzpicture}
-\end{document}
-```
