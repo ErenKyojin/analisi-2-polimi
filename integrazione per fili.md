@@ -20,9 +20,35 @@
 
 
 
-Integrazioni per fili immaginiamo di ottenere la massa di un filo, per poi far passare il filo in ogni punto dello spazio:
+Integrazioni per fili immaginiamo di ottenere la massa di un filo, per poi far passare il filo in ogni punto dello spazio
 
+
+>[!def]
 $$ E = {(x,y) \in D, h_{1}(x,y) \leq z \leq g_{2}(x,y)} $$
 $f : E \to \mathbb{R}$ continua, allora $f$ è integrabile in $E$ e
- $$ \iiint_{E} \! f(x,y,z)\, \mathrm{d}x \, \mathrm{d}y\, \mathrm{d}z = \iiint \! \, \mathrm{d}x \, \mathrm{d}y\, \mathrm{d}z $$
+ $$ \iiint_{E} \! f(x,y,z)\, \mathrm{d}x \, \mathrm{d}y\, \mathrm{d}z = \iint_{D} \! \left( \int_{h_{1}(x,y)}^{h_{2}(x,y)} \! f(x,y,z)\, \mathrm{d}z \right) \, \mathrm{d}x \, \mathrm{d}y$$
 
+Spiegazione:
+Fissato $(\overline{x}, \overline{y}) \in D$ restringo ed integro sul filo:
+
+$$ \int_{h_{1}(\overline{x},\overline{y})}^{h_{2}(\overline{x},\overline{y})} \!f(\overline{x},\overline{y}, z) \, \mathrm{d}z  $$
+Se $f \geq 0$ è la massa del filo
+Poi svolgo l'integrale doppio, lasciando variare $(x,y) \in D$
+
+>[!esempio]
+>$$ I = \iiint_{E} \! x^2z\, \mathrm{d}x \, \mathrm{d}y\, \mathrm{d}z $$
+$$ E = \{\underbrace{ 0  }_{ h_{1}(x,y) }\leq z \leq \underbrace{ \sqrt{ R^2 - x^2 - y^2 } }_{ h_{2}(x,y) }\} $$
+Il testo ci comunica $h_{1}, h_{2}$, tuttavia non abbiamo il dominio $D$
+> $$z \leq \sqrt{ R^2 - x^2 - y^2 } \implies z^2 \leq R^2 - x^2 -y^2 \implies x^2 + y^2 + z^2 \leq R^2$$
+> Che è l'equazione di una calotta
+> ```tikz
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[colormap/viridis]
+\addplot3[domain = -3:3, surf, samples=20]{x^2 + y^2 + z^2 - 1 = 0};
+\end{axis}
+\end{tikzpicture}
+\end{document}
+>```
