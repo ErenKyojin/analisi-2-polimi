@@ -10,10 +10,19 @@
 >\pgfplotsset{compat=1.16}
 >\begin{document}
 >\begin{tikzpicture}
->\begin{axis}[colormap/viridis]
+>\begin{axis}[colormap/viridis, grid]
 >\addplot3[domain = -3:3, surf, samples=20]{x*y};
 >\end{axis}
 >\end{tikzpicture}
 >\end{document}
 >```
+>#todo
+
+
+
+Integrazioni per fili immaginiamo di ottenere la massa di un filo, per poi far passare il filo in ogni punto dello spazio:
+
+$$ E = {(x,y) \in D, h_{1}(x,y) \leq z \leq g_{2}(x,y)} $$
+$f : E \to \mathbb{R}$ continua, allora $f$ è integrabile in $E$ e
+ $$ \iiint_{E} \! f(x,y,z)\, \mathrm{d}x \, \mathrm{d}y\, \mathrm{d}z = \iiint \! \, \mathrm{d}x \, \mathrm{d}y\, \mathrm{d}z $$
 
