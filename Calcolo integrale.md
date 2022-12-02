@@ -21,15 +21,14 @@ $$ A \subseteq \mathbb{R}^3 \int\!\int\!\int_{A} \! f(x,y,z)\, \mathrm{d}x  \! \
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[axis lines = center]
-\addplot[domain = -3:3, samples=100,color = red]{-sqrt(1 - x^2)};
-\addplot[domain = -3:3, samples=100,color = blue]{sqrt(1-x^2)};
+\addplot[domain = -3.1:3.1, samples=200,color = red]{-sqrt(1 - x^2)};
+\addplot[domain = -3.1:3.1, samples=200,color = blue]{sqrt(1-x^2)};
 \end{axis}
 \end{tikzpicture}
 \end{document}
 ```
 
-$g_{1} = -\sqrt{ 1 - x^2 }$ in rosso e $g_{2} = \sqrt{ 1 - x^2 }$ in blu, abbiamo una regione $y$-semplice
-
+$g_{1} = -\sqrt{ 1 - x^2 }$ in rosso e $g_{2} = \sqrt{ 1 - x^2 }$ in blu, abbiamo una regione $y$-semplice, che possiamo immaginare colorarsi con linee verticali
 
 Quindi la formula per l'area è
 $$ Area(D) = \int_{a}^b \! (g_{2}(x) - g_{1}(x))\, \mathrm{d}x  $$

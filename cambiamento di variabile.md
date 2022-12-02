@@ -1,4 +1,5 @@
 Col cambiamento di variabile negli integrali doppi si intende solitamente il passaggio alle coordinate polari
+
 ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
@@ -12,8 +13,8 @@ Col cambiamento di variabile negli integrali doppi si intende solitamente il pas
 \hskip 5pt
 
 \begin{tikzpicture}
-\begin{axis}
-\addplot{x};
+\begin{axis}[axis lines = left]
+\addplot[domain = -3:3, samples=200]{x};
 \end{axis}
 \end{tikzpicture}
 \end{document}
@@ -31,4 +32,4 @@ x \\
 y
 \end{bmatrix}$$
 
-$$  $$
+$$ \iint_{E} $$
