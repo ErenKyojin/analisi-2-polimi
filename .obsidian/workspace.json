@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cambiamento di variabile.md",
+                "file": "Calcolo integrale.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cambiamento di variabile.md",
+                "file": "Calcolo integrale.md",
                 "mode": "preview",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cambiamento di variabile.md",
+                "file": "Calcolo integrale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cambiamento di variabile.md",
+                "file": "Calcolo integrale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cambiamento di variabile.md"
+                "file": "Calcolo integrale.md"
               }
             }
           }
@@ -166,8 +166,8 @@
   },
   "active": "dc6207b8b30b97b9",
   "lastOpenFiles": [
-    "matrice jacobiana.md",
     "cambiamento di variabile.md",
+    "matrice jacobiana.md",
     "Calcolo integrale.md",
     "derivate seconde.md",
     "Lagrange.md",

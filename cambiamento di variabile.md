@@ -60,12 +60,30 @@ Idea della formula di cambiamenti di variabili negli integrali:
 \end{tikzpicture}
 
 \hskip 5pt
-$$T (u,V) =$$
-
+$$
+A
+$$
 \begin{tikzpicture}
 \begin{axis}
-\end{tikzpicture}
+\addplot{x};
 \end{axis}
-
+\end{tikzpicture}
 \end{document}
 ```
+
+$$ \begin{bmatrix}
+x \\
+y
+\end{bmatrix} = T(u,v) = A \begin{bmatrix}
+u \\
+v
+\end{bmatrix}$$
+$$ Area(T(Q)) = |\det A|  \cdot Area(Q)$$
+Poichè il volume è base per altezza devo tener conto di come cambia la misura della base
+
+- Se la trasformazione non è lineare approssimo con la derivata prima
+
+>[!oss]
+>Condizione sulla trasformazione $\phi$ per poter fare il cambio di variabile nell'integrale $\phi$ di classe $C^1$ biunivoca tra aperti
+>$\det J_{\phi(u,v)} \neq 0$ e limitato $\forall u,v$
+>

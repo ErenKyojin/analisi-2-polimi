@@ -76,3 +76,9 @@ Siano $D \subseteq \mathbb{R}^2$ è una regione semplice $f : D \to \mathbb{R}$ 
 ### - [[Formule di riduzione nel piano]]
 
 ### - [[cambiamento di variabile]]
+
+
+
+# Integrali tripli
+Integrale di una funzione di tre variabili in una regione spaziale
+$$ \iiint_{E} f(x,y,) $$
