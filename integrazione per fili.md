@@ -41,17 +41,7 @@ $$ E = \{\underbrace{ 0  }_{ h_{1}(x,y) }\leq z \leq \underbrace{ \sqrt{ R^2 - x
 Il testo ci comunica $h_{1}, h_{2}$, tuttavia non abbiamo il dominio $D$
 > $$z \leq \sqrt{ R^2 - x^2 - y^2 } \implies z^2 \leq R^2 - x^2 -y^2 \implies x^2 + y^2 + z^2 \leq R^2$$
 > Che è l'equazione di una calotta
-> ```tikz
-\usepackage{pgfplots}
-\pgfplotsset{compat=newest}
-\begin{document}
-\begin{tikzpicture}
-\begin{axis}[colormap/viridis]
-\filldraw[ball] (axis cs: 1.40, -1.3, 0.25) circle [radius=0.25cm];
-\end{axis}
-\end{tikzpicture}
-\end{document}
->```
+> 
 >Cerco D: $\sqrt{ R^2 - x^2 -y^2 } = 0 \iff x^2 + y^2 = \mathbb{R}^2$
 >$\implies$
 > $$ D = B_{R}(0) = \{(x,y) \in \mathbb{R}^2 : x^2 +y ^2 \leq R^2\} $$
@@ -71,4 +61,12 @@ I &=  \int_{0}^{2\pi} \! \left( \int_{0}^R \! (r\cos \theta)^2 \cdot \frac{R^2-r
 \end{align} $$
 
 
-Come determinare $D$ senza l'intuizione geometrica?
+### Come determinare $D$ senza l'intuizione geometrica?
+
+- Determino $D$ cercando l'intersezione tra $h_{1}$ ed $h_{2}$
+
+>[!oss]
+>x semplice $E = \{(y,z) \in D, h_{1}(y,z) \leq x \leq h_{2}(y,z)\}$
+>$$ \iint_{D} \! \left( \int_{h_{1}(y,z)}^{h_{2}(y,z)} \!f(x,y,z) \, \mathrm{d}x  \right)\, \mathrm{d}y \, \mathrm{d}z $$
+>Analogo per y semplice
+

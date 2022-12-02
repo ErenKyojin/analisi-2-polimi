@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "integrazione per fili.md",
+                "file": "integrazione per strati.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "integrazione per fili.md",
+                "file": "integrazione per strati.md",
                 "mode": "preview",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "integrazione per fili.md",
+                "file": "integrazione per strati.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "integrazione per fili.md",
+                "file": "integrazione per strati.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "integrazione per fili.md"
+                "file": "integrazione per strati.md"
               }
             }
           }
@@ -165,7 +165,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4f599a001a9e13b1",
+  "active": "dc6207b8b30b97b9",
   "lastOpenFiles": [
     "Calcolo integrale.md",
     "integrazione per fili.md",
