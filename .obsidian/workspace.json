@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "derivate seconde.md",
+                "file": "Calcolo integrale.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "derivate seconde.md",
+                "file": "Calcolo integrale.md",
                 "mode": "preview",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "derivate seconde.md",
+                "file": "Calcolo integrale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "derivate seconde.md",
+                "file": "Calcolo integrale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "derivate seconde.md"
+                "file": "Calcolo integrale.md"
               }
             }
           }
@@ -166,6 +166,7 @@
   },
   "active": "dc6207b8b30b97b9",
   "lastOpenFiles": [
+    "derivate seconde.md",
     "Lagrange.md",
     "ottimizzazione vincolata.md",
     "Metodo dei moltiplicatori di lagrange.md",
@@ -174,7 +175,6 @@
     "punto critico.md",
     "Teorema di fermat.md",
     "teorema di struttura.md",
-    "Teorema di Weierstrass.md",
-    "Serie di potenze.md"
+    "Teorema di Weierstrass.md"
   ]
 }
