@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "integrazione per fili.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "integrazione per fili.md",
                 "mode": "preview",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "integrazione per fili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calcolo integrale.md",
+                "file": "integrazione per fili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calcolo integrale.md"
+                "file": "integrazione per fili.md"
               }
             }
           }
@@ -162,19 +162,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "dc6207b8b30b97b9",
+  "active": "4f599a001a9e13b1",
   "lastOpenFiles": [
+    "Calcolo integrale.md",
+    "integrazione per fili.md",
+    "integrazione per strati.md",
     "cambiamento di variabile.md",
     "matrice jacobiana.md",
-    "Calcolo integrale.md",
     "derivate seconde.md",
     "Lagrange.md",
     "ottimizzazione vincolata.md",
     "Metodo dei moltiplicatori di lagrange.md",
-    "conflict-files-obsidian-git.md",
-    "ottimizzazione libera.md",
-    "punto critico.md"
+    "conflict-files-obsidian-git.md"
   ]
 }

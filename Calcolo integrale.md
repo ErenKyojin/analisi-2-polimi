@@ -81,4 +81,16 @@ Siano $D \subseteq \mathbb{R}^2$ è una regione semplice $f : D \to \mathbb{R}$ 
 
 # Integrali tripli
 Integrale di una funzione di tre variabili in una regione spaziale
-$$ \iiint_{E} f(x,y,) $$
+$$ \iiint_{E} f(x,y,z) \mathrm{d}x\ \mathrm{d}y\ \mathrm{d}z \quad E \subseteq \mathbb{R}^3 $$
+>[!oss]
+>Se $f \geq 0$ interpretazione fisica: E è un corpo rigido nello spazio, f densità di massa
+
+
+>[!oss]
+>Se $f(x,y,z)=1$ costante
+> $$ \iiint_{D} 1 \mathrm{d}x\,\mathrm{d}y\,\mathrm{d}z$$
+
+
+## Metodi risolutivi
+
+Vedremo [[integrazione per fili]] su regioni semplici dello spazio, dove si svolge prima un integrale singolo poi un integrale doppio ed [[integrazione per strati]] su regioni non necessariamente semplici ma che si prestano ad essere affettate e dove si svolge prima un integrale doppio poi un integrale singolo.
