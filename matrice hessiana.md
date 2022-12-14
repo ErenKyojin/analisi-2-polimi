@@ -69,7 +69,7 @@ $q$ semi definita $\iff \det A = 0$
 - semidefinita positiva
 - semidefinita negativa
 
-$q$ o deformità $\iff \det A < 0$
+$q$ non definita $\iff \det A < 0$
 
 
 ### ris

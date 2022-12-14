@@ -5,7 +5,7 @@ Sappiamo che il [[teorema di fermat]] indica i punti candidati di estremo libero
 >Sia $\mathbf{x_{0}} = (x_{0},y_{0})$ punto di estremo vincolato per $f$ sul vincolo
 > $$ Z = \{(x,y) \in A : F(x,y) = 0\} $$
 > Supponiamo inoltre che
-> $$ \nabla F(\mathbf{x_{0}}) = \mathbf{0} $$
+> $$ \nabla F(\mathbf{x_{0}}) \neq \mathbf{0} $$
 > Allora esiste $\lambda \in \mathbb{R}$ detto moltiplicatori di Lagrange tale che
 >  $$ \fbox{$\nabla f(\mathbf{x_{0}}) = \lambda_{0} \nabla F(\mathbf{x_{0}})$} $$
 > 
@@ -72,7 +72,7 @@ x^2 = \lambda 2y \\
 x^2 = 2\lambda y \\
 x^2 + y^2 = 1
 >\end{cases} $$
->Se $x = 0$ allora $\begin{cases}0 = 2xy\\
+>Se $x = 0$ allora $\begin{cases}0 = 2\lambda y\\
 >y^2 = 1
 \end{cases}\quad$ $\begin{cases} \lambda = 0 \\
 y = \pm 1
