@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "matrice hessiana.md",
-                "mode": "preview",
+                "file": "cambiamento di variabile.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "matrice hessiana.md",
+            "file": "cambiamento di variabile.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "matrice hessiana.md",
+            "file": "cambiamento di variabile.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "matrice hessiana.md"
+            "file": "cambiamento di variabile.md"
           }
         }
       }
@@ -123,15 +123,15 @@
   },
   "active": "ff74530cb00fda9e",
   "lastOpenFiles": [
-    "ottimizzazione libera.md",
-    "Moltiplicatori di Lagrange.md",
     "Teorema di Weierstrass.md",
+    "ottimizzazione libera.md",
+    "matrice hessiana.md",
+    "Moltiplicatori di Lagrange.md",
     "cambiamento di variabile.md",
     "matrice jacobiana.md",
     "Calcolo integrale.md",
     "Formule di riduzione nel piano.md",
     "classe C.md",
-    "molteplicità algebrica.md",
-    "ottimizzazione vincolata.md"
+    "molteplicità algebrica.md"
   ]
 }
