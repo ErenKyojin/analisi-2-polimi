@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Serie di funzioni.md",
+            "file": "EDO di primo odrine.md",
             "mode": "source",
             "source": false
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Serie di funzioni.md",
+            "file": "EDO di primo odrine.md",
             "mode": "source",
             "source": false
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Serie di funzioni.md",
+                "file": "EDO di primo odrine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Serie di funzioni.md",
+                "file": "EDO di primo odrine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Serie di funzioni.md"
+                "file": "EDO di primo odrine.md"
               }
             }
           }
@@ -144,15 +144,15 @@
   },
   "active": "0560173f6dae1655",
   "lastOpenFiles": [
+    "EDO.md",
+    "EDO di primo odrine.md",
+    "Serie di funzioni.md",
     "Convergenza totale.md",
     "Determinante wronskiano.md",
     "Convergenza assoluta.md",
     "convergenza semplice.md",
-    "Serie di funzioni.md",
     "Sistemi differenziali lineari.md",
     "EDO alle derivate parziali.md",
-    "serie di potenze.md",
-    "formula risolutiva per EDO lineari del 1° ordine.md",
-    "Sistemi.md"
+    "serie di potenze.md"
   ]
 }

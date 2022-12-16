@@ -86,3 +86,30 @@ Le [[soluzioni]] di un equazione differenziale di primo ordine si possono trovar
 Da qui deriva il [[principio di sovrapposizione]]
 
 Per la soluzione [[formula risolutiva per EDO lineari del 1° ordine]]
+
+## Esistenza e unicità globale per EDO del primo ordine non lineari
+
+>[!teorema]
+>$y'(t) = f(t,y(t))$
+>$$ f : A \to \mathbb{R}\ con\ A = [a,b] \times \mathbb{R} $$
+>
+>$\dfrac{ \partial f }{ \partial y }$ esiste ed è continua in tutto $A$
+>
+>(cioè vale unicità locale in tutto $A$, quindi unicità globale)
+>
+>Se inoltre esiste $M > 0$ tale che
+>$$ |\frac{ \partial f }{ \partial y } (t,y)| \leq M\quad \forall (t,y) \in A $$
+>Allora $\forall (t_{0},y_{0}) \in A$ il problema di cauchy $y(t_{0}) = y_{0}$ ha soluzione unica, definita $\forall t \in [a,b]$
+
+>[!oss]
+>Se la EDO è lineare $f(t,y) = a(t)y + b(t)$ con $a,b : J \to \mathbb{R}$ continue, abbiamo già enunciato esistenza e unicità globale infatti:
+>$$ [c,d] \subseteq J\quad \frac{ \partial f }{ \partial y } (t,y) = a(t) $$
+>$$ |\frac{ \partial f }{ \partial y } (t,y)| = |a(t)| \leq \underset{t \in [c,d]}{\max}|a(t)| = M $$
+>L'ultimo per il [[Teorema di Weierstrass#1D]] 
+
+### Interpretazione intuitiva
+$|\frac{ \partial f }{ \partial y } | \leq M$ cioè $f$ maggiorata da $a(t)y + b(t)$, quindi $y'$ cresce al più come $y$
+
+
+>[!esempio]
+>$$ y'(t) = k*y(t) $$

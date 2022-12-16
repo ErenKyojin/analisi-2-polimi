@@ -21,12 +21,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coordinate sferiche.md",
+                "file": "EDO di primo odrine.md",
                 "mode": "source",
                 "source": false
               }
             },
             "group": "1db7f689e1e2f3c4"
+          },
+          {
+            "id": "0535dba4a1e6033e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -41,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coordinate sferiche.md",
+                "file": "EDO di primo odrine.md",
                 "mode": "preview",
                 "source": false
               }
@@ -114,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coordinate sferiche.md",
+                "file": "EDO di primo odrine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coordinate sferiche.md",
+                "file": "EDO di primo odrine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coordinate sferiche.md"
+                "file": "EDO di primo odrine.md"
               }
             }
           }
@@ -167,15 +177,15 @@
   },
   "active": "136765aac71581a4",
   "lastOpenFiles": [
+    "EDO.md",
+    "Curva regolare.md",
+    "Coordinate sferiche.md",
     "Calcolo integrale.md",
     "integrazione per strati.md",
     "integrazione per fili.md",
     "cambiamento di variabile.md",
     "matrice jacobiana.md",
     "derivate seconde.md",
-    "Lagrange.md",
-    "ottimizzazione vincolata.md",
-    "Metodo dei moltiplicatori di lagrange.md",
-    "conflict-files-obsidian-git.md"
+    "Lagrange.md"
   ]
 }
