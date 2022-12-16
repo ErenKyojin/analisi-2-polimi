@@ -26,8 +26,9 @@
 \end{tikzpicture}
 \qquad
 \begin{tikzpicture}
-\draw[->] (0,3) -- (0,0);
-\draw[->] (0,3) -- (0,6);
+\draw[->, color = red ] (0,3) -- (0,0);
+\draw[->, color = cyan] (0,3) -- (0,6);
+\node[color = yellow] at (0,3){\textbullet};
 \end{tikzpicture}
 \end{document}
 >```
