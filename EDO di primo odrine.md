@@ -110,32 +110,3 @@ Per la soluzione [[formula risolutiva per EDO lineari del 1° ordine]]
 ### Interpretazione intuitiva
 $|\frac{ \partial f }{ \partial y } | \leq M$ cioè $f$ maggiorata da $a(t)y + b(t)$, quindi $y'$ cresce al più come $y$
 
-
->[!esempio]
->$$ y'(t) = y(t) $$
->Tre famiglie di soluzioni
->$\color{cyan} ke^{t+c}$
->$\color{yellow}0$
->$\color{red}-ke^{t+c}$
->
->```tikz
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.16}
-\begin{document}
-\begin{tikzpicture}
-\begin{axis}[axis lines = center]
-\addplot[domain = -3:3, samples=25, color = cyan]{e^x};
-\addlegendentry{\(+e^x\)}
-\addplot[domain = -3:3, samples=25, color = cyan]{2* e^x};
-\addplot[domain = -3:3, samples=25, color = cyan]{3*e^x};
-\addplot[domain = -3:3, samples=25, color = red]{-2*e^x};
-\addplot[domain = -3:3, samples=25, color = red]{-3*e^x};
-\addplot[domain = -3:3, samples=25, color = red]{-e^x};
-\addlegendentry{\(-e^x\)}
-\addplot[domain = -3:3, samples=25, color = yellow]{0};
-\addlegendentry{\(0\)}
-\end{axis}
-\end{tikzpicture}
-\end{document}
->```
-
