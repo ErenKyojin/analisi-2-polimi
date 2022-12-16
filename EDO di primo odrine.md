@@ -123,10 +123,17 @@ $|\frac{ \partial f }{ \partial y } | \leq M$ cioè $f$ maggiorata da $a(t)y + b
 \pgfplotsset{compat=1.16}
 \begin{document}
 \begin{tikzpicture}
-\begin{axis}[axis lines = left]
+\begin{axis}[axis lines = center]
 \addplot[domain = -3:3, samples=25, color = cyan]{e^x};
+\addlegendentry{\(+e^x\)}
+\addplot[domain = -3:3, samples=25, color = cyan]{2* e^x};
+\addplot[domain = -3:3, samples=25, color = cyan]{3*e^x};
+\addplot[domain = -3:3, samples=25, color = red]{-2*e^x};
+\addplot[domain = -3:3, samples=25, color = red]{-3*e^x};
 \addplot[domain = -3:3, samples=25, color = red]{-e^x};
+\addlegendentry{\(-e^x\)}
 \addplot[domain = -3:3, samples=25, color = yellow]{0};
+\addlegendentry{\(0\)}
 \end{axis}
 \end{tikzpicture}
 \end{document}
