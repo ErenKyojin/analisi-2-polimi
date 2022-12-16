@@ -28,9 +28,11 @@
 \begin{tikzpicture}
 \draw[->, color = red ] (0,3) -- (0,0);
 \draw[->, color = cyan] (0,3) -- (0,6);
-\node[color = yellow] at (0,3){\textbullet};
+\node[color = yellow] at (0,3){o};
 \end{tikzpicture}
 \end{document}
 >```
 
-Le soluzioni non nulle on possono cambiare di segno non potendo attraversare l'asse $t$ che è soluzione (y=0).
+Le soluzioni non nulle non possono cambiare di segno non potendo attraversare l'asse $t$ che è soluzione (y=0), inoltre possiamo intuire la idrezione delle frecce dal segno di $f$
+
+Una soluzione compresa tra due costanti ha come asintoti entrambe le costanti.
