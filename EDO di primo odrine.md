@@ -112,4 +112,23 @@ $|\frac{ \partial f }{ \partial y } | \leq M$ cioè $f$ maggiorata da $a(t)y + b
 
 
 >[!esempio]
->$$ y'(t) = k*y(t) $$
+>$$ y'(t) = y(t) $$
+>Tre famiglie di soluzioni
+>$\color{cyan} ke^{t+c}$
+>$\color{yellow}0$
+>$\color{red}-ke^{t+c}$
+>
+>```tikz
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[axis lines = left]
+\addplot[domain = -3:3, samples=25, color = cyan]{e^x};
+\addplot[domain = -3:3, samples=25, color = red]{-e^x};
+\addplot[domain = -3:3, samples=25, color = yellow]{0};
+\end{axis}
+\end{tikzpicture}
+\end{document}
+>```
+
