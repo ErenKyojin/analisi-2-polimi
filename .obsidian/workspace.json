@@ -199,6 +199,18 @@
     "width": 300,
     "collapsed": true
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
   "active": "24d9b6a6b8f55255",
   "lastOpenFiles": [
     "Untitled 1.md",
