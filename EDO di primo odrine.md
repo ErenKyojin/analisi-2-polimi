@@ -1,7 +1,7 @@
 ---
 alias
 ---
-# Equazioni differenziali di primo ordine
+# Equazioni differenziali ordinarie di primo ordine
 
 >[!def]
 >Un'equazione differenziale del primo ordine è una relazione che coinvolge una funzione incognita $y(t)$ e la sua derivata prima $y'(t)$
