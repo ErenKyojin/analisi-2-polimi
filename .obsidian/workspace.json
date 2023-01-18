@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "principio di sovrapposizione.md",
+                "file": "formula risolutiva per EDO lineari del 1° ordine.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "principio di sovrapposizione.md",
+                "file": "formula risolutiva per EDO lineari del 1° ordine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "principio di sovrapposizione.md",
+                "file": "formula risolutiva per EDO lineari del 1° ordine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "principio di sovrapposizione.md"
+                "file": "formula risolutiva per EDO lineari del 1° ordine.md"
               }
             }
           }
@@ -194,14 +194,14 @@
   "active": "24d9b6a6b8f55255",
   "lastOpenFiles": [
     "EDO di primo odrine.md",
-    "EDO.md",
+    "EDO omogenea associata.md",
+    "EDO del secondo ordine.md",
+    "EDO alle derivate parziali.md",
     "EDO a variabili separabili.md",
+    "EDO.md",
+    "principio di sovrapposizione.md",
     "Calcolo differenziale.md",
     "vincolo di uguaglianza.md",
-    "versore tangente.md",
-    "teorema di struttura.md",
-    "Teorema di Weierstrass.md",
-    "soluzioni.md",
-    "serie trigonometrica.md"
+    "versore tangente.md"
   ]
 }

@@ -13,7 +13,7 @@ con $A(t)$ primitiva di $a$
 >>3. riconosco $y(t)'e^{-A(t)}-a(t)y(t)e^{-A(t)} = [y(t)e^{-A}]'$
 >> $$ \begin{align}
 >>[ye^{-A}]' &= be^{-A}  \\
->>y &= e^A\left( \int \! be^{-A} \, \mathrm{d}x  \right) \qquad\blacksquare
+>>y &= e^A\left( \int \! be^{-A} \, \mathrm{d}t  \right) \qquad\blacksquare
 \end{align}$$
 
 
