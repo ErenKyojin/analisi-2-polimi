@@ -41,6 +41,7 @@ alias
 
 Le [[soluzioni]] di un equazione differenziale di primo ordine si possono trovare in modi diversi in base all'equazione.
 
+# [[EDO a variabili separabili]]
 
 # EDO del 1° ordine lineari
 
@@ -50,7 +51,7 @@ Le [[soluzioni]] di un equazione differenziale di primo ordine si possono trovar
 >Con $a,b : J \subset \mathbb{R} \to \mathbb{R}$ continue
 >
 >$J$ è il più grande insieme su cui $a,b$ sono definite, si chiama [[EDO omogenea associata]] la forma
->$$ y'(t) = a(b)y(t) $$
+>$$ y'(t) = a(t)y(t) $$
 >Quindi con $b(t) = 0$
 
 >[!esempio]

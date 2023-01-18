@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo differenziale.md",
+                "file": "EDO a variabili separabili.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "differenziale",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,8 +108,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calcolo differenziale.md",
+                "file": "EDO a variabili separabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calcolo differenziale.md",
+                "file": "EDO a variabili separabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calcolo differenziale.md"
+                "file": "EDO a variabili separabili.md"
               }
             }
           }
@@ -194,15 +193,15 @@
   },
   "active": "24d9b6a6b8f55255",
   "lastOpenFiles": [
+    "EDO di primo odrine.md",
+    "EDO a variabili separabili.md",
+    "EDO.md",
+    "Calcolo differenziale.md",
     "vincolo di uguaglianza.md",
     "versore tangente.md",
     "teorema di struttura.md",
     "Teorema di Weierstrass.md",
     "soluzioni.md",
-    "serie trigonometrica.md",
-    "serie geometrica.md",
-    "cambiamento di variabile.md",
-    "classe C.md",
-    "Pasted image 20221028114248.png"
+    "serie trigonometrica.md"
   ]
 }
