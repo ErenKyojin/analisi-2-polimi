@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Integrale curvilineo.md",
+                "file": "EDO a variabili separabili.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Integrale curvilineo.md",
+                "file": "EDO a variabili separabili.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Integrale curvilineo.md",
+                "file": "EDO a variabili separabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Integrale curvilineo.md"
+                "file": "EDO a variabili separabili.md"
               }
             }
           }
@@ -193,15 +193,15 @@
   },
   "active": "24d9b6a6b8f55255",
   "lastOpenFiles": [
+    "EDO a variabili separabili.md",
+    "EDO.md",
+    "criterio della radice.md",
+    "Integrale curvilineo.md",
     "Formule di ortogonalità.md",
     "formula di eulero.md",
     "equazione caratteristica.md",
     "Determinante wronskiano.md",
     "Direzioni di crescita.md",
-    "EDO a variabili separabili.md",
-    "Equazione logistica.md",
-    "Equazioni di bernoulli.md",
-    "EDO omogenea associata.md",
-    "dominio.md"
+    "Equazione logistica.md"
   ]
 }
