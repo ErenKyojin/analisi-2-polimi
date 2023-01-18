@@ -7,7 +7,7 @@ con $A(t)$ primitiva di $a$
 >
 >>[!dim]
 >>1. portiamo $ay$ sulla sinistra
->>$$y' - ab = b$$
+>>$$y' - ay = b$$
 >>2. moltiplichi per $e^{-A}$
 >> $$ y'e^{-A} - aye^{-A} = be^{-A} $$
 >>3. riconosco $y(t)'e^{-A(t)}-a(t)y(t)e^{-A(t)} = [y(t)e^{-A}]'$
