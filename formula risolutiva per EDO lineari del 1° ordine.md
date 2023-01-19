@@ -1,4 +1,4 @@
-# formula risolutiva EDO del 1° ordine
+worlds 20# formula risolutiva EDO del 1° ordine
 >[!teorema] teorema
 >$a,b : J \subseteq \mathbb{R} \to \mathbb{R}\qquad y'(t) = a(t)y(t)+b(t)$
 >L'integrale generale è dato dalla formula:
