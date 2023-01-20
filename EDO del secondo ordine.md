@@ -56,7 +56,7 @@ Partiamo da un esempio
 Per la precisione abbiamo $\infty^2$ soluzioni.
 Per cercare l'integrale generale, ossia la struttura di ogni soluzione, dobbiamo capire il perchè queste equazione siano dette lineari.
 Vediamo il primo membro della generica EDO del secondo ordine lineare come un operatore
-$$ y \mapsto \fbox{$a \frac{d^2}{dt^2}+b \frac{d}{dt} + c$} \mapsto ay'' + by'+cy $$
+$$ y \mapsto \fbox{$a \frac{d^2}{dt^2}y+b \frac{d}{dt}y + c$} \mapsto ay'' + by'+cy $$
 $$y \mapsto L \mapsto ay''+by'+cy$$
 Proprietà importante di $L$ è la linearità, ossia $L(c_{1}y_{1}+ c_{2}y_{2}) = c_{1}L(y_{1}) + c_{2}L(y_{2})$, che ci fornisce il [[principio di sovrapposizione]]
 
