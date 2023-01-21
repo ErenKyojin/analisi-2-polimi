@@ -45,8 +45,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linea delle fasi.md",
-                "mode": "source",
+                "file": "Problema di Cauchy.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linea delle fasi.md",
+                "file": "Problema di Cauchy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linea delle fasi.md",
+                "file": "Problema di Cauchy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linea delle fasi.md"
+                "file": "Problema di Cauchy.md"
               }
             }
           }
@@ -194,15 +194,15 @@
   },
   "active": "24d9b6a6b8f55255",
   "lastOpenFiles": [
-    "Untitled 1.md",
+    "Sistemi differenziali lineari.md",
     "linea delle fasi.md",
+    "Untitled 1.md",
     "Untitled.md",
     "EDO di primo odrine.md",
     "EDO.md",
     "Curva regolare.md",
     "Coordinate sferiche.md",
     "Calcolo integrale.md",
-    "integrazione per strati.md",
-    "integrazione per fili.md"
+    "integrazione per strati.md"
   ]
 }
