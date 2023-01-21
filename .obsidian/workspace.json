@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problema di Cauchy.md",
+                "file": "Sistemi differenziali lineari.md",
                 "mode": "preview",
                 "source": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problema di Cauchy.md",
+                "file": "Sistemi differenziali lineari.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problema di Cauchy.md",
+                "file": "Sistemi differenziali lineari.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problema di Cauchy.md"
+                "file": "Sistemi differenziali lineari.md"
               }
             }
           }
@@ -194,6 +194,7 @@
   },
   "active": "24d9b6a6b8f55255",
   "lastOpenFiles": [
+    "Problema di Cauchy.md",
     "Sistemi differenziali lineari.md",
     "linea delle fasi.md",
     "Untitled 1.md",
@@ -202,7 +203,6 @@
     "EDO.md",
     "Curva regolare.md",
     "Coordinate sferiche.md",
-    "Calcolo integrale.md",
-    "integrazione per strati.md"
+    "Calcolo integrale.md"
   ]
 }
