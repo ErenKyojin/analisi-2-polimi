@@ -45,11 +45,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Equazioni di bernoulli.md",
+                "file": "linea delle fasi.md",
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "375c516c0b0221e1"
           },
           {
             "id": "0535dba4a1e6033e",
@@ -63,6 +64,25 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "494660016e60bc00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d604c4ca4412cd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linea delle fasi.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "375c516c0b0221e1"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +132,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ccc67d18d8172c8c",
@@ -128,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Equazioni di bernoulli.md",
+                "file": "linea delle fasi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Equazioni di bernoulli.md",
+                "file": "linea delle fasi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Equazioni di bernoulli.md"
+                "file": "linea delle fasi.md"
               }
             }
           }
@@ -181,27 +202,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "24d9b6a6b8f55255",
   "lastOpenFiles": [
-    "Equazione logistica.md",
-    "equazione caratteristica.md",
-    "EDO del secondo ordine.md",
-    "teorema di struttura.md",
-    "principio di sovrapposizione.md",
-    "formula risolutiva per EDO lineari del 1° ordine.md",
-    "EDO a variabili separabili.md",
+    "Untitled 1.md",
+    "linea delle fasi.md",
+    "Untitled.md",
+    "EDO di primo odrine.md",
     "EDO.md",
-    "criterio della radice.md",
-    "Integrale curvilineo.md"
+    "Curva regolare.md",
+    "Coordinate sferiche.md",
+    "Calcolo integrale.md",
+    "integrazione per strati.md",
+    "integrazione per fili.md"
   ]
 }
