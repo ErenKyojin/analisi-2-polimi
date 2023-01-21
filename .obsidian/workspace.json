@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diagonalizzabilità.md",
+                "file": "EDO del secondo ordine.md",
                 "mode": "preview",
                 "source": false
               }
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ccc67d18d8172c8c",
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diagonalizzabilità.md",
+                "file": "EDO del secondo ordine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diagonalizzabilità.md",
+                "file": "EDO del secondo ordine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diagonalizzabilità.md"
+                "file": "EDO del secondo ordine.md"
               }
             }
           }
@@ -195,6 +194,7 @@
   "active": "24d9b6a6b8f55255",
   "lastOpenFiles": [
     "Sistemi differenziali lineari.md",
+    "diagonalizzabilità.md",
     "Problema di Cauchy.md",
     "linea delle fasi.md",
     "Untitled 1.md",
@@ -202,7 +202,6 @@
     "EDO di primo odrine.md",
     "EDO.md",
     "Curva regolare.md",
-    "Coordinate sferiche.md",
-    "Calcolo integrale.md"
+    "Coordinate sferiche.md"
   ]
 }
