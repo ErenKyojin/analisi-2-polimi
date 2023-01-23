@@ -52,6 +52,18 @@
             }
           },
           {
+            "id": "f81bdf02fdc2fd90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Esame/Esercizi Equazioni differenziali.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0535dba4a1e6033e",
             "type": "leaf",
             "state": {
@@ -62,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diagonalizzabilità.md",
+                "file": "Esame/Esercizi Equazioni differenziali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diagonalizzabilità.md",
+                "file": "Esame/Esercizi Equazioni differenziali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diagonalizzabilità.md"
+                "file": "Esame/Esercizi Equazioni differenziali.md"
               }
             }
           }
@@ -191,17 +203,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24d9b6a6b8f55255",
+  "active": "a02b6fcb5f25c7ab",
   "lastOpenFiles": [
-    "EDO del secondo ordine.md",
+    "equazione caratteristica.md",
+    "Esame/Esercizi Equazioni differenziali.md",
     "diagonalizzabilità.md",
+    "EDO del secondo ordine.md",
     "molteplicità geometrica.md",
     "Sistemi differenziali lineari.md",
     "Problema di Cauchy.md",
     "linea delle fasi.md",
     "Untitled 1.md",
-    "Untitled.md",
-    "EDO di primo odrine.md",
-    "EDO.md"
+    "Untitled.md"
   ]
 }
