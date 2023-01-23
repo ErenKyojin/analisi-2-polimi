@@ -47,4 +47,4 @@ y_{2}' = a_{21}y_{1} + a_{22}y_{2}
 \end{cases} $$
 
 Se $A$ è diagonalizzabile allora con gli autovalori $\lambda_{1,2}$ e gli autovettori associati $\mathbf{u_{1}}, \mathbf{u_{2}}$
-$Y +$
+$\mathbf{Y} = C_{1}\mathbf{u_{1}}e^{\lambda_{1}x} + C_{2}\mathbf{u_{2}}e^{\lambda_{2}x}$
