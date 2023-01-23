@@ -23,8 +23,12 @@ In base ai risultati del polinomio:
 $$ ay'' + by' + cy = f(x) $$
 
 Le risolviamo sfruttando il teorema di struttura, ossia una soluzione generica si può ottenere sommando la soluzione dell'omogenea ad una soluzione particolare, calcoliamo la soluzione dell'omogenea sostituendo $f(t)=0$ e procedendo come sopra, chiamiamo questa soluzione $y_{o}$.
+
 Dobbiamo adesso trovare una soluzione particolare $y_{p}$ e lo facciamo sfruttando il metodo di somiglianza:
 - $f(t) = ax^n$ => una soluzione sarà"
 	- del tipo $y_{p} = A_{n}x^n + A_{n-1}x^{n-1} + \dots + A_{0}$ in generale
 	- del tipo $y_{p} = x(A_{n}x^n + A_{n-1}x^{n-1} + \dots + A_{0})$ se $\lambda = 0$ soluzione dell'omogenea con molteplicità algebrica 1
-	- del tipo $y_{p} = x(A_{n})$
+	- del tipo $y_{p} = x^2(A_{n}x^n + A_{n-1}x^{n-1} + \dots + A_{0})$
+
+- $f(t) = ae^{bx}$
+	- del tipo $y_{p} = Ae^{bx}$
