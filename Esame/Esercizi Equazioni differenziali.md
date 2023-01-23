@@ -8,11 +8,14 @@ Porto $y$ e $y'$ dallo stesso lato dell'equazione ed integro, riconoscendo l'int
 ### Edo lineari del secondo ordine
 
 #### coefficenti costanti omogenee
-risolvo attraverso il polinomio caratteristico"
+ risolvo attraverso il polinomio caratteristico"
 
-$ay'' + by'  + cy = 0 \implies a\lambda^2 + b\lambda + c = 0$ 
+$$ay'' + by'  + cy = 0 \implies a\lambda^2 + b\lambda + c = 0$$
+In base ai risultati del polinomio:
 
-
-
+- Se $\lambda_{1,2}$ reali ($\Delta > 0$): $$ y = C_{1} e^{\lambda_{1}x} + C_{2}e^{\lambda_{2}x} $$
+- Se $\lambda_{1,2}$ complesse ($\lambda_{1,2} = \alpha + i\beta$, $\Delta<0$): $$ y = e^{\alpha t}(C_{1} \cos \beta x + C_{2} \sin \beta x)$$
+- Se $\lambda_{1,2} = \lambda_{0}$($\Delta = 0$): $$ y = C_{1}e^{\lambda t} + tC_{2}e^{\lambda t} $$
+#### coefficienti costanti non omogenee
 
 
