@@ -40,6 +40,7 @@ Dobbiamo adesso trovare una soluzione particolare $y_{p}$ e lo facciamo sfruttan
 
 ### sistemi di equazioni differenziali
 
+####  Diagonalizzabili
 della formula $\mathbf{Y}' = A\mathbf{Y}$ o
 $$ \begin{cases}
 y_{1}' = a_{11}y_{1} + a_{12}y_{2}  \\
@@ -48,3 +49,7 @@ y_{2}' = a_{21}y_{1} + a_{22}y_{2}
 
 Se $A$ è diagonalizzabile allora con gli autovalori $\lambda_{1,2}$ e gli autovettori associati $\mathbf{u_{1}}, \mathbf{u_{2}}$
 $\mathbf{Y} = C_{1}\mathbf{u_{1}}e^{\lambda_{1}x} + C_{2}\mathbf{u_{2}}e^{\lambda_{2}x}$
+
+#### Non diagonalizzabili
+
+Deriviamo la prima equazione
