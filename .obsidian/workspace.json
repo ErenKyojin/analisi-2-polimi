@@ -45,8 +45,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "molteplicità geometrica.md",
-                "mode": "source",
+                "file": "diagonalizzabilità.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "molteplicità geometrica.md",
+                "file": "diagonalizzabilità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "molteplicità geometrica.md",
+                "file": "diagonalizzabilità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "molteplicità geometrica.md"
+                "file": "diagonalizzabilità.md"
               }
             }
           }
@@ -193,15 +193,15 @@
   },
   "active": "24d9b6a6b8f55255",
   "lastOpenFiles": [
-    "diagonalizzabilità.md",
     "EDO del secondo ordine.md",
+    "diagonalizzabilità.md",
+    "molteplicità geometrica.md",
     "Sistemi differenziali lineari.md",
     "Problema di Cauchy.md",
     "linea delle fasi.md",
     "Untitled 1.md",
     "Untitled.md",
     "EDO di primo odrine.md",
-    "EDO.md",
-    "Curva regolare.md"
+    "EDO.md"
   ]
 }
