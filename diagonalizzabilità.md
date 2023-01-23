@@ -24,6 +24,9 @@ $\Rightarrow$ è diagonalizzabile
 - Se $A \in M_{n,n} \mathbb{R}$ è simmetrica
 $\Rightarrow$ è diagonalizzabile
 
+E la matrice diagonale di $A$ è la matrice diagonale con gli autovalori presi con la propria molteplicità algebrica
+
+
 >[!teorema]
 >$A \in M_{n,n}\mathbb{R}$ diagonalizzabile reale con autovalori $\lambda_{1},\dots,\lambda_{n} \in \mathbb{R}$ e relativi autovettori linearmente indipendenti $\mathbf{v}_{1},\dots,\mathbf{v}_{n} \in \mathbb{R}^n$
 >
