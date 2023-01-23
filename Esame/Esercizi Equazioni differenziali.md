@@ -32,4 +32,19 @@ Dobbiamo adesso trovare una soluzione particolare $y_{p}$ e lo facciamo sfruttan
 
 - $f(t) = ae^{bx}$
 	- del tipo $y_{p} = Ae^{bx}$
-	- del tipo $y_{p} = tAe^{}$
+	- del tipo $y_{p} = tAe^{bx}$  se $\lambda = b$ soluzione dell'omogenea
+
+- $f(t) = a_{1}\cos(bx) + a_{2}\sin(bx)$
+	- $A_{1}\cos(bx) + A_{2} \sin(bx)$
+
+
+### sistemi di equazioni differenziali
+
+della formula $\mathbf{Y}' = A\mathbf{Y}$ o
+$$ \begin{cases}
+y_{1}' = a_{11}y_{1} + a_{12}y_{2}  \\
+y_{2}' = a_{21}y_{1} + a_{22}y_{2} 
+\end{cases} $$
+
+Se $A$ è diagonalizzabile allora con gli autovalori $\lambda_{1,2}$ e gli autovettori associati $\mathbf{u_{1}}, \mathbf{u_{2}}$
+$Y +$
