@@ -28,7 +28,8 @@ Dobbiamo adesso trovare una soluzione particolare $y_{p}$ e lo facciamo sfruttan
 - $f(t) = ax^n$ => una soluzione sarà"
 	- del tipo $y_{p} = A_{n}x^n + A_{n-1}x^{n-1} + \dots + A_{0}$ in generale
 	- del tipo $y_{p} = x(A_{n}x^n + A_{n-1}x^{n-1} + \dots + A_{0})$ se $\lambda = 0$ soluzione dell'omogenea con molteplicità algebrica 1
-	- del tipo $y_{p} = x^2(A_{n}x^n + A_{n-1}x^{n-1} + \dots + A_{0})$
+	- del tipo $y_{p} = x^2(A_{n}x^n + A_{n-1}x^{n-1} + \dots + A_{0})$ se $\lambda = 0$ soluzione dell'omogenea con molteplicità algebrica 1
 
 - $f(t) = ae^{bx}$
 	- del tipo $y_{p} = Ae^{bx}$
+	- del tipo $y_{p} = tAe^{}$
