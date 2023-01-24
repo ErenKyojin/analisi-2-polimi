@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Serie di funzioni.md",
+                "file": "serie di potenze.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Serie di funzioni.md",
+                "file": "serie di potenze.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Serie di funzioni.md",
+                "file": "serie di potenze.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Serie di funzioni.md"
+                "file": "serie di potenze.md"
               }
             }
           }
@@ -205,6 +205,7 @@
   },
   "active": "f81bdf02fdc2fd90",
   "lastOpenFiles": [
+    "Serie di funzioni.md",
     "Esame/Esercizi Equazioni differenziali.md",
     "diagonalizzabilità.md",
     "equazione caratteristica.md",
@@ -213,7 +214,6 @@
     "Sistemi differenziali lineari.md",
     "Problema di Cauchy.md",
     "linea delle fasi.md",
-    "Untitled 1.md",
-    "Untitled.md"
+    "Untitled 1.md"
   ]
 }
