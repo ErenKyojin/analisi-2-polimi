@@ -1,4 +1,4 @@
-/Particolari serie dove abbiamo gli $x^n$ moltiplicati per coefficienti
+Particolari serie dove abbiamo gli $x^n$ moltiplicati per coefficienti
 
 >[!def]
 >Una serie di potenze è una serie di funzioni della forma
