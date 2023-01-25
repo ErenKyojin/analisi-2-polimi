@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "serie trigonometrica.md",
+                "file": "Teorema di Weierstrass.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "serie trigonometrica.md",
+                "file": "Teorema di Weierstrass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "serie trigonometrica.md",
+                "file": "Teorema di Weierstrass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "serie trigonometrica.md"
+                "file": "Teorema di Weierstrass.md"
               }
             }
           }
@@ -183,15 +183,15 @@
   },
   "active": "24d9b6a6b8f55255",
   "lastOpenFiles": [
+    "teorema di struttura.md",
+    "Teorema di Weierstrass.md",
+    "versore tangente.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "teorema fondamentale del calcolo integrale.md",
+    "serie trigonometrica.md",
     "Serie di Fourier.md",
     "serie di potenze.md",
-    "serie di taylor.md",
-    "Serie di funzioni.md",
-    "raggio di convergenza.md",
-    "EDO del secondo ordine.md",
-    "Sistemi differenziali lineari.md",
-    "diagonalizzabilità.md",
-    "Problema di Cauchy.md",
-    "linea delle fasi.md"
+    "serie di taylor.md"
   ]
 }
