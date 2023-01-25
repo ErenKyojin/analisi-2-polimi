@@ -40,31 +40,19 @@
             }
           },
           {
-            "id": "24d9b6a6b8f55255",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "diagonalizzabilità.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f81bdf02fdc2fd90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Convergenza totale.md",
+                "file": "raggio di convergenza.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -93,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "raggio di conv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -130,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Convergenza totale.md",
+                "file": "raggio di convergenza.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Convergenza totale.md",
+                "file": "raggio di convergenza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Convergenza totale.md"
+                "file": "raggio di convergenza.md"
               }
             }
           }
@@ -196,14 +185,14 @@
   "active": "f81bdf02fdc2fd90",
   "lastOpenFiles": [
     "Serie di Fourier.md",
+    "Convergenza totale.md",
+    "Untitled.md",
+    "diagonalizzabilità.md",
+    "raggio di convergenza.md",
     "Formule di ortogonalità.md",
     "serie di potenze.md",
     "Serie di funzioni.md",
     "Esame/Esercizi Equazioni differenziali.md",
-    "diagonalizzabilità.md",
-    "equazione caratteristica.md",
-    "EDO del secondo ordine.md",
-    "molteplicità geometrica.md",
-    "Sistemi differenziali lineari.md"
+    "equazione caratteristica.md"
   ]
 }
