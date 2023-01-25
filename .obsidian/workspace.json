@@ -8,20 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d1ac3ebe59e0ea50",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "136765aac71581a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EDO di primo odrine.md",
+                "file": "Formule di ortogonalità.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Formule di ortogonalità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Formule di ortogonalità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Formule di ortogonalità.md"
+              }
             }
           }
         ]
@@ -153,7 +148,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d1ac3ebe59e0ea50",
+  "active": "136765aac71581a4",
   "lastOpenFiles": [
     "EDO di primo odrine.md",
     "Untitled.md",
