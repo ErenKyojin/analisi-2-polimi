@@ -23,3 +23,5 @@ La teoria di Fourier ci permette di decomporre un segnaler periodico (non necess
 $$ f(x) = a_{0} + \sum_{n=1}^\infty [a_{n} \cos(nx) + b_{n} \sin(nx)]$$
  >[!oss]
  >La proprietà di periodicità passa al limite
+ 
+ 
