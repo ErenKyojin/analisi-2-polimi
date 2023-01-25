@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teorema di Weierstrass.md",
+                "file": "Convergenza totale.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Teorema di Weierstrass.md",
+                "file": "Convergenza totale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Teorema di Weierstrass.md",
+                "file": "Convergenza totale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Teorema di Weierstrass.md"
+                "file": "Convergenza totale.md"
               }
             }
           }
@@ -183,15 +183,15 @@
   },
   "active": "24d9b6a6b8f55255",
   "lastOpenFiles": [
-    "teorema di struttura.md",
+    "Convergenza assoluta.md",
+    "Convergenza in media quadratica.md",
+    "convergenza semplice.md",
     "Teorema di Weierstrass.md",
+    "teorema di struttura.md",
     "versore tangente.md",
     "Untitled 1.md",
     "Untitled.md",
     "teorema fondamentale del calcolo integrale.md",
-    "serie trigonometrica.md",
-    "Serie di Fourier.md",
-    "serie di potenze.md",
-    "serie di taylor.md"
+    "serie trigonometrica.md"
   ]
 }
