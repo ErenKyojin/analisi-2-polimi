@@ -40,7 +40,7 @@ $$ I_{k} = \{(x,y) \in A \subseteq \mathbb{R}^2 : f(x,y) = k\} $$
 
 >[!oss]
 >
-$$\begin{align}
+>$$\begin{align}
 \mathbf{x} \in B_{\delta}(x_{0}) \setminus \{\mathbf{x}_{0}\} &\iff 0 < dist(\mathbf{x, >\mathbf{x_{0}}}) < \delta \\
 &\iff 0 < \sqrt{ (x-x_{0})^2 + (y-y_{0})^2 } < \delta
 \end{align}$$

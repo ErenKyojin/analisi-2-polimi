@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formule di ortogonalità.md",
+                "file": "Limiti.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Formule di ortogonalità.md",
+                "file": "Limiti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Formule di ortogonalità.md",
+                "file": "Limiti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Formule di ortogonalità.md"
+                "file": "Limiti.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "active": "136765aac71581a4",
   "lastOpenFiles": [
+    "Formule di ortogonalità.md",
     "EDO di primo odrine.md",
     "Untitled.md",
     "Untitled.canvas",
@@ -157,7 +158,6 @@
     "raggio di convergenza.md",
     "Convergenza totale.md",
     "diagonalizzabilità.md",
-    "Formule di ortogonalità.md",
     "serie di potenze.md",
     "Serie di funzioni.md"
   ]
