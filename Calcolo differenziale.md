@@ -93,9 +93,9 @@ f(1,2) &= 1   \\
 >[!esempio]
 >Riprendendo l'esempio di prima $f(x,y) = e^{2x-y}$
 >dominio di definizione $\mathbb{R}^2$.
->$$\begin{flalign}
+>$$\begin{align}
 > &\frac{ \partial f }{ \partial x }(x,y) = 2e^{2x-y} &\frac{ \partial f }{ \partial y}(x,y) = -e^{2x-y} 
-\end{flalign}$$
+\end{align}$$
 Sono funzioni definite e continue in $\mathbb{R}^2$ quindi per il teorema del differenziale totale, $f$ è differenziabile in $\mathbb{R}^2$
 
 
