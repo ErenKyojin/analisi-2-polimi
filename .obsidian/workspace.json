@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "prodotto",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -150,6 +151,8 @@
   },
   "active": "136765aac71581a4",
   "lastOpenFiles": [
+    "gradiente.md",
+    "Calcolo differenziale.md",
     "Limiti.md",
     "Formule di ortogonalità.md",
     "EDO di primo odrine.md",
@@ -157,8 +160,6 @@
     "Untitled.canvas",
     "Serie di Fourier.md",
     "raggio di convergenza.md",
-    "Convergenza totale.md",
-    "diagonalizzabilità.md",
-    "serie di potenze.md"
+    "Convergenza totale.md"
   ]
 }
